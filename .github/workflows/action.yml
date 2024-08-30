@@ -1,0 +1,42 @@
+name: Fancode Upload Links
+
+on:
+  schedule:
+    - cron: '*/20 * * * *' # Runs every 20 minutes
+  push:
+    branches:
+      - main
+
+jobs:
+  fetch_and_upload:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.FANCODE_TOKEN }} # Use the GitHub token for authentication
+
+    - name: Remove existing files
+      run: rm -f fancode.json fancode.m3u
+
+    - name: Configure Git
+      run: |
+        git config --global user.name "auto-update-bot"
+        git config --global user.email "auto-update-bot@users.noreply.github.com"
+        git remote set-url origin https://${{ secrets.FANCODE_TOKEN }}@github.com/abid58b/FanCodePlaylist.git
+    - name: Fetch data from APIs
+      run: |
+        curl -o fancode.json ${{ secrets.FANCODE_JSON_API }}
+        curl -o fancode.m3u ${{ secrets.FANCODE_M3U_API }}
+    - name: Commit and push changes
+      run: |
+        git add fancode.json fancode.m3u
+        git fetch origin main
+        git reset --soft origin/main
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Fetch latest data"
+          git push origin main
+        fi
