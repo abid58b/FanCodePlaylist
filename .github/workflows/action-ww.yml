@@ -37,6 +37,7 @@ jobs:
         else
           echo "fancode.m3u found. Proceeding with URL modification."
           echo "file_found=true" >> $GITHUB_OUTPUT
+        fi
 
     - name: Modify Fancode Playlist URLs with sed
       if: steps.check_file.outputs.file_found == 'true'
@@ -53,5 +54,6 @@ jobs:
         else
           git commit -m "Auto-generated: Update modified Fancode playlist with prefixed URLs"
           git push origin main
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.FANCODE_TOKEN }}
