@@ -49,11 +49,10 @@ jobs:
     - name: Commit and push modified file
       if: steps.check_file.outputs.file_found == 'true'
       run: |
+        git pull origin main --rebase
         git add fancode_ww1.m3u
         if git diff --cached --quiet; then
           echo "No changes to fancode_ww1.m3u to commit."
-          git pull origin main --rebase
-          git push origin main
         else
           git commit -m "Auto-generated: Update Fancode playlist"
           git push origin main
