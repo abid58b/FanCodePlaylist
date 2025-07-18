@@ -62,9 +62,9 @@ jobs:
     - name: Commit and push generated M3U file
       if: steps.check_json_file.outputs.file_found == 'true'
       run: |
-        git pull origin main --rebase
         git add fancode-new.m3u
-        
+        git fetch origin main
+        git reset --soft origin/main
         if git diff --cached --quiet; then
           echo "No changes to fancode-new.m3u to commit."
         else
