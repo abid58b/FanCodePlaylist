@@ -1,0 +1,74 @@
+name: Generate Fancode M3U from JSON
+
+on:
+  schedule:
+    - cron: '*/20 * * * *' # Har 20 minute baad run karega
+  push:
+    branches:
+      - main # Jab main branch par push hoga tab run karega
+    paths:
+      - 'fancode.json' # Khaas taur par jab fancode.json update ho tab trigger karega
+
+jobs:
+  generate_playlist_from_json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }} # Same repository mein push karne ke liye
+
+    - name: Remove existing files
+      run: rm -f fancode-new.m3u
+
+    - name: Configure Git for commits
+      run: |
+        git config --global user.name "auto-update-bot"
+        git config --global user.email "auto-update-bot@users.noreply.github.com"
+        git remote set-url origin https://${{ secrets.FANCODE_TOKEN }}@github.com/abid58b/FanCodePlaylist.git
+
+    - name: Ensure jq is installed
+      run: sudo apt-get update && sudo apt-get install -y jq
+
+    - name: Check for fancode.json existence
+      id: check_json_file
+      run: |
+        if [ ! -f fancode.json ]; then
+          echo "fancode.json not found! Skipping M3U generation."
+          echo "file_found=false" >> $GITHUB_OUTPUT
+        else
+          echo "fancode.json found. Proceeding with M3U generation."
+          echo "file_found=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Generate M3U from JSON and Modify URLs
+      if: steps.check_json_file.outputs.file_found == 'true'
+      run: |
+        echo "#EXTM3U" > fancode-new.m3u
+
+        jq -r '.matches[] |
+            "#EXTINF:-1 tvg-id=\"" + .match_id|tostring + "\" tvg-logo=\"" + 
+            (.image_cdn.PLAYBACK // .image) + "\" group-title=\"" + .category + "\"," + 
+            .title + " - " + .tournament + "\n" +
+            (.adfree_stream // .STREAMING_CDN.Primary_Playback_URL // .dai_stream)
+            ' fancode.json >> fancode-new.m3u
+
+        sed -i 's|https://in-mc-pdlive.fancode.com/mumbai/|https://dai.fancode.com/primary/|g' fancode-new.m3u
+        sed -i 's|https://in-mc-fdlive.fancode.com/mumbai/|https://dai.fancode.com/primary/|g' fancode-new.m3u
+        sed -i 's|\(https://dai.fancode.com/primary/[^ ]*\)|https://allinonereborn.fun/fc/play.php?url=\1|g' fancode-new.m3u
+
+      
+    - name: Commit and push generated M3U file
+      if: steps.check_json_file.outputs.file_found == 'true'
+      run: |
+        git add fancode-new.m3u
+        
+        if git diff --cached --quiet; then
+          echo "No changes to fancode-new.m3u to commit."
+        else
+          git commit -m "Auto-generated: Fancode M3U playlist from JSON data"
+          git push origin main
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
