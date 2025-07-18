@@ -48,10 +48,10 @@ jobs:
         echo "#EXTM3U" > fancode-new.m3u
 
         jq -r '.matches[] |
-            "#EXTINF:-1 tvg-id=\"" + .match_id|tostring + "\" tvg-logo=\"" + 
+            "#EXTINF:-1 tvg-id=\"" + (.match_id | tostring) + "\" tvg-logo=\"" + 
             (.image_cdn.PLAYBACK // .image) + "\" group-title=\"" + .category + "\"," + 
             .title + " - " + .tournament + "\n" +
-            (.adfree_stream // .STREAMING_CDN.Primary_Playback_URL // .dai_stream)
+            (.adfree_stream // .STREAMING_CDN.Primary_Playback_URL // .dai_stream // "Unavailable_Stream")
             ' fancode.json >> fancode-new.m3u
 
         sed -i 's|https://in-mc-pdlive.fancode.com/mumbai/|https://dai.fancode.com/primary/|g' fancode-new.m3u
