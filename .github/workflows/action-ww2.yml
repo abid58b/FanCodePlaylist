@@ -52,7 +52,7 @@ jobs:
         if git diff --cached --quiet; then
           echo "No changes to fancode_ww2.m3u to commit."
         else
-          git commit -m "Auto-generated: Update modified Fancode playlist with prefixed URLs"
+          git commit -m "Auto-generated: Update Fancode playlist"
           git push origin main
         fi
       env:
