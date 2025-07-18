@@ -2,7 +2,7 @@ name: Generate Fancode M3U from JSON
 
 on:
   schedule:
-    - cron: '*/20 * * * *' # Har 20 minute baad run karega
+    - cron: '*/10 * * * *' # Har 20 minute baad run karega
   push:
     branches:
       - main # Jab main branch par push hoga tab run karega
