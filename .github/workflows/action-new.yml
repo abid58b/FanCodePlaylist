@@ -57,7 +57,7 @@ jobs:
             "\" group-title=\"" + 
             (.category // "Uncategorized") + 
             "\"," + 
-            (.title // "Untitled Match") + " - " + (.tournament // "Unknown Tournament") + 
+            (.title // "Untitled Match") + " - " + (.short_name // "Unknown Tournament") + " - " + (.language // "Unknown Language") + 
             "\n" +
             (.adfree_stream // .STREAMING_CDN.Primary_Playback_URL // .dai_stream // "http://invalid.stream.url")
             ' fancode.json >> fancode-new.m3u
@@ -65,6 +65,8 @@ jobs:
         sed -i 's|https://in-mc-pdlive.fancode.com/mumbai/|https://dai.fancode.com/primary/|g' fancode-new.m3u
         sed -i 's|https://in-mc-fdlive.fancode.com/mumbai/|https://dai.fancode.com/primary/|g' fancode-new.m3u
         sed -i 's|https://in-mc-plive.fancode.com/mumbai/|https://dai.fancode.com/primary/|g' fancode-new.m3u
+        sed -i 's|https://in-mc-flive.fancode.com/mumbai/|https://dai.fancode.com/primary/|g' fancode-new.m3u
+        sed -i 's|https://in-mc-dlive.fancode.com/mumbai/|https://dai.fancode.com/primary/|g' fancode-new.m3u
         sed -i 's|\(https://dai.fancode.com/primary/[^ ]*\)|https://allinonereborn.fun/fc/play.php?url=\1|g' fancode-new.m3u
 
       
