@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "03:55:06 PM 19-07-2025",
+    "last_updated": "04:10:26 PM 19-07-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -154,7 +154,7 @@
             "tournament": "World Championship of Legends, 2025",
             "short_name": "WCL",
             "match_id": 129719,
-            "status": "NOT_STARTED",
+            "status": "STARTED",
             "startTime": "19 July 2025 05:00 PM",
             "startDate": "18 July 2025 05:30 AM",
             "endDate": "02 August 2025 05:30 AM",
@@ -162,7 +162,7 @@
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/129719_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/129719_5370_WIC_SAC_fc-App.jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/129719_5370_WIC_SAC_fc-Web.jpg",
                 "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/129719_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
@@ -183,12 +183,61 @@
                     "color": "#e9ba2d"
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/129719_english_hls_24272adfreeta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/UxgNiStQQ4WXSYyHlMu-LA/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/129719_english_hls_24272adfreeta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/129719_english_hls_24272adfreeta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/UxgNiStQQ4WXSYyHlMu-LA/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "West Indies Champions Vs South Africa Champions",
+            "tournament": "World Championship of Legends, 2025",
+            "short_name": "WCL",
+            "match_id": 129719,
+            "status": "STARTED",
+            "startTime": "19 July 2025 05:00 PM",
+            "startDate": "18 July 2025 05:30 AM",
+            "endDate": "02 August 2025 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/129719_5370_WIC_SAC_fc-App.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/129719_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/129719_5370_WIC_SAC_fc-App.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/129719_5370_WIC_SAC_fc-Web.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/129719_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "id": 8768,
+                    "name": "West Indies Champions",
+                    "shortName": "WIC",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WICC@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WICC@2x.png",
+                    "color": "#3057d5"
+                },
+                {
+                    "id": 8767,
+                    "name": "South Africa Champions",
+                    "shortName": "SAC",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SACW@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SACW@2x.png",
+                    "color": "#e9ba2d"
+                }
+            ],
+            "language": "HINDI",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/129719_hindi_hls_1891adfreeta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/uJezmV5bQsecmpRUXYQMaQ/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/129719_hindi_hls_1891adfreeta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/129719_hindi_hls_1891adfreeta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/uJezmV5bQsecmpRUXYQMaQ/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "HINDI"
             }
         },
         {
@@ -724,52 +773,6 @@
                 "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/131390_english_hls_98776adfreeta-di_h264/index.m3u8",
                 "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/131390_english_hls_98776adfreeta-di_h264/index.m3u8",
                 "dai_google_cdn": "https://dai.google.com/linear/hls/event/iZ4B9ubGTyGq4u5OfVsR6Q/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Cricket",
-            "title": "Bahrain Vs Malawi",
-            "tournament": "Rwanda Tri Nations T20 Cup 2025",
-            "short_name": "RWA vs BAH vs MLW",
-            "match_id": 131264,
-            "status": "STARTED",
-            "startTime": "19 July 2025 12:45 PM",
-            "startDate": "18 July 2025 05:30 AM",
-            "endDate": "27 July 2025 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Rwanda-Tri-nations-T20-cup-old.png",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/131264_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Rwanda-Tri-nations-T20-cup-old.png",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Rwanda-Tri-nations-T20-cup-old.png",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131264_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "id": 19,
-                    "name": "Bahrain",
-                    "shortName": "BAH",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAH@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAH@2x.png",
-                    "color": "#ff5142"
-                },
-                {
-                    "id": 157,
-                    "name": "Malawi",
-                    "shortName": "MAL",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALA@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALA@2x.png",
-                    "color": "#710000"
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-pdlive.fancode.com/mumbai/131264_english_hls_55106adfreeta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/XxXiEiL_Re6cyRZu_Zsgdg/master.m3u8",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-pdlive.fancode.com/mumbai/131264_english_hls_55106adfreeta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-pdlive.fancode.com/mumbai/131264_english_hls_55106adfreeta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/XxXiEiL_Re6cyRZu_Zsgdg/master.m3u8",
                 "cloudfront_cdn": "Unavailable",
                 "language": "ENGLISH"
             }
