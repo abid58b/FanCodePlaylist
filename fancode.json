@@ -1,65 +1,22 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "09:10:13 AM 22-07-2025",
+    "last_updated": "10:10:14 AM 22-07-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
     "total_matches": 11,
-    "live_matches": 2,
-    "upcoming_matches": 9,
+    "live_matches": 3,
+    "upcoming_matches": 8,
     "matches": [
-        {
-            "category": "Cricket",
-            "title": "Miami Blaze Vs Boca Raton Trailblazers",
-            "tournament": "Max60 Season 2, 2025",
-            "short_name": "Max60",
-            "match_id": 131738,
-            "status": "COMPLETED",
-            "startTime": "22 July 2025 02:45 AM",
-            "startDate": "16 July 2025 05:30 AM",
-            "endDate": "23 July 2025 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/131450_5453_MIB_BRT_fc-App.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/131738_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/131450_5453_MIB_BRT_fc-App.jpg",
-                "PLAYBACK": null,
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131738_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "id": 11722,
-                    "name": "Miami Blaze",
-                    "shortName": "MIB",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MIBE@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MIBE@2x.png",
-                    "color": "#59020c"
-                },
-                {
-                    "id": 8933,
-                    "name": "Boca Raton Trailblazers",
-                    "shortName": "BRT",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BRT@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BRT@2x.png",
-                    "color": "#1867af"
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
         {
             "category": "Cricket",
             "title": "Band E Amir Dragons Vs Speen Ghar Tigers",
             "tournament": "Shpageeza Cricket League, 2025",
             "short_name": "Shpageeza Cricket League",
             "match_id": 130795,
-            "status": "NOT_STARTED",
+            "status": "STARTED",
             "startTime": "22 July 2025 10:00 AM",
             "startDate": "19 July 2025 05:30 AM",
             "endDate": "01 August 2025 05:30 AM",
@@ -67,7 +24,7 @@
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/130795_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/130795_5425_BD_SG_fc-App.jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/130795_5425_BD_SG_fc-Web.jpg",
                 "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/130795_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
@@ -88,12 +45,15 @@
                     "color": "#f92c41"
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/130795_english_hls_86114ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/ZKRxjJZzRvu1R7cPNthiLg/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/130795_english_hls_86114ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/130795_english_hls_86114ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/ZKRxjJZzRvu1R7cPNthiLg/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
             }
         },
         {
@@ -399,46 +359,89 @@
         },
         {
             "category": "Cricket",
-            "title": "Malaysia Vs Hong Kong, China",
-            "tournament": "Asia-Pacific Cricket Champions Trophy, 2025",
-            "short_name": "Asia-Pacific Cricket Champions",
-            "match_id": 130782,
-            "status": "STARTED",
-            "startTime": "22 July 2025 06:30 AM",
+            "title": "India Champions Vs South Africa Champions",
+            "tournament": "World Championship of Legends, 2025",
+            "short_name": "WCL",
+            "match_id": 129722,
+            "status": "NOT_STARTED",
+            "startTime": "22 July 2025 09:00 PM",
             "startDate": "18 July 2025 05:30 AM",
-            "endDate": "26 July 2025 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/130782_5424_MAS_HK_fc-web.jpg",
+            "endDate": "02 August 2025 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/129722_5370_IAC_SAC_fc-App.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/130782_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/130782_5424_MAS_HK_fc-web.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/130782_5424_MAS_HK_fc-web.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/130782_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/129722_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/129722_5370_IAC_SAC_fc-App.jpg",
+                "PLAYBACK": null,
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/129722_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "id": 8451,
-                    "name": "Malaysia",
-                    "shortName": "MAS",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALY@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALY@2x.png",
-                    "color": "#ffd800"
+                    "id": 8764,
+                    "name": "India Champions",
+                    "shortName": "IAC",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IAC@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IAC@2x.png",
+                    "color": "#35a8e0"
                 },
                 {
-                    "id": 105,
-                    "name": "Hong Kong, China",
-                    "shortName": "HK",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HK@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HK@2x.png",
-                    "color": "#c5190b"
+                    "id": 8767,
+                    "name": "South Africa Champions",
+                    "shortName": "SAC",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SACW@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SACW@2x.png",
+                    "color": "#e9ba2d"
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "91 Yards Club Vs Navarang Club",
+            "tournament": "GTC Summer Challenge T20 Trophy, 2025",
+            "short_name": "GTC Summer Challenge T20",
+            "match_id": 130432,
+            "status": "STARTED",
+            "startTime": "22 July 2025 09:30 AM",
+            "startDate": "08 July 2025 05:30 AM",
+            "endDate": "24 July 2025 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/GTC-Men's-Summer-Challenge-T20-Trophy,-2025_match-card.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/130432_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/GTC-Men's-Summer-Challenge-T20-Trophy,-2025_match-card.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/GTC-Men's-Summer-Challenge-T20-Trophy,-2025_match-card.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/130432_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "id": 6049,
+                    "name": "91 Yards Club",
+                    "shortName": "NYC",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NYC@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NYC@2x.png",
+                    "color": "#202654"
+                },
+                {
+                    "id": 11703,
+                    "name": "Navarang Club",
+                    "shortName": "NVR",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR15@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR15@2x.png",
+                    "color": "#DFE4EE"
                 }
             ],
             "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/130782_english_hls_29811ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/QmxQ3JOjTNqfBd4F9Y6rtg/master.m3u8",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/130432_english_hls_42246ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/HMqBZJOkQ5O70bMK0jS1sQ/master.m3u8",
             "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/130782_english_hls_29811ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/130782_english_hls_29811ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/QmxQ3JOjTNqfBd4F9Y6rtg/master.m3u8",
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/130432_english_hls_42246ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/130432_english_hls_42246ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/HMqBZJOkQ5O70bMK0jS1sQ/master.m3u8",
                 "cloudfront_cdn": "Unavailable",
                 "language": "ENGLISH"
             }
