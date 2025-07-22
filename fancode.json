@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "04:20:12 AM 23-07-2025",
+    "last_updated": "04:55:06 AM 23-07-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
     "total_matches": 9,
-    "live_matches": 0,
-    "upcoming_matches": 9,
+    "live_matches": 1,
+    "upcoming_matches": 8,
     "matches": [
         {
             "category": "Football",
@@ -59,7 +59,7 @@
             "tournament": "Australia Tour of West Indies, 2025",
             "short_name": "WI vs AUS",
             "match_id": 127554,
-            "status": "NOT_STARTED",
+            "status": "STARTED",
             "startTime": "23 July 2025 05:30 AM",
             "startDate": "25 June 2025 05:30 AM",
             "endDate": "29 July 2025 05:30 AM",
@@ -67,7 +67,7 @@
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/127554_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-AUS_T20_Sporty_01.jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-AUS_T20OLD_01.jpg",
                 "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/127554_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
@@ -88,12 +88,15 @@
                     "color": "#002695"
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/127554_english_hls_28803ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/CXZRzWKTRImAKn0I8vmtSA/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/127554_english_hls_28803ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/127554_english_hls_28803ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/CXZRzWKTRImAKn0I8vmtSA/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
             }
         },
         {
