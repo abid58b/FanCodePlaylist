@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "02:25:07 PM 25-07-2025",
+    "last_updated": "03:00:22 PM 25-07-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
-    "total_matches": 16,
+    "total_matches": 15,
     "live_matches": 7,
-    "upcoming_matches": 9,
+    "upcoming_matches": 8,
     "matches": [
         {
             "category": "Cricket",
@@ -16,7 +16,7 @@
             "tournament": "Shpageeza Cricket League, 2025",
             "short_name": "Shpageeza Cricket League",
             "match_id": 130800,
-            "status": "NOT_STARTED",
+            "status": "STARTED",
             "startTime": "25 July 2025 03:15 PM",
             "startDate": "19 July 2025 05:30 AM",
             "endDate": "01 August 2025 05:30 AM",
@@ -24,7 +24,7 @@
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/130800_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/130800_5425_BD_SG_fc-App.jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/130800_5425_BD_SG_fc-Web.jpg",
                 "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/130800_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
@@ -45,12 +45,15 @@
                     "color": "#f92c41"
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/130800_english_hls_27548ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/SVit0vukR_Cy27tYlDImtQ/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/130800_english_hls_27548ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/130800_english_hls_27548ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/SVit0vukR_Cy27tYlDImtQ/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
             }
         },
         {
@@ -312,49 +315,6 @@
             }
         },
         {
-            "category": "Cricket",
-            "title": "India Champions Vs Australia Champions",
-            "tournament": "World Championship of Legends, 2025",
-            "short_name": "WCL",
-            "match_id": 129727,
-            "status": "NOT_STARTED",
-            "startTime": "26 July 2025 05:00 PM",
-            "startDate": "18 July 2025 05:30 AM",
-            "endDate": "02 August 2025 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/129727_5370_IAC_AAC_fc-App.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/129727_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/129727_5370_IAC_AAC_fc-App.jpg",
-                "PLAYBACK": null,
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/129727_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "id": 8764,
-                    "name": "India Champions",
-                    "shortName": "IAC",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IAC@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IAC@2x.png",
-                    "color": "#35a8e0"
-                },
-                {
-                    "id": 8766,
-                    "name": "Australia Champions",
-                    "shortName": "AAC",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AACC@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AACC@2x.png",
-                    "color": "#27bb12"
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
             "category": "Formula 1",
             "title": "Practice 1",
             "tournament": "F1 MOET & CHANDON BELGIAN GRAND PRIX 2025",
@@ -399,48 +359,45 @@
         },
         {
             "category": "Cricket",
-            "title": "Romania Vs Austria",
-            "tournament": "ECN Budapest Cup T20I, 2025",
-            "short_name": "ECN Budapest Cup T20I",
-            "match_id": 131968,
-            "status": "STARTED",
-            "startTime": "25 July 2025 11:30 AM",
-            "startDate": "25 July 2025 05:30 AM",
-            "endDate": "27 July 2025 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Budapest-Cup-T20I,-2025_match-card.jpg",
+            "title": "India Champions Vs Australia Champions",
+            "tournament": "World Championship of Legends, 2025",
+            "short_name": "WCL",
+            "match_id": 129727,
+            "status": "NOT_STARTED",
+            "startTime": "26 July 2025 05:00 PM",
+            "startDate": "18 July 2025 05:30 AM",
+            "endDate": "02 August 2025 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/129727_5370_IAC_AAC_fc-App.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/131968_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Budapest-Cup-T20I,-2025_match-card.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Budapest-Cup-T20I,-2025_match-card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131968_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/129727_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/129727_5370_IAC_AAC_fc-App.jpg",
+                "PLAYBACK": null,
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/129727_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "id": 203,
-                    "name": "Romania",
-                    "shortName": "ROM",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ROMN@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ROMN@2x.png",
-                    "color": "#d7bd39"
+                    "id": 8764,
+                    "name": "India Champions",
+                    "shortName": "IAC",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IAC@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IAC@2x.png",
+                    "color": "#35a8e0"
                 },
                 {
-                    "id": 15,
-                    "name": "Austria",
-                    "shortName": "AUT",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUST@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUST@2x.png",
-                    "color": "#af1b24"
+                    "id": 8766,
+                    "name": "Australia Champions",
+                    "shortName": "AAC",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AACC@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AACC@2x.png",
+                    "color": "#27bb12"
                 }
             ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/131968_english_hls_40916ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/7fxIB-_ATTO2dp25v9v0Ng/master.m3u8",
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
             "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/131968_english_hls_40916ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/131968_english_hls_40916ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/7fxIB-_ATTO2dp25v9v0Ng/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "language": "ENGLISH"
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
             }
         },
         {
@@ -583,7 +540,7 @@
         },
         {
             "category": "Cricket",
-            "title": "Sky Warriors Cricket Club Vs Mb Malik",
+            "title": "Sky Warrior Vs Mb Malik",
             "tournament": "Malaysia T10 Bash, 2025",
             "short_name": "Malaysia T10 Bash",
             "match_id": 131879,
@@ -600,12 +557,12 @@
             },
             "teams": [
                 {
-                    "id": 11361,
-                    "name": "TBC",
-                    "shortName": "TBC",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/tn-flags/TBC-TN1@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/tn-flags/TBC-TN1@2x.png",
-                    "color": "#FF0000"
+                    "id": 6143,
+                    "name": "Sky Warriors Cricket Club",
+                    "shortName": "SWC",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SC@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SC@2x.png",
+                    "color": "#8DCFF2"
                 },
                 {
                     "id": 9741,
@@ -628,47 +585,47 @@
             }
         },
         {
-            "category": "Motorsports",
-            "title": "Formula 2",
-            "tournament": "F2 BELGIUM 2025",
-            "short_name": "F2 Belgium",
-            "match_id": 119057,
+            "category": "Cricket",
+            "title": "Hungary Vs Romania",
+            "tournament": "ECN Budapest Cup T20I, 2025",
+            "short_name": "ECN Budapest Cup T20I",
+            "match_id": 131969,
             "status": "STARTED",
-            "startTime": "25 July 2025 01:40 PM",
+            "startTime": "25 July 2025 03:00 PM",
             "startDate": "25 July 2025 05:30 AM",
-            "endDate": "27 July 2025 11:30 PM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_Old_match-card-(1).jpg",
+            "endDate": "27 July 2025 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Budapest-Cup-T20I,-2025_match-card.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/119057_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_Old_match-card-(1).jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_Old_match-card-(1).jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/119057_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/131969_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Budapest-Cup-T20I,-2025_match-card.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Budapest-Cup-T20I,-2025_match-card.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131969_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "id": 8236,
-                    "name": "Free Practice",
-                    "shortName": "F2",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR2@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR2@2x.png",
-                    "color": "#123456"
+                    "id": 110,
+                    "name": "Hungary",
+                    "shortName": "HUN",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HUNG@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HUNG@2x.png",
+                    "color": "#326b14"
                 },
                 {
-                    "id": 8235,
-                    "name": "Location",
-                    "shortName": "LOC",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png",
-                    "color": "#123456"
+                    "id": 203,
+                    "name": "Romania",
+                    "shortName": "ROM",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ROMN@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ROMN@2x.png",
+                    "color": "#d7bd39"
                 }
             ],
             "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/119057_english_hls_18700adfreeta-di_h264/index.m3u8",
-            "dai_stream": "Unavailable",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/131969_english_hls_84026ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/n9VbKE3WRWuFXnRiEqETTw/master.m3u8",
             "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/119057_english_hls_18700adfreeta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/119057_english_hls_18700adfreeta-di_h264/index.m3u8",
-                "dai_google_cdn": "Unavailable",
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/131969_english_hls_84026ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/131969_english_hls_84026ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/n9VbKE3WRWuFXnRiEqETTw/master.m3u8",
                 "cloudfront_cdn": "Unavailable",
                 "language": "ENGLISH"
             }
