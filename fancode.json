@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "04:55:06 PM 27-07-2025",
+    "last_updated": "05:05:06 PM 27-07-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
-    "total_matches": 19,
-    "live_matches": 10,
-    "upcoming_matches": 9,
+    "total_matches": 20,
+    "live_matches": 12,
+    "upcoming_matches": 8,
     "matches": [
         {
             "category": "Cricket",
@@ -154,7 +154,7 @@
             "tournament": "Women's Vitality Blast T20, 2025",
             "short_name": "Women's Vitality Blast T20",
             "match_id": 125883,
-            "status": "NOT_STARTED",
+            "status": "STARTED",
             "startTime": "27 July 2025 05:00 PM",
             "startDate": "30 May 2025 05:30 AM",
             "endDate": "27 July 2025 05:30 AM",
@@ -162,7 +162,7 @@
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/125883_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/The-Blaze_vs_Warwickshire_Womens-Vitality-Blast-Sporty-match-cad-.jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/The-Blaze_vs_Warwickshire-Women_fc-Web.jpg",
                 "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/125883_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
@@ -183,12 +183,15 @@
                     "color": "#152e56"
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://dai.google.com/linear/hls/event/2wNKn5gLSaqxNWiqsz7-vQ/master.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/2wNKn5gLSaqxNWiqsz7-vQ/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/2wNKn5gLSaqxNWiqsz7-vQ/master.m3u8",
+                "fancode_cdn": "Unavailable",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/2wNKn5gLSaqxNWiqsz7-vQ/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
             }
         },
         {
@@ -724,6 +727,52 @@
                 "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/132385_english_hls_91332ta-di_h264/index.m3u8",
                 "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/132385_english_hls_91332ta-di_h264/index.m3u8",
                 "dai_google_cdn": "https://dai.google.com/linear/hls/event/BTLelt-tQly2iDsX9tnHwA/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "Huddinge Vs Rising Phoenix",
+            "tournament": "ECS Sweden, Stockholm, 2025",
+            "short_name": "ECS Sweden, Stockholm",
+            "match_id": 131923,
+            "status": "STARTED",
+            "startTime": "27 July 2025 05:15 PM",
+            "startDate": "23 July 2025 05:30 AM",
+            "endDate": "27 July 2025 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/ECS-Sweden,-Stockholm,-2025_match-card.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/131923_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/ECS-Sweden,-Stockholm,-2025_match-card.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/ECS-Sweden,-Stockholm,-2025_match-card.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131923_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "id": 3636,
+                    "name": "Huddinge",
+                    "shortName": "HUD",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HUD@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HUD@2x.png",
+                    "color": "#155fcf"
+                },
+                {
+                    "id": 11799,
+                    "name": "Rising Phoenix",
+                    "shortName": "RPHX",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR13@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR13@2x.png",
+                    "color": "#FFFFFF"
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/131923_english_hls_74900ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/jY5PcRL4QU6oHx6NhKKAOw/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/131923_english_hls_74900ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/131923_english_hls_74900ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/jY5PcRL4QU6oHx6NhKKAOw/master.m3u8",
                 "cloudfront_cdn": "Unavailable",
                 "language": "ENGLISH"
             }
