@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "09:00:23 PM 27-07-2025",
+    "last_updated": "09:15:11 PM 27-07-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
     "total_matches": 21,
-    "live_matches": 11,
-    "upcoming_matches": 10,
+    "live_matches": 12,
+    "upcoming_matches": 9,
     "matches": [
         {
             "category": "Cricket",
@@ -335,7 +335,7 @@
             "tournament": "UEFA Women's EURO 2025",
             "short_name": "Women's Euro",
             "match_id": 123374,
-            "status": "NOT_STARTED",
+            "status": "STARTED",
             "startTime": "27 July 2025 09:30 PM",
             "startDate": "02 July 2025 05:30 AM",
             "endDate": "27 July 2025 11:30 PM",
@@ -343,7 +343,7 @@
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/123374_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/England-Women-VS-Spain-Women_Sporty-(1).jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/England-Women-VS-Spain-Women_Old-(1).jpg",
                 "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/123374_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
@@ -364,12 +364,15 @@
                     "color": "#ffb400"
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/123374_english_hls_6696ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/XWiAfqmqRmG5gG0DgTCXZg/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/123374_english_hls_6696ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/123374_english_hls_6696ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/XWiAfqmqRmG5gG0DgTCXZg/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
             }
         },
         {
