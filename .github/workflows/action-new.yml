@@ -26,7 +26,7 @@ jobs:
       run: |
         git config --global user.name "auto-update-bot"
         git config --global user.email "auto-update-bot@users.noreply.github.com"
-        git remote set-url origin https://${{ secrets.FANCODE_TOKEN }}@github.com/abid58b/FanCodePlaylist.git
+        git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/abid58b/FanCodePlaylist.git
 
     - name: Ensure jq is installed
       run: sudo apt-get update && sudo apt-get install -y jq
