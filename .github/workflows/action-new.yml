@@ -67,8 +67,8 @@ jobs:
         sed -i 's|https://in-mc-plive.fancode.com/mumbai/|https://dai.fancode.com/primary/|g' fancode-new.m3u
         sed -i 's|https://in-mc-flive.fancode.com/mumbai/|https://dai.fancode.com/primary/|g' fancode-new.m3u
         sed -i 's|https://in-mc-dlive.fancode.com/mumbai/|https://dai.fancode.com/primary/|g' fancode-new.m3u
-        sed -i 's|\(https://dai.fancode.com/primary/[^ ]*\)|https://allinonereborn.space/fcw/stream_proxy.php?url=\1|g' fancode-new.m3u
-        sed -i 's|https://\(d[0-9a-z]*\).cloudfront.net/\(out/v1/[0-9a-f]*/index.m3u8\)|https://allinonereborn.space/fcw/stream_proxy.php?url=https://\1.cloudfront.net/\2|g' fancode-new.m3u
+        sed -i 's|\(https://dai.fancode.com/primary/[^ ]*\)|https://allinonereborn.fun/fcw/stream_proxy.php?url=\1|g' fancode-new.m3u
+        sed -i 's|https://\(d[0-9a-z]*\).cloudfront.net/\(out/v1/[0-9a-f]*/index.m3u8\)|https://allinonereborn.fun/fcw/stream_proxy.php?url=https://\1.cloudfront.net/\2|g' fancode-new.m3u
 
       
     - name: Commit and push generated M3U file
