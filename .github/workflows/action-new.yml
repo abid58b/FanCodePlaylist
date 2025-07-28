@@ -75,12 +75,12 @@ jobs:
       if: steps.check_json_file.outputs.file_found == 'true'
       run: |
         git add fancode-new.m3u
-        git fetch origin main
-        git reset --soft origin/main
+
         if git diff --cached --quiet; then
           echo "No changes to fancode-new.m3u to commit."
         else
-          git pull
+          git fetch origin main
+          git reset --soft origin/main
           git commit -m "Auto-generated: Fancode M3U playlist from JSON data"
           git push origin main
         fi
