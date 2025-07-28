@@ -80,6 +80,7 @@ jobs:
         if git diff --cached --quiet; then
           echo "No changes to fancode-new.m3u to commit."
         else
+          git pull
           git commit -m "Auto-generated: Fancode M3U playlist from JSON data"
           git push origin main
         fi
