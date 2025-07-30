@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "12:55:06 PM 30-07-2025",
+    "last_updated": "01:10:13 PM 30-07-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
-    "total_matches": 9,
-    "live_matches": 1,
-    "upcoming_matches": 8,
+    "total_matches": 10,
+    "live_matches": 3,
+    "upcoming_matches": 7,
     "matches": [
         {
             "category": "Cricket",
@@ -16,7 +16,7 @@
             "tournament": "New Zealand tour of Zimbabwe, 2025",
             "short_name": "ZIM vs NZ",
             "match_id": 128760,
-            "status": "NOT_STARTED",
+            "status": "STARTED",
             "startTime": "30 July 2025 01:30 PM",
             "startDate": "30 July 2025 05:30 AM",
             "endDate": "11 August 2025 05:30 AM",
@@ -24,7 +24,7 @@
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/128760_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/New-Zealand-Tour-of-Zimbabwe-(Tests)Sporty-match-card-.jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/New-Zealand-Tour-of-Zimbabwe-(Tests)old-match-card-.jpg",
                 "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/128760_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
@@ -45,12 +45,15 @@
                     "color": "#1d2c6b"
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-pdlive.fancode.com/mumbai/128760_english_hls_67071ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/3_N5M2CJTpy72whMWV3Y1A/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://in-mc-pdlive.fancode.com/mumbai/128760_english_hls_67071ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-pdlive.fancode.com/mumbai/128760_english_hls_67071ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/3_N5M2CJTpy72whMWV3Y1A/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
             }
         },
         {
@@ -315,6 +318,49 @@
             }
         },
         {
+            "category": "Football",
+            "title": "Arsenal Vs Tottenham Hotspur",
+            "tournament": "Club Friendlies 2025",
+            "short_name": "Club Friendlies",
+            "match_id": 129903,
+            "status": "NOT_STARTED",
+            "startTime": "31 July 2025 05:00 PM",
+            "startDate": "12 July 2025 05:30 AM",
+            "endDate": "10 August 2025 11:30 PM",
+            "image": "https://images.fancode.com/aig/match/v1/129903_CASACARDS_SPORTY_APP.png",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/129903_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://images.fancode.com/aig/match/v1/129903_CASACARDS_SPORTY_APP.png",
+                "PLAYBACK": null,
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/129903_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "id": 409,
+                    "name": "Arsenal",
+                    "shortName": "ARS",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARS@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARS@2x.png",
+                    "color": "#5ebae9"
+                },
+                {
+                    "id": 426,
+                    "name": "Tottenham Hotspur",
+                    "shortName": "TOT",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-THO@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-THO@2x.png",
+                    "color": "#2c4cc0"
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
             "category": "Cricket",
             "title": "Band E Amir Dragons Vs Mis E Ainak Knights",
             "tournament": "Shpageeza Cricket League, 2025",
@@ -359,45 +405,48 @@
         },
         {
             "category": "Cricket",
-            "title": "Australia Champions Vs Pakistan Champions",
-            "tournament": "World Championship of Legends, 2025",
-            "short_name": "WCL",
-            "match_id": 129731,
-            "status": "COMPLETED",
-            "startTime": "29 July 2025 05:00 PM",
-            "startDate": "18 July 2025 05:30 AM",
-            "endDate": "02 August 2025 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/129731_5370_AAC_PNC_fc-App.jpg",
+            "title": "Nabajyoti Club Vs Guwahati Giants",
+            "tournament": "GTC Spring T20 Cup, 2nd Edition, 2025",
+            "short_name": "GTC Spring T20 Cup",
+            "match_id": 132392,
+            "status": "STARTED",
+            "startTime": "30 July 2025 01:15 PM",
+            "startDate": "28 July 2025 05:30 AM",
+            "endDate": "13 August 2025 05:30 AM",
+            "image": "https://images.fancode.com/aig/match/v1/132392_CASACARDS_APP.png",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/129731_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/129731_5370_AAC_PNC_fc-App.jpg",
-                "PLAYBACK": null,
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/129731_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132392_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://images.fancode.com/aig/match/v1/132392_CASACARDS_APP.png",
+                "PLAYBACK": "https://images.fancode.com/aig/match/v1/132392_CASACARDS_APP.png",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132392_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "id": 8766,
-                    "name": "Australia Champions",
-                    "shortName": "AAC",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AACC@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AACC@2x.png",
-                    "color": "#27bb12"
+                    "id": 6056,
+                    "name": "Nabajyoti Club",
+                    "shortName": "NBC",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NBC@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NBC@2x.png",
+                    "color": "#0b258b"
                 },
                 {
-                    "id": 8765,
-                    "name": "Pakistan Champions",
-                    "shortName": "PNC",
-                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PNC@2x.png",
-                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PNC@2x.png",
-                    "color": "#0b9333"
+                    "id": 9428,
+                    "name": "Guwahati Giants",
+                    "shortName": "GUG",
+                    "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GWT@2x.png",
+                    "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GWT@2x.png",
+                    "color": "#2e6e92"
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-pdlive.fancode.com/mumbai/132392_english_hls_90807ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/A7kSUyNCSECEYMIwtURQsQ/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://in-mc-pdlive.fancode.com/mumbai/132392_english_hls_90807ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-pdlive.fancode.com/mumbai/132392_english_hls_90807ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/A7kSUyNCSECEYMIwtURQsQ/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
             }
         }
     ]
