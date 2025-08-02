@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "11:12:32 PM 02-08-2025",
+    "last_updated": "11:44:32 PM 02-08-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -68,11 +68,11 @@
                     "color": "#e9ba2d",
                     "cricketScore": [
                         {
-                            "runs": 37,
-                            "overs": "3",
-                            "balls": "18",
+                            "runs": 100,
+                            "overs": "8.5",
+                            "balls": "53",
                             "status": "IN_PROGRESS",
-                            "wickets": 0
+                            "wickets": 1
                         }
                     ],
                     "kabaddiScore": null,
@@ -155,11 +155,11 @@
                     "color": "#e9ba2d",
                     "cricketScore": [
                         {
-                            "runs": 37,
-                            "overs": "3",
-                            "balls": "18",
+                            "runs": 100,
+                            "overs": "8.5",
+                            "balls": "53",
                             "status": "IN_PROGRESS",
-                            "wickets": 0
+                            "wickets": 1
                         }
                     ],
                     "kabaddiScore": null,
@@ -215,9 +215,9 @@
                     "color": "#5380de",
                     "cricketScore": [
                         {
-                            "runs": 25,
-                            "overs": "2.1",
-                            "balls": "13",
+                            "runs": 89,
+                            "overs": "8.3",
+                            "balls": "51",
                             "status": "IN_PROGRESS",
                             "wickets": 1
                         }
@@ -294,11 +294,11 @@
                     "color": "#DC192A",
                     "cricketScore": [
                         {
-                            "runs": 65,
-                            "overs": "8.5",
-                            "balls": "53",
-                            "status": "IN_PROGRESS",
-                            "wickets": 6
+                            "runs": 75,
+                            "overs": "10",
+                            "balls": "60",
+                            "status": "COMPLETED",
+                            "wickets": 9
                         }
                     ],
                     "kabaddiScore": null,
@@ -307,7 +307,7 @@
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": true
+                            "isBatting": false
                         }
                     }
                 },
@@ -319,14 +319,22 @@
                     },
                     "isWinner": null,
                     "color": "#dab712",
-                    "cricketScore": [],
+                    "cricketScore": [
+                        {
+                            "runs": 27,
+                            "overs": "3",
+                            "balls": "18",
+                            "status": "IN_PROGRESS",
+                            "wickets": 2
+                        }
+                    ],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": false
+                            "isBatting": true
                         }
                     }
                 }
@@ -684,11 +692,11 @@
                     "color": "#e7993a",
                     "cricketScore": [
                         {
-                            "runs": 42,
-                            "overs": "6",
-                            "balls": "36",
+                            "runs": 91,
+                            "overs": "12",
+                            "balls": "72",
                             "status": "IN_PROGRESS",
-                            "wickets": 1
+                            "wickets": 2
                         }
                     ],
                     "kabaddiScore": null,
@@ -857,7 +865,7 @@
         },
         {
             "category": "Cricket",
-            "title": "Sloggers Vs Pirates",
+            "title": "Pirates Vs Sloggers",
             "tournament": "ECS Gibraltar, 2025",
             "match_id": 132826,
             "status": "NOT_STARTED",
@@ -877,25 +885,6 @@
             },
             "teams": [
                 {
-                    "name": "Sloggers",
-                    "shortName": "SLO",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SG@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#b33b19",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
                     "name": "Pirates",
                     "shortName": "PIR",
                     "flag": {
@@ -903,6 +892,33 @@
                     },
                     "isWinner": null,
                     "color": "#dab712",
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                },
+                {
+                    "name": "Sloggers",
+                    "shortName": "SLO",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SG@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#b33b19",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -2448,7 +2464,7 @@
                     },
                     "isWinner": null,
                     "color": "#dcdcdc",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2467,7 +2483,7 @@
                     },
                     "isWinner": null,
                     "color": "#dcdcdc",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
