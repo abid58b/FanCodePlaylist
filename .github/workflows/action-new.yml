@@ -57,7 +57,7 @@ jobs:
             "\" group-title=\"" + 
             (.category // "Uncategorized") + 
             "\"," + 
-            (.title // "Untitled Match") + " - " + (.short_name // "Unknown Tournament") + " - " + (.language // "Unknown Language") + 
+            (.title // "Untitled Match") + " - " + (.language // "Unknown Language") + 
             "\n" +
             (.adfree_stream // .STREAMING_CDN.Primary_Playback_URL // .dai_stream // "http://invalid.stream.url")
             ' fancode.json >> fancode-new.m3u
