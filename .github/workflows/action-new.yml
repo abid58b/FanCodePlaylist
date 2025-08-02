@@ -49,7 +49,7 @@ jobs:
 
         # Modified jq query to filter by "status": "STARTED"
         jq -r '.matches[] |
-            select(.status != "NOT_STARTED") |
+            select(.streamingStatus == "STARTED") |
             "#EXTINF:-1 tvg-id=\"" + 
             ((.match_id | tostring) // "unknown_id") + 
             "\" tvg-logo=\"" + 
