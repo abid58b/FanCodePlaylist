@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "08:19:58 PM 05-08-2025",
+    "last_updated": "08:44:58 PM 05-08-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
     "total_matches": 39,
-    "live_matches": 5,
-    "upcoming_matches": 34,
+    "live_matches": 6,
+    "upcoming_matches": 33,
     "matches": [
         {
             "category": "Cricket",
@@ -41,11 +41,11 @@
                     "color": "#921b36",
                     "cricketScore": [
                         {
-                            "runs": 117,
-                            "overs": "14.2",
-                            "balls": "86",
+                            "runs": 165,
+                            "overs": "18.4",
+                            "balls": "112",
                             "status": "IN_PROGRESS",
-                            "wickets": 5
+                            "wickets": 7
                         }
                     ],
                     "kabaddiScore": null,
@@ -120,11 +120,11 @@
                     "color": "#a0a0d4",
                     "cricketScore": [
                         {
-                            "runs": 156,
-                            "overs": "17",
-                            "balls": "85",
-                            "status": "IN_PROGRESS",
-                            "wickets": 3
+                            "runs": 176,
+                            "overs": "20",
+                            "balls": "100",
+                            "status": "COMPLETED",
+                            "wickets": 5
                         }
                     ],
                     "kabaddiScore": null,
@@ -133,7 +133,7 @@
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": true
+                            "isBatting": false
                         }
                     }
                 },
@@ -145,14 +145,22 @@
                     },
                     "isWinner": null,
                     "color": "#b8b3ba",
-                    "cricketScore": [],
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": false
+                            "isBatting": true
                         }
                     }
                 }
@@ -169,11 +177,90 @@
             }
         },
         {
+            "category": "Cricket",
+            "title": "London County Cricket Vs Kreative Sports Xi",
+            "tournament": "ECS England, Wimbledon, 2025",
+            "match_id": 132060,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "05 August 2025 08:45 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/ECS-England,-Wimbledon,-2025-old-match-card-op-2.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132060_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/ECS-England,-Wimbledon,-2025-old-match-card-op-2.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/ECS-England,-Wimbledon,-2025-old-match-card-op-2.jpg",
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ECSN-Men-(6).png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ECS-England,-Wimbledon,-2025-old-match-card-op-2.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ECS-England,-Wimbledon,-2025-Sporty-match-card-op-2.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132060_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "London County Cricket",
+                    "shortName": "LCC",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR20@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#F9F0B0",
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                },
+                {
+                    "name": "Kreative Sports XI",
+                    "shortName": "KSXI",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR4@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#bdcaf4",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/132060_english_hls_35817ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/murLz2QCSY2DEz2P0b4wWg/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/132060_english_hls_35817ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/132060_english_hls_35817ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/murLz2QCSY2DEz2P0b4wWg/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
             "category": "Basketball",
             "title": "China Vs Saudi Arabia",
             "tournament": "FIBA Asia Cup, 2025",
             "match_id": 133184,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "05 August 2025 08:30 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -200,7 +287,9 @@
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
-                    "basketBallScore": null,
+                    "basketBallScore": {
+                        "points": 16
+                    },
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
@@ -219,7 +308,9 @@
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
-                    "basketBallScore": null,
+                    "basketBallScore": {
+                        "points": 18
+                    },
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
@@ -429,82 +520,6 @@
                     },
                     "isWinner": null,
                     "color": "#189941",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Cricket",
-            "title": "London County Cricket Vs Kreative Sports Xi",
-            "tournament": "ECS England, Wimbledon, 2025",
-            "match_id": 132060,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "05 August 2025 08:45 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/ECS-England,-Wimbledon,-2025-old-match-card-op-2.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132060_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/ECS-England,-Wimbledon,-2025-old-match-card-op-2.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ECSN-Men-(6).png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ECS-England,-Wimbledon,-2025-old-match-card-op-2.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ECS-England,-Wimbledon,-2025-Sporty-match-card-op-2.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132060_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "London County Cricket",
-                    "shortName": "LCC",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR20@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#F9F0B0",
-                    "cricketScore": [
-                        {
-                            "runs": 0,
-                            "overs": "0",
-                            "balls": "0",
-                            "status": "IN_PROGRESS",
-                            "wickets": 0
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": true
-                        }
-                    }
-                },
-                {
-                    "name": "Kreative Sports XI",
-                    "shortName": "KSXI",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR4@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#bdcaf4",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -935,6 +950,74 @@
         },
         {
             "category": "Cricket",
+            "title": "North Delhi Strikers Vs Outer Delhi Warriors",
+            "tournament": "Delhi Premier League, 2025",
+            "match_id": 132472,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "06 August 2025 07:00 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/132472_5521_NDS_ODW_fc-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132472_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132472_5521_NDS_ODW_fc-Web.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/DPL_Tour_Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132472_5521_NDS_ODW_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132472_5521_NDS_ODW_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132472_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "North Delhi Strikers",
+                    "shortName": "NDS",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#4686c7",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Outer Delhi Warriors",
+                    "shortName": "ODW",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#0a2346",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Cricket",
             "title": "Gauhati Town Club Vs Guwahati Giants",
             "tournament": "GTC Spring T20 Cup, 2nd Edition, 2025",
             "match_id": 132405,
@@ -1071,33 +1154,33 @@
         },
         {
             "category": "Cricket",
-            "title": "North Delhi Strikers Vs Outer Delhi Warriors",
-            "tournament": "Delhi Premier League, 2025",
-            "match_id": 132472,
+            "title": "Manchester Originals Women Vs Southern Brave Women",
+            "tournament": "The Hundred Women, 2025",
+            "match_id": 132257,
             "status": "NOT_STARTED",
             "streamingStatus": "NOT_STARTED",
-            "startTime": "06 August 2025 07:00 PM",
+            "startTime": "06 August 2025 07:30 PM",
             "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/132472_5521_NDS_ODW_fc-Web.jpg",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/132257_5506_MNR-W_SOB-W_Fc-Web.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132472_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132472_5521_NDS_ODW_fc-Web.jpg",
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132257_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132257_5506_MNR-W_SOB-W_Fc-Web.jpg",
                 "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/DPL_Tour_Logo.png",
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/06/The-Hundred_Tour-Logo.png",
                 "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132472_5521_NDS_ODW_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132472_5521_NDS_ODW_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132472_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132257_5506_MNR-W_SOB-W_Fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132257_5506_MNR-W_SOB-W_Fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132257_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "name": "North Delhi Strikers",
-                    "shortName": "NDS",
+                    "name": "Manchester Originals Women",
+                    "shortName": "MNR-W",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MANCO@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#4686c7",
+                    "color": "#adb6b9",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -1110,13 +1193,13 @@
                     }
                 },
                 {
-                    "name": "Outer Delhi Warriors",
-                    "shortName": "ODW",
+                    "name": "Southern Brave Women",
+                    "shortName": "SOB-W",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SOUTHB@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#0a2346",
+                    "color": "#97c8a5",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -1206,74 +1289,6 @@
             }
         },
         {
-            "category": "Basketball",
-            "title": "Chinese Taipei Vs Philippines",
-            "tournament": "FIBA Asia Cup, 2025",
-            "match_id": 133185,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "05 August 2025 11:30 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/133185_5549_CT_PHP_fc-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133185_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133185_5549_CT_PHP_fc-Web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asia-Cup-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Basketball_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133185_5549_CT_PHP_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133185_5549_CT_PHP_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133185_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Chinese Taipei",
-                    "shortName": "CT",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/nb-flags/CT-NB1@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#F2CECF",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Philippines",
-                    "shortName": "PHP",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/nb-flags/FC-PHIL@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#85a4e2",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
             "category": "Cricket",
             "title": "Kuala Lumpur Vs Putrajaya",
             "tournament": "MCA Men's T20 Inter-State Championship, 2025",
@@ -1342,35 +1357,35 @@
             }
         },
         {
-            "category": "Cricket",
-            "title": "Manchester Originals Women Vs Southern Brave Women",
-            "tournament": "The Hundred Women, 2025",
-            "match_id": 132257,
+            "category": "Basketball",
+            "title": "Chinese Taipei Vs Philippines",
+            "tournament": "FIBA Asia Cup, 2025",
+            "match_id": 133185,
             "status": "NOT_STARTED",
             "streamingStatus": "NOT_STARTED",
-            "startTime": "06 August 2025 07:30 PM",
+            "startTime": "05 August 2025 11:30 PM",
             "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/132257_5506_MNR-W_SOB-W_Fc-Web.jpg",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/133185_5549_CT_PHP_fc-Web.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132257_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132257_5506_MNR-W_SOB-W_Fc-Web.jpg",
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133185_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133185_5549_CT_PHP_fc-Web.jpg",
                 "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/06/The-Hundred_Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132257_5506_MNR-W_SOB-W_Fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132257_5506_MNR-W_SOB-W_Fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132257_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asia-Cup-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Basketball_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133185_5549_CT_PHP_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133185_5549_CT_PHP_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133185_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "name": "Manchester Originals Women",
-                    "shortName": "MNR-W",
+                    "name": "Chinese Taipei",
+                    "shortName": "CT",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MANCO@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/nb-flags/CT-NB1@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#adb6b9",
-                    "cricketScore": [],
+                    "color": "#F2CECF",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -1382,14 +1397,14 @@
                     }
                 },
                 {
-                    "name": "Southern Brave Women",
-                    "shortName": "SOB-W",
+                    "name": "Philippines",
+                    "shortName": "PHP",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SOUTHB@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/nb-flags/FC-PHIL@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#97c8a5",
-                    "cricketScore": [],
+                    "color": "#85a4e2",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2254,7 +2269,7 @@
                     },
                     "isWinner": null,
                     "color": "#32752E",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2273,7 +2288,7 @@
                     },
                     "isWinner": null,
                     "color": "#559830",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2498,6 +2513,142 @@
             }
         },
         {
+            "category": "Basketball",
+            "title": "Qatar Vs Lebanon",
+            "tournament": "FIBA Asia Cup, 2025",
+            "match_id": 133189,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "06 August 2025 11:30 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/133189_5549_QAT_LEB_fc-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133189_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133189_5549_QAT_LEB_fc-Web.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asia-Cup-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Basketball_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133189_5549_QAT_LEB_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133189_5549_QAT_LEB_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133189_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Qatar",
+                    "shortName": "QAT",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/nb-flags/QAT-NB1@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#af6078",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Lebanon",
+                    "shortName": "LEB",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/nb-flags/FC-LEBN@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#00a550",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Football",
+            "title": "Feyenoord Vs Fenerbah\u00e7e",
+            "tournament": "UEFA Champions League Qualifiers 2025-26",
+            "match_id": 132970,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "07 August 2025 12:30 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132970_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UEFA-C-L_Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+                "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132970_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Feyenoord",
+                    "shortName": "FEY",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-FEY@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#123456",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Fenerbah\u00e7e",
+                    "shortName": "FEN",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-FEN@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#a7cbe5",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
             "category": "Cricket",
             "title": "New Delhi Tigers Vs Central Delhi Kings",
             "tournament": "Delhi Premier League, 2025",
@@ -2569,158 +2720,6 @@
                     "status": {
                         "cricket": {
                             "isBatting": true
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Cricket",
-            "title": "Outer Delhi Warriors Vs Purani Delhi 6",
-            "tournament": "Delhi Premier League, 2025",
-            "match_id": 132469,
-            "status": "COMPLETED",
-            "streamingStatus": "COMPLETED",
-            "startTime": "05 August 2025 02:00 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/132469_5521_ODW_PD_fc-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132469_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132469_5521_ODW_PD_fc-Web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/DPL_Tour_Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132469_5521_ODW_PD_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132469_5521_ODW_PD_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132469_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Outer Delhi Warriors",
-                    "shortName": "ODW",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png"
-                    },
-                    "isWinner": true,
-                    "color": "#0a2346",
-                    "cricketScore": [
-                        {
-                            "runs": 148,
-                            "overs": "20",
-                            "balls": "120",
-                            "status": "COMPLETED",
-                            "wickets": 10
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Purani Delhi 6",
-                    "shortName": "PD",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png"
-                    },
-                    "isWinner": false,
-                    "color": "#c3333e",
-                    "cricketScore": [
-                        {
-                            "runs": 66,
-                            "overs": "14.3",
-                            "balls": "87",
-                            "status": "IN_PROGRESS",
-                            "wickets": 10
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": true
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Basketball",
-            "title": "Qatar Vs Lebanon",
-            "tournament": "FIBA Asia Cup, 2025",
-            "match_id": 133189,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "06 August 2025 11:30 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/133189_5549_QAT_LEB_fc-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133189_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133189_5549_QAT_LEB_fc-Web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asia-Cup-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Basketball_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133189_5549_QAT_LEB_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133189_5549_QAT_LEB_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133189_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Qatar",
-                    "shortName": "QAT",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/nb-flags/QAT-NB1@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#af6078",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Lebanon",
-                    "shortName": "LEB",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/nb-flags/FC-LEBN@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#00a550",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
                         }
                     }
                 }
