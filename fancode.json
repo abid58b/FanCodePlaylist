@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "01:05:24 PM 07-08-2025",
+    "last_updated": "01:19:24 PM 07-08-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
     "total_matches": 38,
-    "live_matches": 4,
-    "upcoming_matches": 34,
+    "live_matches": 6,
+    "upcoming_matches": 32,
     "matches": [
         {
             "category": "Cricket",
@@ -39,14 +39,22 @@
                     },
                     "isWinner": null,
                     "color": "#dfd32c",
-                    "cricketScore": [],
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": false
+                            "isBatting": true
                         }
                     }
                 },
@@ -83,176 +91,18 @@
         },
         {
             "category": "Cricket",
-            "title": "Cyprus Vs Croatia",
-            "tournament": "ECN Croatia-Cyprus T20I, 2025",
-            "match_id": 133315,
-            "status": "LIVE",
-            "streamingStatus": "STARTED",
-            "startTime": "07 August 2025 12:30 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Croatia-Cyprus-T20I_old.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133315_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Croatia-Cyprus-T20I_old.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Croatia-Cyprus-T20I_old.jpg",
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Tour-Logo-(4).png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Croatia-Cyprus-T20I_old.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Croatia-Cyprus-T20I_Sporty.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133315_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Cyprus",
-                    "shortName": "CYP",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CYR@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#ed7a00",
-                    "cricketScore": [
-                        {
-                            "runs": 65,
-                            "overs": "7.1",
-                            "balls": "43",
-                            "status": "IN_PROGRESS",
-                            "wickets": 1
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": true
-                        }
-                    }
-                },
-                {
-                    "name": "Croatia",
-                    "shortName": "CRO",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CROA@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#4091d7",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/133315_english_hls_57001ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/Xk6PLLC_Q0u0kGL2nWRrKw/master.m3u8",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/133315_english_hls_57001ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/133315_english_hls_57001ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/Xk6PLLC_Q0u0kGL2nWRrKw/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Cricket",
-            "title": "Gauhati Town Club Vs Nabajyoti Club",
-            "tournament": "GTC Spring T20 Cup, 2nd Edition, 2025",
-            "match_id": 132408,
-            "status": "NOT_STARTED",
-            "streamingStatus": "STARTED",
-            "startTime": "07 August 2025 01:15 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://images.fancode.com/aig/match/v2/132408_CASACARDS_APP.png",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132408_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://images.fancode.com/aig/match/v2/132408_CASACARDS_APP.png",
-                "PLAYBACK": "https://images.fancode.com/aig/match/v2/132408_CASACARDS_APP.png",
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/GTC-Men's-Spring-T20-Cup-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://images.fancode.com/aig/match/v2/132408_CASACARDS_APP.png",
-                "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v2/132408_CASACARDS_SPORTY_APP.png",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132408_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Gauhati Town Club",
-                    "shortName": "GTC",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GATC@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#3f0909",
-                    "cricketScore": [
-                        {
-                            "runs": 0,
-                            "overs": "0",
-                            "balls": "0",
-                            "status": "IN_PROGRESS",
-                            "wickets": 0
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": true
-                        }
-                    }
-                },
-                {
-                    "name": "Nabajyoti Club",
-                    "shortName": "NBC",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NBC@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#0b258b",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/132408_english_hls_55884ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/Wla0V9bkRJqLW7V8TDAkpw/master.m3u8",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/132408_english_hls_55884ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/132408_english_hls_55884ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/Wla0V9bkRJqLW7V8TDAkpw/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Cricket",
             "title": "Australia A Women Vs India A Women",
             "tournament": "India A Women tour of Australia, 2025",
             "match_id": 133229,
             "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
+            "streamingStatus": "STARTED",
             "startTime": "07 August 2025 01:30 PM",
             "startDate": "01 January 1970 05:30 AM",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/IND_A_vs_AUS_Womens_Old_match-card.jpg",
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/133229_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/IND_A_vs_AUS_Womens_Old_match-card.jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/IND_A_vs_AUS_Womens_Old_match-card.jpg",
                 "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Australia-vs-India.png",
                 "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
                 "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/IND_A_vs_AUS_Womens_Old_match-card.jpg",
@@ -307,12 +157,244 @@
                     }
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/133229_english_hls_67659ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/RHcHhHkFQY-SSoePT8qBmQ/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/133229_english_hls_67659ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/133229_english_hls_67659ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/RHcHhHkFQY-SSoePT8qBmQ/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "Cyprus Vs Croatia",
+            "tournament": "ECN Croatia-Cyprus T20I, 2025",
+            "match_id": 133315,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "07 August 2025 12:30 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Croatia-Cyprus-T20I_old.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133315_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Croatia-Cyprus-T20I_old.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Croatia-Cyprus-T20I_old.jpg",
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Tour-Logo-(4).png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Croatia-Cyprus-T20I_old.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ECN-Croatia-Cyprus-T20I_Sporty.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133315_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Cyprus",
+                    "shortName": "CYP",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CYR@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#ed7a00",
+                    "cricketScore": [
+                        {
+                            "runs": 84,
+                            "overs": "10",
+                            "balls": "60",
+                            "status": "IN_PROGRESS",
+                            "wickets": 2
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                },
+                {
+                    "name": "Croatia",
+                    "shortName": "CRO",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CROA@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#4091d7",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/133315_english_hls_57001ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/Xk6PLLC_Q0u0kGL2nWRrKw/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/133315_english_hls_57001ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/133315_english_hls_57001ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/Xk6PLLC_Q0u0kGL2nWRrKw/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "Gauhati Town Club Vs Nabajyoti Club",
+            "tournament": "GTC Spring T20 Cup, 2nd Edition, 2025",
+            "match_id": 132408,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "07 August 2025 01:15 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://images.fancode.com/aig/match/v2/132408_CASACARDS_APP.png",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132408_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://images.fancode.com/aig/match/v2/132408_CASACARDS_APP.png",
+                "PLAYBACK": "https://images.fancode.com/aig/match/v2/132408_CASACARDS_APP.png",
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/GTC-Men's-Spring-T20-Cup-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://images.fancode.com/aig/match/v2/132408_CASACARDS_APP.png",
+                "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v2/132408_CASACARDS_SPORTY_APP.png",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132408_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Gauhati Town Club",
+                    "shortName": "GTC",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GATC@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#3f0909",
+                    "cricketScore": [
+                        {
+                            "runs": 2,
+                            "overs": "0.2",
+                            "balls": "3",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                },
+                {
+                    "name": "Nabajyoti Club",
+                    "shortName": "NBC",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NBC@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#0b258b",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/132408_english_hls_55884ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/Wla0V9bkRJqLW7V8TDAkpw/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/132408_english_hls_55884ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/132408_english_hls_55884ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/Wla0V9bkRJqLW7V8TDAkpw/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Basketball",
+            "title": "India Vs China",
+            "tournament": "FIBA Asia Cup, 2025",
+            "match_id": 133190,
+            "status": "NOT_STARTED",
+            "streamingStatus": "STARTED",
+            "startTime": "07 August 2025 01:30 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/133190_5549_IND_CHN_fc-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133190_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133190_5549_IND_CHN_fc-Web.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/133190_5549_IND_CHN_fc-Web.jpg",
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asia-Cup-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Basketball_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133190_5549_IND_CHN_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133190_5549_IND_CHN_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133190_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "India",
+                    "shortName": "IND",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/nb-flags/IND-NB2@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#f7c37a",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "China",
+                    "shortName": "CHN",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/nb-flags/FC-CHIN@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#FF2D0E",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/133190_english_hls_26281ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/CRXJ4_ZqQM-iIPW5IeGRfg/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/133190_english_hls_26281ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/133190_english_hls_26281ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/CRXJ4_ZqQM-iIPW5IeGRfg/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
             }
         },
         {
@@ -344,14 +426,22 @@
                     },
                     "isWinner": null,
                     "color": "#c3333e",
-                    "cricketScore": [],
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": false
+                            "isBatting": true
                         }
                     }
                 },
@@ -636,74 +726,6 @@
                     "isWinner": null,
                     "color": "#B8142D",
                     "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Basketball",
-            "title": "India Vs China",
-            "tournament": "FIBA Asia Cup, 2025",
-            "match_id": 133190,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "07 August 2025 01:30 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/133190_5549_IND_CHN_fc-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133190_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133190_5549_IND_CHN_fc-Web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asia-Cup-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Basketball_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133190_5549_IND_CHN_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133190_5549_IND_CHN_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133190_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "India",
-                    "shortName": "IND",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/nb-flags/IND-NB2@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#f7c37a",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "China",
-                    "shortName": "CHN",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/nb-flags/FC-CHIN@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#FF2D0E",
-                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -1608,74 +1630,6 @@
             }
         },
         {
-            "category": "Football",
-            "title": "Port Vale Vs Cardiff City",
-            "tournament": "League One 2025-26",
-            "match_id": 132021,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "08 August 2025 12:30 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/132021_5490_PV_CAR_fc-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132021_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132021_5490_PV_CAR_fc-Web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/EFL-League-One.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132021_5490_PV_CAR_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132021_5490_PV_CAR_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132021_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Port Vale",
-                    "shortName": "PV",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PORTV@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#f4a00f",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Cardiff City",
-                    "shortName": "CAR",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CARDF@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#527ec3",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
             "category": "Cricket",
             "title": "Johor Vs Penang",
             "tournament": "MCA Men's T20 Inter-State Championship, 2025",
@@ -1724,6 +1678,74 @@
                     "isWinner": null,
                     "color": "#3d89e1",
                     "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Football",
+            "title": "Port Vale Vs Cardiff City",
+            "tournament": "League One 2025-26",
+            "match_id": 132021,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "08 August 2025 12:30 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/132021_5490_PV_CAR_fc-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132021_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132021_5490_PV_CAR_fc-Web.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/EFL-League-One.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132021_5490_PV_CAR_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132021_5490_PV_CAR_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132021_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Port Vale",
+                    "shortName": "PV",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PORTV@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#f4a00f",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Cardiff City",
+                    "shortName": "CAR",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CARDF@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#527ec3",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2044,7 +2066,7 @@
                     },
                     "isWinner": null,
                     "color": "#DFE4EE",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2063,7 +2085,7 @@
                     },
                     "isWinner": null,
                     "color": "#036103",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2424,34 +2446,34 @@
             }
         },
         {
-            "category": "Arm Wrestling",
-            "title": "Day 3",
-            "tournament": "Pro Panja League Season 2 2025",
-            "match_id": 132191,
+            "category": "Cricket",
+            "title": "New Delhi Tigers Vs Purani Delhi 6",
+            "tournament": "Delhi Premier League, 2025",
+            "match_id": 132476,
             "status": "NOT_STARTED",
             "streamingStatus": "NOT_STARTED",
-            "startTime": "07 August 2025 05:00 PM",
+            "startTime": "08 August 2025 07:00 PM",
             "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/old-match-card-.png",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/132476_5521_NDT_PD_fc-Web.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132191_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/old-match-card-.png",
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132476_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132476_5521_NDT_PD_fc-Web.jpg",
                 "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/07/Pro-Panja_Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Arm-Wrestling-1440-x-360.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/old-match-card-.png",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/sporty-match-card-bg.png",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132191_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/DPL_Tour_Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132476_5521_NDT_PD_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132476_5521_NDT_PD_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132476_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "name": "Day 3",
-                    "shortName": "Day 3",
+                    "name": "New Delhi Tigers",
+                    "shortName": "NDT",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/aw-flags/FC-PPL@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#FFFFFF",
+                    "color": "#B8142D",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -2464,13 +2486,13 @@
                     }
                 },
                 {
-                    "name": "India",
-                    "shortName": "India",
+                    "name": "Purani Delhi 6",
+                    "shortName": "PD",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/aw-flags/FC-LOC@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#FFFFFF",
+                    "color": "#c3333e",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -2492,34 +2514,34 @@
             }
         },
         {
-            "category": "Golf",
-            "title": "Day 1",
-            "tournament": "Nexo Championship 2025",
-            "match_id": 132909,
+            "category": "Cricket",
+            "title": "Bengol Tigers Vs Rajasthan",
+            "tournament": "LEGEN\u2011Z T10 League",
+            "match_id": 133364,
             "status": "NOT_STARTED",
             "streamingStatus": "NOT_STARTED",
-            "startTime": "07 August 2025 05:00 PM",
+            "startTime": "08 August 2025 07:00 PM",
             "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Nexo-Championship-2025_match-card.jpg",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/133364_5560_BT_RAJ_fc-Web.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132909_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Nexo-Championship-2025_match-card.jpg",
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133364_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133364_5560_BT_RAJ_fc-Web.jpg",
                 "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Tour-Logo_Nexo-Championship.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Golf_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Nexo-Championship-2025_match-card.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Nexo-Championship-2025_Sporty_Match_card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132909_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Legenz-T10-Mandatories_Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133364_5560_BT_RAJ_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133364_5560_BT_RAJ_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133364_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "name": "Day 1",
-                    "shortName": "Day 1",
+                    "name": "Bengol Tigers",
+                    "shortName": "BT",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-NEX@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BT@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#0785F1",
+                    "color": "#b58c05",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -2532,13 +2554,13 @@
                     }
                 },
                 {
-                    "name": "Aberdeenshire, Scotland",
-                    "shortName": "Aberdeenshire, Scotland",
+                    "name": "Rajasthan",
+                    "shortName": "RAJ",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RAJR@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#141414",
+                    "color": "#ba8036",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -2560,35 +2582,35 @@
             }
         },
         {
-            "category": "Golf",
-            "title": "Main Feed   Day 1",
-            "tournament": "FedEx St. Jude Championship 2025",
-            "match_id": 133288,
+            "category": "Cricket",
+            "title": "Southern United Vs Mp Spartan",
+            "tournament": "LEGEN\u2011Z T10 League",
+            "match_id": 133361,
             "status": "NOT_STARTED",
             "streamingStatus": "NOT_STARTED",
-            "startTime": "07 August 2025 05:45 PM",
+            "startTime": "08 August 2025 07:00 PM",
             "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/FedEx-St.-Jude-Championship-2025_match-card.jpg",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/133361_5560_SU_MPS_fc-Web.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133288_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/FedEx-St.-Jude-Championship-2025_match-card.jpg",
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133361_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133361_5560_SU_MPS_fc-Web.jpg",
                 "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ST.-Jude-Championship_Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Golf_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FedEx-St.-Jude-Championship-2025_match-card.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FedEx-St.-Jude-Championship-2025_Sporty_Match_card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133288_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Legenz-T10-Mandatories_Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133361_5560_SU_MPS_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133361_5560_SU_MPS_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133361_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "name": "Main Feed - Day 1",
-                    "shortName": "Main Feed - Day 1",
+                    "name": "Southern United",
+                    "shortName": "SU",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SUD@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#141414",
-                    "cricketScore": null,
+                    "color": "#b7b706",
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2600,14 +2622,14 @@
                     }
                 },
                 {
-                    "name": "TPC Southwind - Memphis, Tennessee ",
-                    "shortName": "TPC Southwind - Memphis, Tennessee ",
+                    "name": "MP Spartan",
+                    "shortName": "MPS",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MPSN@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#141414",
-                    "cricketScore": null,
+                    "color": "#eda963",
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
