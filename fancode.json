@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "09:19:32 AM 10-08-2025",
+    "last_updated": "09:37:33 AM 10-08-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -41,11 +41,11 @@
                     "color": "#202654",
                     "cricketScore": [
                         {
-                            "runs": 16,
-                            "overs": "4.2",
-                            "balls": "26",
+                            "runs": 28,
+                            "overs": "8.1",
+                            "balls": "49",
                             "status": "IN_PROGRESS",
-                            "wickets": 2
+                            "wickets": 5
                         }
                     ],
                     "kabaddiScore": null,
@@ -94,7 +94,7 @@
             "title": "Malacca Vs Penang",
             "tournament": "MCA Men's T20 Inter-State Championship, 2025",
             "match_id": 132643,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "10 August 2025 09:30 AM",
             "startDate": "01 January 1970 05:30 AM",
@@ -118,14 +118,22 @@
                     },
                     "isWinner": null,
                     "color": "#132f86",
-                    "cricketScore": [],
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": false
+                            "isBatting": true
                         }
                     }
                 },
@@ -709,7 +717,7 @@
         },
         {
             "category": "Cricket",
-            "title": "Mysore Warriors Women Vs Hubli Tigers Women",
+            "title": "Hubli Tigers Women Vs Mysore Warriors Women",
             "tournament": "Maharani Trophy, 2025",
             "match_id": 132929,
             "status": "NOT_STARTED",
@@ -729,25 +737,6 @@
             },
             "teams": [
                 {
-                    "name": "Mysore Warriors Women",
-                    "shortName": "MW-W",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MWAR@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#129766",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
                     "name": "Hubli Tigers Women",
                     "shortName": "HT-W",
                     "flag": {
@@ -755,6 +744,33 @@
                     },
                     "isWinner": null,
                     "color": "#2e3d78",
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                },
+                {
+                    "name": "Mysore Warriors Women",
+                    "shortName": "MW-W",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MWAR@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#129766",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
