@@ -1,15 +1,94 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "02:58:28 PM 13-08-2025",
+    "last_updated": "03:12:35 PM 13-08-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
     "total_matches": 38,
-    "live_matches": 4,
-    "upcoming_matches": 34,
+    "live_matches": 6,
+    "upcoming_matches": 32,
     "matches": [
+        {
+            "category": "Cricket",
+            "title": "Bengaluru Blasters Vs Hubli Tigers",
+            "tournament": "Maharaja T20 Trophy, 2025",
+            "match_id": 132789,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "13 August 2025 03:15 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/132789_5530_BB_HT_fc-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132789_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132789_5530_BB_HT_fc-Web.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/132789_5530_BB_HT_fc-Web.jpg",
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/07/Maharaja-Trophy-KSCA-T20-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132789_5530_BB_HT_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132789_5530_BB_HT_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132789_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Bengaluru Blasters",
+                    "shortName": "BB",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KBR@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#16b9b7",
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                },
+                {
+                    "name": "Hubli Tigers",
+                    "shortName": "HT",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HBT@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#272993",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/132789_english_hls_76459ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/bplwGr44SCSRZuFZWozIFA/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/132789_english_hls_76459ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/132789_english_hls_76459ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/bplwGr44SCSRZuFZWozIFA/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
         {
             "category": "Cricket",
             "title": "Royals Of Rayalaseema Vs Tungabhadra Warriors",
@@ -41,9 +120,9 @@
                     "color": "#df562f",
                     "cricketScore": [
                         {
-                            "runs": 136,
-                            "overs": "15",
-                            "balls": "90",
+                            "runs": 167,
+                            "overs": "17.5",
+                            "balls": "107",
                             "status": "IN_PROGRESS",
                             "wickets": 5
                         }
@@ -120,10 +199,10 @@
                     "color": "#0581c5",
                     "cricketScore": [
                         {
-                            "runs": 128,
-                            "overs": "9.5",
-                            "balls": "59",
-                            "status": "IN_PROGRESS",
+                            "runs": 130,
+                            "overs": "10",
+                            "balls": "60",
+                            "status": "COMPLETED",
                             "wickets": 2
                         }
                     ],
@@ -133,7 +212,7 @@
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": true
+                            "isBatting": false
                         }
                     }
                 },
@@ -145,14 +224,22 @@
                     },
                     "isWinner": null,
                     "color": "#E2D9CA",
-                    "cricketScore": [],
+                    "cricketScore": [
+                        {
+                            "runs": 6,
+                            "overs": "0.2",
+                            "balls": "2",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": false
+                            "isBatting": true
                         }
                     }
                 }
@@ -240,62 +327,54 @@
             }
         },
         {
-            "category": "Cricket",
-            "title": "Bengaluru Blasters Vs Hubli Tigers",
-            "tournament": "Maharaja T20 Trophy, 2025",
-            "match_id": 132789,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "13 August 2025 03:15 PM",
+            "category": "Golf",
+            "title": "Irish Challenge",
+            "tournament": "Irish Challenge",
+            "match_id": 133449,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "13 August 2025 03:25 PM",
             "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/132789_5530_BB_HT_fc-Web.jpg",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Irish-Challenge_Old_match-card_2.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132789_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132789_5530_BB_HT_fc-Web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/07/Maharaja-Trophy-KSCA-T20-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132789_5530_BB_HT_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132789_5530_BB_HT_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132789_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133449_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Irish-Challenge_Old_match-card_2.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Irish-Challenge_Old_match-card_2.jpg",
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/FC-HP@2x.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Golf_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Irish-Challenge_Old_match-card_2.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Irish-Challenge_Sporty-match-card.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133449_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "name": "Bengaluru Blasters",
-                    "shortName": "BB",
+                    "name": "Irish Challenge",
+                    "shortName": "Irish Challenge",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KBR@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-HP@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#16b9b7",
-                    "cricketScore": [
-                        {
-                            "runs": 0,
-                            "overs": "0",
-                            "balls": "0",
-                            "status": "IN_PROGRESS",
-                            "wickets": 0
-                        }
-                    ],
+                    "color": "#FF0000",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": true
+                            "isBatting": false
                         }
                     }
                 },
                 {
-                    "name": "Hubli Tigers",
-                    "shortName": "HT",
+                    "name": "Killeen Castle",
+                    "shortName": "Killeen Castle",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HBT@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#272993",
-                    "cricketScore": [],
+                    "color": "#141414",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -307,12 +386,15 @@
                     }
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/133449_english_hls_48116ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/bsu1kDMLTxeUQoNWE-g5oA/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/133449_english_hls_48116ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/133449_english_hls_48116ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/bsu1kDMLTxeUQoNWE-g5oA/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
             }
         },
         {
@@ -657,7 +739,7 @@
         },
         {
             "category": "Cricket",
-            "title": "Sir Oliver Split Vs Zagreb Assassins",
+            "title": "Zagreb Assassins Vs Sir Oliver Split",
             "tournament": "ECS Croatia, 2025",
             "match_id": 133412,
             "status": "NOT_STARTED",
@@ -677,25 +759,6 @@
             },
             "teams": [
                 {
-                    "name": "Sir Oliver Split",
-                    "shortName": "SOS",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OLVSP@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#ff0000",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
                     "name": "Zagreb Assassins",
                     "shortName": "ZA",
                     "flag": {
@@ -703,6 +766,33 @@
                     },
                     "isWinner": null,
                     "color": "#0581c5",
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                },
+                {
+                    "name": "Sir Oliver Split",
+                    "shortName": "SOS",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OLVSP@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#ff0000",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -1676,34 +1766,34 @@
             }
         },
         {
-            "category": "Golf",
-            "title": "Irish Challenge",
-            "tournament": "Irish Challenge",
-            "match_id": 133449,
+            "category": "Padel",
+            "title": "Hubtown Panorama Panthers Vs Vedanta Leopards",
+            "tournament": "World Padel League - Season 3",
+            "match_id": 132932,
             "status": "NOT_STARTED",
             "streamingStatus": "NOT_STARTED",
-            "startTime": "13 August 2025 03:25 PM",
+            "startTime": "13 August 2025 04:00 PM",
             "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Irish-Challenge_Old_match-card_2.jpg",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/132932_5502_PA_LEO_fc-Web.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133449_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Irish-Challenge_Old_match-card_2.jpg",
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132932_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132932_5502_PA_LEO_fc-Web.jpg",
                 "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/FC-HP@2x.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Golf_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Irish-Challenge_Old_match-card_2.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Irish-Challenge_Sporty-match-card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133449_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WPL.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Padel_Tennis-1440-x-360.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132932_5502_PA_LEO_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132932_5502_PA_LEO_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132932_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "name": "Irish Challenge",
-                    "shortName": "Irish Challenge",
+                    "name": "Hubtown Panorama Panthers",
+                    "shortName": "PA",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-HP@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/padel-flags/FC-HPA@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#FF0000",
+                    "color": "#0FCE85",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -1716,13 +1806,13 @@
                     }
                 },
                 {
-                    "name": "Killeen Castle",
-                    "shortName": "Killeen Castle",
+                    "name": "Vedanta Leopards",
+                    "shortName": "LEO",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/padel-flags/FC-LEO@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#141414",
+                    "color": "#066b67",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -1976,7 +2066,7 @@
                     },
                     "isWinner": null,
                     "color": "#d8a918",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -1995,7 +2085,7 @@
                     },
                     "isWinner": null,
                     "color": "#d48020",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2044,7 +2134,7 @@
                     },
                     "isWinner": null,
                     "color": "#b58c05",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2063,7 +2153,7 @@
                     },
                     "isWinner": null,
                     "color": "#ba8036",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2153,74 +2243,6 @@
         },
         {
             "category": "Cricket",
-            "title": "Sir Oliver Split Vs Rijeka Markhors",
-            "tournament": "ECS Croatia, 2025",
-            "match_id": 133417,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "14 August 2025 04:15 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/ECS-Croatia_old.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133417_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/ECS-Croatia_old.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ECS-Croatia_old.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ECS-Croatia_Sporty.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133417_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Sir Oliver Split",
-                    "shortName": "SOS",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OLVSP@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#ff0000",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Rijeka Markhors",
-                    "shortName": "RJM",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR14@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#E2D9CA",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Cricket",
             "title": "London Spirit Women Vs Trent Rockets Women",
             "tournament": "The Hundred Women, 2025",
             "match_id": 132268,
@@ -2267,6 +2289,74 @@
                     },
                     "isWinner": null,
                     "color": "#d09b8a",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "Sir Oliver Split Vs Rijeka Markhors",
+            "tournament": "ECS Croatia, 2025",
+            "match_id": 133417,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "14 August 2025 04:15 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/ECS-Croatia_old.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133417_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/ECS-Croatia_old.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ECS-Croatia_old.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ECS-Croatia_Sporty.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133417_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Sir Oliver Split",
+                    "shortName": "SOS",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OLVSP@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#ff0000",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Rijeka Markhors",
+                    "shortName": "RJM",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR14@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#E2D9CA",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -2403,74 +2493,6 @@
                     },
                     "isWinner": null,
                     "color": "#dd717a",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Padel",
-            "title": "Hubtown Panorama Panthers Vs Vedanta Leopards",
-            "tournament": "World Padel League - Season 3",
-            "match_id": 132932,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "13 August 2025 04:00 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/132932_5502_PA_LEO_fc-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132932_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132932_5502_PA_LEO_fc-Web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WPL.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Padel_Tennis-1440-x-360.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132932_5502_PA_LEO_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132932_5502_PA_LEO_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132932_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Hubtown Panorama Panthers",
-                    "shortName": "PA",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/padel-flags/FC-HPA@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#0FCE85",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Vedanta Leopards",
-                    "shortName": "LEO",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/padel-flags/FC-LEO@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#066b67",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
