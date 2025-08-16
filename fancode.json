@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "03:12:36 PM 16-08-2025",
+    "last_updated": "03:05:39 PM 16-08-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -41,11 +41,11 @@
                     "color": "#B8142D",
                     "cricketScore": [
                         {
-                            "runs": 86,
-                            "overs": "14",
-                            "balls": "84",
+                            "runs": 78,
+                            "overs": "12.5",
+                            "balls": "77",
                             "status": "IN_PROGRESS",
-                            "wickets": 5
+                            "wickets": 4
                         }
                     ],
                     "kabaddiScore": null,
@@ -94,7 +94,7 @@
             "title": "Shivamogga Lions Vs Gulbarga Mystics",
             "tournament": "Maharaja T20 Trophy, 2025",
             "match_id": 132795,
-            "status": "LIVE",
+            "status": "NOT_STARTED",
             "streamingStatus": "STARTED",
             "startTime": "16 August 2025 03:15 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -170,6 +170,93 @@
         },
         {
             "category": "Cricket",
+            "title": "Pakistan Shaheens Vs Perth Scorchers Academy",
+            "tournament": "Top End T20 Series, 2025",
+            "match_id": 133506,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "16 August 2025 12:00 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/133506_5574_PKS_PSA_fc-web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133506_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133506_5574_PKS_PSA_fc-web.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/133506_5574_PKS_PSA_fc-web.jpg",
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133506_5574_PKS_PSA_fc-web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133506_5574_PKS_PSA_fc-app.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133506_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Pakistan Shaheens",
+                    "shortName": "PKS",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PKS@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#d8a918",
+                    "cricketScore": [
+                        {
+                            "runs": 111,
+                            "overs": "18.5",
+                            "balls": "113",
+                            "status": "COMPLETED",
+                            "wickets": 10
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Perth Scorchers Academy",
+                    "shortName": "PSA",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PSCR@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#9a4802",
+                    "cricketScore": [
+                        {
+                            "runs": 108,
+                            "overs": "18",
+                            "balls": "108",
+                            "status": "IN_PROGRESS",
+                            "wickets": 8
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/133506_english_hls_6073a5333179293ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/DekbxaVNRAGqB9Aw7cGaGw/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/133506_english_hls_6073a5333179293ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/133506_english_hls_6073a5333179293ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/DekbxaVNRAGqB9Aw7cGaGw/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Cricket",
             "title": "Majees Titans Vs Muscat Thunders",
             "tournament": "Oman D20 League, 2025",
             "match_id": 133673,
@@ -226,9 +313,9 @@
                     "color": "#5438bd",
                     "cricketScore": [
                         {
-                            "runs": 52,
-                            "overs": "6.1",
-                            "balls": "37",
+                            "runs": 43,
+                            "overs": "5",
+                            "balls": "30",
                             "status": "IN_PROGRESS",
                             "wickets": 0
                         }
@@ -286,9 +373,9 @@
                     "color": "#997832",
                     "cricketScore": [
                         {
-                            "runs": 87,
-                            "overs": "12.1",
-                            "balls": "73",
+                            "runs": 81,
+                            "overs": "11",
+                            "balls": "66",
                             "status": "IN_PROGRESS",
                             "wickets": 3
                         }
@@ -368,7 +455,7 @@
                             "runs": 198,
                             "overs": "10",
                             "balls": "60",
-                            "status": "COMPLETED",
+                            "status": "IN_PROGRESS",
                             "wickets": 2
                         }
                     ],
@@ -378,7 +465,7 @@
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": false
+                            "isBatting": true
                         }
                     }
                 },
@@ -390,22 +477,14 @@
                     },
                     "isWinner": null,
                     "color": "#508be1",
-                    "cricketScore": [
-                        {
-                            "runs": 28,
-                            "overs": "1",
-                            "balls": "6",
-                            "status": "IN_PROGRESS",
-                            "wickets": 1
-                        }
-                    ],
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": true
+                            "isBatting": false
                         }
                     }
                 }
@@ -452,9 +531,9 @@
                     "color": "#d48020",
                     "cricketScore": [
                         {
-                            "runs": 23,
-                            "overs": "2",
-                            "balls": "12",
+                            "runs": 11,
+                            "overs": "0.4",
+                            "balls": "4",
                             "status": "IN_PROGRESS",
                             "wickets": 0
                         }
@@ -531,9 +610,9 @@
                     "color": "#ea6363",
                     "cricketScore": [
                         {
-                            "runs": 11,
-                            "overs": "1.5",
-                            "balls": "11",
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
                             "status": "IN_PROGRESS",
                             "wickets": 0
                         }
@@ -794,93 +873,6 @@
                 "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/132938_english_hls_daa1f9d5b617381ta-di_h264/index.m3u8",
                 "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/132938_english_hls_daa1f9d5b617381ta-di_h264/index.m3u8",
                 "dai_google_cdn": "https://dai.google.com/linear/hls/event/t9AopUORRfqAWJB2OuAiNQ/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Cricket",
-            "title": "Pakistan Shaheens Vs Perth Scorchers Academy",
-            "tournament": "Top End T20 Series, 2025",
-            "match_id": 133506,
-            "status": "COMPLETED",
-            "streamingStatus": "STARTED",
-            "startTime": "16 August 2025 12:00 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/133506_5574_PKS_PSA_fc-web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133506_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133506_5574_PKS_PSA_fc-web.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/133506_5574_PKS_PSA_fc-web.jpg",
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133506_5574_PKS_PSA_fc-web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133506_5574_PKS_PSA_fc-app.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133506_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Pakistan Shaheens",
-                    "shortName": "PKS",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PKS@2x.png"
-                    },
-                    "isWinner": false,
-                    "color": "#d8a918",
-                    "cricketScore": [
-                        {
-                            "runs": 111,
-                            "overs": "18.5",
-                            "balls": "113",
-                            "status": "COMPLETED",
-                            "wickets": 10
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Perth Scorchers Academy",
-                    "shortName": "PSA",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PSCR@2x.png"
-                    },
-                    "isWinner": true,
-                    "color": "#9a4802",
-                    "cricketScore": [
-                        {
-                            "runs": 114,
-                            "overs": "18.1",
-                            "balls": "109",
-                            "status": "IN_PROGRESS",
-                            "wickets": 8
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": true
-                        }
-                    }
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/133506_english_hls_6073a5333179293ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/DekbxaVNRAGqB9Aw7cGaGw/master.m3u8",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/133506_english_hls_6073a5333179293ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/133506_english_hls_6073a5333179293ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/DekbxaVNRAGqB9Aw7cGaGw/master.m3u8",
                 "cloudfront_cdn": "Unavailable",
                 "language": "ENGLISH"
             }
