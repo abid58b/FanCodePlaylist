@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "01:44:38 PM 16-08-2025",
+    "last_updated": "01:51:36 PM 16-08-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -10,6 +10,85 @@
     "live_matches": 10,
     "upcoming_matches": 28,
     "matches": [
+        {
+            "category": "Cricket",
+            "title": "New Delhi Tigers Vs West Delhi Lions",
+            "tournament": "Delhi Premier League, 2025",
+            "match_id": 132486,
+            "status": "NOT_STARTED",
+            "streamingStatus": "STARTED",
+            "startTime": "16 August 2025 02:00 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/132486_5521_WDL_NDT_fc-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132486_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132486_5521_WDL_NDT_fc-Web.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/132486_5521_WDL_NDT_fc-Web.jpg",
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/DPL_Tour_Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132486_5521_WDL_NDT_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132486_5521_WDL_NDT_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132486_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "New Delhi Tigers",
+                    "shortName": "NDT",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#B8142D",
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                },
+                {
+                    "name": "West Delhi Lions",
+                    "shortName": "WDL",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#ed4d0b",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/132486_english_hls_309225818c56845ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/fljzA0_0S1--inJBh-T3Dg/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/132486_english_hls_309225818c56845ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/132486_english_hls_309225818c56845ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/fljzA0_0S1--inJBh-T3Dg/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
         {
             "category": "Cricket",
             "title": "Pakistan Shaheens Vs Perth Scorchers Academy",
@@ -68,9 +147,9 @@
                     "color": "#9a4802",
                     "cricketScore": [
                         {
-                            "runs": 1,
-                            "overs": "0.2",
-                            "balls": "2",
+                            "runs": 12,
+                            "overs": "2",
+                            "balls": "12",
                             "status": "IN_PROGRESS",
                             "wickets": 0
                         }
@@ -207,9 +286,9 @@
                     "color": "#d8c50f",
                     "cricketScore": [
                         {
-                            "runs": 77,
-                            "overs": "13.2",
-                            "balls": "80",
+                            "runs": 101,
+                            "overs": "14.5",
+                            "balls": "89",
                             "status": "IN_PROGRESS",
                             "wickets": 4
                         }
@@ -365,9 +444,9 @@
                     "color": "#997832",
                     "cricketScore": [
                         {
-                            "runs": 9,
-                            "overs": "1.5",
-                            "balls": "11",
+                            "runs": 20,
+                            "overs": "3",
+                            "balls": "18",
                             "status": "IN_PROGRESS",
                             "wickets": 1
                         }
@@ -444,8 +523,8 @@
                     "color": "#c1c1c1",
                     "cricketScore": null,
                     "kabaddiScore": {
-                        "points": 12,
-                        "onFieldPlayers": 7,
+                        "points": 13,
+                        "onFieldPlayers": 3,
                         "totalFieldPlayers": 7,
                         "raiding": null
                     },
@@ -468,7 +547,7 @@
                     "color": "#205d7e",
                     "cricketScore": null,
                     "kabaddiScore": {
-                        "points": 23,
+                        "points": 28,
                         "onFieldPlayers": 7,
                         "totalFieldPlayers": 7,
                         "raiding": true
@@ -648,85 +727,6 @@
                 "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/133505_english_hls_d659933c149435ta-di_h264/index.m3u8",
                 "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/133505_english_hls_d659933c149435ta-di_h264/index.m3u8",
                 "dai_google_cdn": "https://dai.google.com/linear/hls/event/rIMY6wvfT_-nZsEYF46w-Q/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Cricket",
-            "title": "New Delhi Tigers Vs West Delhi Lions",
-            "tournament": "Delhi Premier League, 2025",
-            "match_id": 132486,
-            "status": "NOT_STARTED",
-            "streamingStatus": "STARTED",
-            "startTime": "16 August 2025 02:00 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/132486_5521_WDL_NDT_fc-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132486_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132486_5521_WDL_NDT_fc-Web.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/132486_5521_WDL_NDT_fc-Web.jpg",
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/DPL_Tour_Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132486_5521_WDL_NDT_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132486_5521_WDL_NDT_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132486_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "New Delhi Tigers",
-                    "shortName": "NDT",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#B8142D",
-                    "cricketScore": [
-                        {
-                            "runs": 0,
-                            "overs": "0",
-                            "balls": "0",
-                            "status": "IN_PROGRESS",
-                            "wickets": 0
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": true
-                        }
-                    }
-                },
-                {
-                    "name": "West Delhi Lions",
-                    "shortName": "WDL",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WDL@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#ed4d0b",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/132486_english_hls_309225818c56845ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/fljzA0_0S1--inJBh-T3Dg/master.m3u8",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/132486_english_hls_309225818c56845ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/132486_english_hls_309225818c56845ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/fljzA0_0S1--inJBh-T3Dg/master.m3u8",
                 "cloudfront_cdn": "Unavailable",
                 "language": "ENGLISH"
             }
