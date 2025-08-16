@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "05:12:59 AM 16-08-2025",
+    "last_updated": "07:26:07 AM 16-08-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
     "total_matches": 38,
-    "live_matches": 2,
-    "upcoming_matches": 36,
+    "live_matches": 5,
+    "upcoming_matches": 33,
     "matches": [
         {
             "category": "Cricket",
@@ -41,9 +41,96 @@
                     "color": "#3fd379",
                     "cricketScore": [
                         {
-                            "runs": 22,
-                            "overs": "2.4",
-                            "balls": "16",
+                            "runs": 153,
+                            "overs": "20",
+                            "balls": "120",
+                            "status": "COMPLETED",
+                            "wickets": 8
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Guyana Amazon Warriors",
+                    "shortName": "GUY",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#b01018",
+                    "cricketScore": [
+                        {
+                            "runs": 74,
+                            "overs": "7.2",
+                            "balls": "44",
+                            "status": "IN_PROGRESS",
+                            "wickets": 1
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-pdlive.fancode.com/mumbai/132347_english_hls_de90de2a0c72581ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/nVQ_CZUBR5eBMTbr8qrhTw/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-pdlive.fancode.com/mumbai/132347_english_hls_de90de2a0c72581ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-pdlive.fancode.com/mumbai/132347_english_hls_de90de2a0c72581ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/nVQ_CZUBR5eBMTbr8qrhTw/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "Singapore Women Vs Cambodia Women",
+            "tournament": "Cambodia Women tour of Singapore, 2025",
+            "match_id": 133925,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "16 August 2025 07:00 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/old.png",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133925_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/old.png",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/old.png",
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Cambodia-vs-Singapore-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/old.png",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/sporty-.png",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133925_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Singapore Women",
+                    "shortName": "SIN-W",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SING@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#bd0f00",
+                    "cricketScore": [
+                        {
+                            "runs": 28,
+                            "overs": "4",
+                            "balls": "24",
                             "status": "IN_PROGRESS",
                             "wickets": 0
                         }
@@ -59,13 +146,13 @@
                     }
                 },
                 {
-                    "name": "Guyana Amazon Warriors",
-                    "shortName": "GUY",
+                    "name": "Cambodia Women",
+                    "shortName": "CAM-W",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CAMB@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#b01018",
+                    "color": "#16369a",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -79,12 +166,162 @@
                 }
             ],
             "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-pdlive.fancode.com/mumbai/132347_english_hls_de90de2a0c72581ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/nVQ_CZUBR5eBMTbr8qrhTw/master.m3u8",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/133925_english_hls_961256cbdb25052ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/3dSg1UwATKeWZDZU0XPbYg/master.m3u8",
             "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-pdlive.fancode.com/mumbai/132347_english_hls_de90de2a0c72581ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-pdlive.fancode.com/mumbai/132347_english_hls_de90de2a0c72581ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/nVQ_CZUBR5eBMTbr8qrhTw/master.m3u8",
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/133925_english_hls_961256cbdb25052ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/133925_english_hls_961256cbdb25052ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/3dSg1UwATKeWZDZU0XPbYg/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "Australian Capital Territory Vs Melbourne Renegades Academy",
+            "tournament": "Top End T20 Series, 2025",
+            "match_id": 133504,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "16 August 2025 07:00 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/133504_5574_MRA_ACT_fc-web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133504_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133504_5574_MRA_ACT_fc-web.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/133504_5574_MRA_ACT_fc-web.jpg",
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133504_5574_MRA_ACT_fc-web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133504_5574_MRA_ACT_fc-app.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133504_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Australian Capital Territory",
+                    "shortName": "ACT",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ACY@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#D9C113",
+                    "cricketScore": [
+                        {
+                            "runs": 34,
+                            "overs": "4.4",
+                            "balls": "28",
+                            "status": "IN_PROGRESS",
+                            "wickets": 2
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                },
+                {
+                    "name": "Melbourne Renegades Academy",
+                    "shortName": "MRA",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RNE@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#f6848b",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/133504_english_hls_5d6734d71c22495ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/o6_YD4hARcieG25BFB8aRQ/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/133504_english_hls_5d6734d71c22495ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/133504_english_hls_5d6734d71c22495ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/o6_YD4hARcieG25BFB8aRQ/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Baseball",
+            "title": "Los Angeles Dodgers Vs San Diego Padres",
+            "tournament": "Major League Baseball, 2025",
+            "match_id": 132863,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "16 August 2025 07:40 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://images.fancode.com/aig/match/v1/132863_CASACARDS_APP.png",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132863_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://images.fancode.com/aig/match/v1/132863_CASACARDS_APP.png",
+                "PLAYBACK": "https://images.fancode.com/aig/match/v1/132863_CASACARDS_APP.png",
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/MLB-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Baseball-1440-x-360.jpg",
+                "BG_IMAGE": "https://images.fancode.com/aig/match/v1/132863_CASACARDS_APP.png",
+                "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/132863_CASACARDS_SPORTY_APP.png",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132863_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Los Angeles Dodgers",
+                    "shortName": "LAD",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-LODOG@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#77c0f6",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "San Diego Padres",
+                    "shortName": "SDP",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-SANDG@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#ffb700",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/132863_english_hls_244efeccf683765ta-di_h264/index.m3u8",
+            "dai_stream": "Unavailable",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/132863_english_hls_244efeccf683765ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/132863_english_hls_244efeccf683765ta-di_h264/index.m3u8",
+                "dai_google_cdn": "Unavailable",
                 "cloudfront_cdn": "Unavailable",
                 "language": "ENGLISH"
             }
@@ -635,33 +872,33 @@
         },
         {
             "category": "Cricket",
-            "title": "Melbourne Renegades Academy Vs Australian Capital Territory",
-            "tournament": "Top End T20 Series, 2025",
-            "match_id": 133504,
+            "title": "Antigua & Barbuda Falcons Vs Barbados Royals",
+            "tournament": "Caribbean Premier League, 2025",
+            "match_id": 132348,
             "status": "NOT_STARTED",
             "streamingStatus": "NOT_STARTED",
-            "startTime": "16 August 2025 07:00 AM",
+            "startTime": "17 August 2025 04:30 AM",
             "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/133504_5574_MRA_ACT_fc-web.jpg",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/132348_5512_ABF_BR_fc-web.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133504_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133504_5574_MRA_ACT_fc-web.jpg",
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132348_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132348_5512_ABF_BR_fc-web.jpg",
                 "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/CPL.png",
                 "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133504_5574_MRA_ACT_fc-web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133504_5574_MRA_ACT_fc-app.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133504_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132348_5512_ABF_BR_fc-web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132348_5512_ABF_BR_fc-app.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132348_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "name": "Melbourne Renegades Academy",
-                    "shortName": "MRA",
+                    "name": "Antigua & Barbuda Falcons",
+                    "shortName": "ABF",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RNE@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ABF@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#f6848b",
+                    "color": "#CC0001",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -674,81 +911,13 @@
                     }
                 },
                 {
-                    "name": "Australian Capital Territory",
-                    "shortName": "ACT",
+                    "name": "Barbados Royals",
+                    "shortName": "BR",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ACY@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BROL@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#D9C113",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Cricket",
-            "title": "Singapore Women Vs Cambodia Women",
-            "tournament": "Cambodia Women tour of Singapore, 2025",
-            "match_id": 133925,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "16 August 2025 07:00 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/old.png",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133925_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/old.png",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Cambodia-vs-Singapore-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/old.png",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/sporty-.png",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133925_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Singapore Women",
-                    "shortName": "SIN-W",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SING@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#bd0f00",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Cambodia Women",
-                    "shortName": "CAM-W",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CAMB@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#16369a",
+                    "color": "#621241",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -1157,6 +1326,74 @@
                     },
                     "isWinner": null,
                     "color": "#997832",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "Australia A Women Vs India A Women",
+            "tournament": "India A Women tour of Australia, 2025",
+            "match_id": 133234,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "17 August 2025 05:00 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/IND_A_vs_AUS_Womens_Old_match-card-(1).jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133234_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/IND_A_vs_AUS_Womens_Old_match-card-(1).jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Australia-vs-India.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/IND_A_vs_AUS_Womens_Old_match-card-(1).jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/IND_A_vs_AUS_Womens_Sporty_match-card-(1).jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133234_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Australia A Women",
+                    "shortName": "AU-A-W",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/AUS-CR1@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#4d66a3",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "India A Women",
+                    "shortName": "IN-A-W",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IND@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#0f60de",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -1858,74 +2095,6 @@
             }
         },
         {
-            "category": "Football",
-            "title": "Sv Sandhausen Vs Rb Leipzig",
-            "tournament": "DFB Pokal 2025-26",
-            "match_id": 133469,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "16 August 2025 07:00 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/133469_5570_SAND_LEP_Fc-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133469_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133469_5570_SAND_LEP_Fc-Web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/DFB-POKAL-Tour-Logo1.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133469_5570_SAND_LEP_Fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133469_5570_SAND_LEP_Fc-app.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133469_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "SV Sandhausen",
-                    "shortName": "SAND",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SAN@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#cccaca",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "RB Leipzig",
-                    "shortName": "LEP",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LEP@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#f8d665",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
             "category": "Cricket",
             "title": "Hungary Vs Sweden",
             "tournament": "ECI Norway, 2025",
@@ -2042,6 +2211,74 @@
                     "isWinner": null,
                     "color": "#DCDCDC",
                     "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Football",
+            "title": "Sv Sandhausen Vs Rb Leipzig",
+            "tournament": "DFB Pokal 2025-26",
+            "match_id": 133469,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "16 August 2025 07:00 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/133469_5570_SAND_LEP_Fc-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133469_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133469_5570_SAND_LEP_Fc-Web.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/DFB-POKAL-Tour-Logo1.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133469_5570_SAND_LEP_Fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133469_5570_SAND_LEP_Fc-app.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133469_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "SV Sandhausen",
+                    "shortName": "SAND",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SAN@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#cccaca",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "RB Leipzig",
+                    "shortName": "LEP",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LEP@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#f8d665",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2199,74 +2436,6 @@
         },
         {
             "category": "Cricket",
-            "title": "Antigua & Barbuda Falcons Vs Barbados Royals",
-            "tournament": "Caribbean Premier League, 2025",
-            "match_id": 132348,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "17 August 2025 04:30 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/132348_5512_ABF_BR_fc-web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132348_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132348_5512_ABF_BR_fc-web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/CPL.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132348_5512_ABF_BR_fc-web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132348_5512_ABF_BR_fc-app.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132348_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Antigua & Barbuda Falcons",
-                    "shortName": "ABF",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ABF@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#CC0001",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Barbados Royals",
-                    "shortName": "BR",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BROL@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#621241",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Cricket",
             "title": "Sbs Cc Vs Royal Trivianz",
             "tournament": "KCC T10 Summer League, 2025",
             "match_id": 132161,
@@ -2402,74 +2571,6 @@
             }
         },
         {
-            "category": "Cricket",
-            "title": "Australia A Women Vs India A Women",
-            "tournament": "India A Women tour of Australia, 2025",
-            "match_id": 133234,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "17 August 2025 05:00 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/IND_A_vs_AUS_Womens_Old_match-card-(1).jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133234_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/IND_A_vs_AUS_Womens_Old_match-card-(1).jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Australia-vs-India.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/IND_A_vs_AUS_Womens_Old_match-card-(1).jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/IND_A_vs_AUS_Womens_Sporty_match-card-(1).jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133234_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Australia A Women",
-                    "shortName": "AU-A-W",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/AUS-CR1@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#4d66a3",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "India A Women",
-                    "shortName": "IN-A-W",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IND@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#0f60de",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
             "category": "Football",
             "title": "Mallorca Vs Barcelona",
             "tournament": "LALIGA 2025-26",
@@ -2518,74 +2619,6 @@
                     "isWinner": null,
                     "color": "#fee64e",
                     "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Cricket",
-            "title": "Khan Zalmi Kings Vs Phoenix Cricketers",
-            "tournament": "KCC T10 Summer League, 2025",
-            "match_id": 132162,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "17 August 2025 12:15 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://images.fancode.com/aig/match/v1/132162_CASACARDS_APP.png",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132162_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://images.fancode.com/aig/match/v1/132162_CASACARDS_APP.png",
-                "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://images.fancode.com/aig/match/v1/132162_CASACARDS_APP.png",
-                "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/132162_CASACARDS_SPORTY_APP.png",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132162_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Khan Zalmi Kings",
-                    "shortName": "KZK",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR14@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#FFFF8F",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Phoenix Cricketers",
-                    "shortName": "PCT",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PHO@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#920b05",
-                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
