@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "10:46:36 AM 21-08-2025",
+    "last_updated": "10:54:29 AM 21-08-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -123,7 +123,7 @@
                             "runs": 120,
                             "overs": "20",
                             "balls": "120",
-                            "status": "IN_PROGRESS",
+                            "status": "COMPLETED",
                             "wickets": 9
                         }
                     ],
@@ -133,7 +133,7 @@
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": true
+                            "isBatting": false
                         }
                     }
                 },
@@ -145,14 +145,22 @@
                     },
                     "isWinner": null,
                     "color": "#4caade",
-                    "cricketScore": [],
+                    "cricketScore": [
+                        {
+                            "runs": 8,
+                            "overs": "1",
+                            "balls": "7",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": false
+                            "isBatting": true
                         }
                     }
                 }
@@ -173,7 +181,7 @@
             "title": "Northern Territory Strike Vs Chicago Kingsmen",
             "tournament": "Top End T20 Series, 2025",
             "match_id": 133523,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "21 August 2025 11:00 AM",
             "startDate": "01 January 1970 05:30 AM",
@@ -252,7 +260,7 @@
             "title": "Northern Territory Strike Vs Chicago Kingsmen",
             "tournament": "Top End T20 Series, 2025",
             "match_id": 133523,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "21 August 2025 11:00 AM",
             "startDate": "01 January 1970 05:30 AM",
@@ -357,8 +365,8 @@
                     "color": "#e6ae3e",
                     "cricketScore": null,
                     "kabaddiScore": {
-                        "points": 25,
-                        "onFieldPlayers": 5,
+                        "points": 31,
+                        "onFieldPlayers": 4,
                         "totalFieldPlayers": 7,
                         "raiding": true
                     },
@@ -381,8 +389,8 @@
                     "color": "#e26252",
                     "cricketScore": null,
                     "kabaddiScore": {
-                        "points": 19,
-                        "onFieldPlayers": 4,
+                        "points": 27,
+                        "onFieldPlayers": 5,
                         "totalFieldPlayers": 7,
                         "raiding": null
                     },
