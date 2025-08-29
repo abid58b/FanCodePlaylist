@@ -59,7 +59,7 @@ jobs:
             "\"," + 
             (.title // "Untitled Match") + " - " + (.language // "Unknown Language") + 
             "\n" +
-            (.adfree_stream // .STREAMING_CDN.Primary_Playback_URL // .dai_stream // "http://invalid.stream.url")
+            (.adfree_stream // .STREAMING_CDN.Primary_Playback_URL // .STREAMING_CDN.fancode_cdn // .dai_stream // "http://invalid.stream.url")
             ' fancode.json >> fancode-new.m3u
 
         sed -i 's|https://in-mc-pdlive.fancode.com/mumbai/|https://dai.fancode.com/primary/|g' fancode-new.m3u
