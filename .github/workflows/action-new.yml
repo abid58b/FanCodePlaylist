@@ -47,7 +47,7 @@ jobs:
       run: |
         echo "#EXTM3U" > fancode-new.m3u
 
-        # Modified jq query to filter by "status": "STARTED"
+        # Modified jq query to filter by status STARTED
         jq -r '.matches[] |
             select(.streamingStatus == "STARTED") |
             "#EXTINF:-1 tvg-id=\"" + 
