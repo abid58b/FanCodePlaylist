@@ -2,7 +2,7 @@ name: Fancode Upload Links
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # Runs every 20 minutes
+    - cron: '*/20 * * * *' # Runs every 20 minutes
   push:
     branches:
       - main
