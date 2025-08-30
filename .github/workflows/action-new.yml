@@ -59,7 +59,7 @@ jobs:
             "\"," + 
             (.title // "Untitled Match") + " - " + (.language // "Unknown Language") + 
             "\n#EXTVLCOPT:http-referrer=" + 
-            (if (.adfree_stream // .STREAMING_CDN.Primary_Playback_URL // .STREAMING_CDN.fancode_cdn // .dai_stream) then "https://www.fancode.com" else "https://invalid.stream.url" end) + 
+            (.adfree_stream // .STREAMING_CDN.Primary_Playback_URL // .STREAMING_CDN.fancode_cdn // .dai_stream // "http://invalid.stream.url") +
             "\n" +
             (.adfree_stream // .STREAMING_CDN.Primary_Playback_URL // .STREAMING_CDN.fancode_cdn // .dai_stream // "http://invalid.stream.url")
             ' fancode.json >> fancode-new.m3u
