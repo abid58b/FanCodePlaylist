@@ -58,6 +58,7 @@ jobs:
             (.category // "Uncategorized") + 
             "\"," + 
             (.title // "Untitled Match") + " - " + (.language // "Unknown Language") + 
+            "\n#EXTVLCOPT:http-referrer=\"" + (.adfree_stream // .STREAMING_CDN.Primary_Playback_URL // .STREAMING_CDN.fancode_cdn // .dai_stream // "http://invalid.stream.url")" +
             "\n" +
             (.adfree_stream // .STREAMING_CDN.Primary_Playback_URL // .STREAMING_CDN.fancode_cdn // .dai_stream // "http://invalid.stream.url")
             ' fancode.json >> fancode-new.m3u
