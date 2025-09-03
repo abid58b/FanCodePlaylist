@@ -54,9 +54,7 @@ jobs:
             ((.match_id | tostring) // "unknown_id") + 
             "\" tvg-logo=\"" + 
             ((.image_cdn.PLAYBACK // .image // "no_logo_available") | tostring) + 
-            "\" group-title=\"" + 
-            (.category // "Uncategorized") + 
-            "\"," + 
+            "\" group-title=\"Live\"," + 
             (.title // "Untitled Match") + " - " + (.language // "Unknown Language") + 
             "\n" +
             (.adfree_stream // .STREAMING_CDN.Primary_Playback_URL // .STREAMING_CDN.fancode_cdn // .dai_stream // "http://invalid.stream.url")
