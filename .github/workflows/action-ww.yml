@@ -2,7 +2,7 @@ name: Generate Modified Fancode Playlist
 
 on:
   schedule:
-    - cron: '*/20 * * * *' 
+    - cron: '*/15 * * * *' 
   push:
     branches:
       - main 
@@ -43,8 +43,11 @@ jobs:
       if: steps.check_file.outputs.file_found == 'true'
       run: |
         cp fancode.m3u fancode_ww1.m3u
-        sed -i 's|https://in-mc-fdlive.fancode.com/mumbai/|https://dai.fancode.com/primary/|g' fancode_ww1.m3u
-        sed -i 's|\(https://dai.fancode.com/primary/[^ ]*\)|https://allinonereborn.fun/fc123/play.php?url=\1|g' fancode_ww1.m3u
+        sed -i 's|https://in-mc-pdlive.fancode.com/mumbai/|https://abcd-foxcon-72bi.vercel.app/|g' fancode_ww1.m3u
+        sed -i 's|https://in-mc-fdlive.fancode.com/mumbai/|https://abcd-foxcon-72bi.vercel.app/|g' fancode_ww1.m3u
+        sed -i 's|https://in-mc-plive.fancode.com/mumbai/|https://abcd-foxcon-72bi.vercel.app/|g' fancode_ww1.m3u
+        sed -i 's|https://in-mc-flive.fancode.com/mumbai/|https://abcd-foxcon-72bi.vercel.app/|g' fancode_ww1.m3u
+        sed -i 's|https://in-mc-dlive.fancode.com/mumbai/|https://abcd-foxcon-72bi.vercel.app/|g' fancode_ww1.m3u
       
     - name: Commit and push modified file
       if: steps.check_file.outputs.file_found == 'true'
