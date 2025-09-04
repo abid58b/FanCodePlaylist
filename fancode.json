@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "01:37:22 AM 05-09-2025",
+    "last_updated": "01:58:22 AM 05-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -37,7 +37,7 @@
                     "flag": {
                         "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RSA@2x.png"
                     },
-                    "isWinner": null,
+                    "isWinner": true,
                     "color": "#2d9251",
                     "cricketScore": [
                         {
@@ -64,15 +64,15 @@
                     "flag": {
                         "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ENG@2x.png"
                     },
-                    "isWinner": null,
+                    "isWinner": false,
                     "color": "#3c9ae8",
                     "cricketScore": [
                         {
-                            "runs": 288,
-                            "overs": "46.1",
-                            "balls": "277",
+                            "runs": 325,
+                            "overs": "50",
+                            "balls": "300",
                             "status": "IN_PROGRESS",
-                            "wickets": 7
+                            "wickets": 9
                         }
                     ],
                     "kabaddiScore": null,
@@ -128,11 +128,11 @@
                     "color": "#1672c1",
                     "cricketScore": [
                         {
-                            "runs": 87,
-                            "overs": "9",
-                            "balls": "54",
+                            "runs": 101,
+                            "overs": "13.3",
+                            "balls": "81",
                             "status": "IN_PROGRESS",
-                            "wickets": 1
+                            "wickets": 4
                         }
                     ],
                     "kabaddiScore": null,
@@ -207,10 +207,24 @@
                     "color": "#b21913",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 1,
+                        "goals": [
+                            {
+                                "id": "679037",
+                                "shortName": "H Mastouri",
+                                "isOwnGoal": false,
+                                "goalTime": "5'"
+                            }
+                        ]
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
-                    "status": null
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
                 },
                 {
                     "name": "Liberia",
@@ -222,10 +236,17 @@
                     "color": "#0c2764",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
-                    "status": null
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
                 }
             ],
             "language": "ENGLISH",
