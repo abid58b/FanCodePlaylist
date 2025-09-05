@@ -1,4 +1,4 @@
-name: Generate Modified Fancode Playlist
+name: Generate Fancode-ww1 Playlist
 
 on:
   schedule:
@@ -53,13 +53,12 @@ jobs:
       if: steps.check_file.outputs.file_found == 'true'
       run: |
         git add fancode_ww1.m3u
-        git fetch origin main
-        git reset --soft origin/main
+        
         if git diff --cached --quiet; then
           echo "No changes to fancode_ww1.m3u to commit."
-          git pull origin main --rebase
-          git push origin main
         else
+          git fetch origin main
+          git reset --soft origin/main
           git commit -m "Auto-generated: Update Fancode playlist"
           git push origin main
         fi
