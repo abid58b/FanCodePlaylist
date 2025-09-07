@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "09:58:38 PM 07-09-2025",
+    "last_updated": "10:12:38 PM 07-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
-    "total_matches": 42,
-    "live_matches": 12,
-    "upcoming_matches": 30,
+    "total_matches": 40,
+    "live_matches": 11,
+    "upcoming_matches": 29,
     "matches": [
         {
             "category": "Cricket",
@@ -41,9 +41,9 @@
                     "color": "#621241",
                     "cricketScore": [
                         {
-                            "runs": 127,
-                            "overs": "16.4",
-                            "balls": "100",
+                            "runs": 171,
+                            "overs": "19",
+                            "balls": "114",
                             "status": "IN_PROGRESS",
                             "wickets": 5
                         }
@@ -120,9 +120,9 @@
                     "color": "#621241",
                     "cricketScore": [
                         {
-                            "runs": 127,
-                            "overs": "16.4",
-                            "balls": "100",
+                            "runs": 171,
+                            "overs": "19",
+                            "balls": "114",
                             "status": "IN_PROGRESS",
                             "wickets": 5
                         }
@@ -173,7 +173,7 @@
             "title": "England Vs South Africa",
             "tournament": "South Africa tour of England, 2025",
             "match_id": 135990,
-            "status": "LIVE",
+            "status": "COMPLETED",
             "streamingStatus": "STARTED",
             "startTime": "07 September 2025 03:30 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -245,10 +245,10 @@
                 }
             ],
             "language": "ENGLISH",
-            "adfree_stream": "https://dai.google.com/linear/hls/event/eerPuh7PQM-0T7qEJ9TwHQ/master.m3u8",
+            "adfree_stream": "https://sonypartnersdaimenew.akamaized.net/hls/live/2022315/DAI11FC/master.m3u8?hdnea=exp=1757291404~acl=/*~id=57813945922092710230686258324035~hmac=f0672b6fc2de204d7e1276538259fa3aa2cc10b16158b5fe28a2da8c94df03af",
             "dai_stream": "https://dai.google.com/linear/hls/event/eerPuh7PQM-0T7qEJ9TwHQ/master.m3u8",
             "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/eerPuh7PQM-0T7qEJ9TwHQ/master.m3u8",
+                "Primary_Playback_URL": "https://sonypartnersdaimenew.akamaized.net/hls/live/2022315/DAI11FC/master.m3u8?hdnea=exp=1757291404~acl=/*~id=57813945922092710230686258324035~hmac=f0672b6fc2de204d7e1276538259fa3aa2cc10b16158b5fe28a2da8c94df03af",
                 "fancode_cdn": "Unavailable",
                 "dai_google_cdn": "https://dai.google.com/linear/hls/event/eerPuh7PQM-0T7qEJ9TwHQ/master.m3u8",
                 "cloudfront_cdn": "Unavailable",
@@ -313,9 +313,9 @@
                     "color": "#b7e330",
                     "cricketScore": [
                         {
-                            "runs": 96,
-                            "overs": "13.5",
-                            "balls": "83",
+                            "runs": 106,
+                            "overs": "16.1",
+                            "balls": "97",
                             "status": "IN_PROGRESS",
                             "wickets": 8
                         }
@@ -400,9 +400,9 @@
                     "color": "#b7e330",
                     "cricketScore": [
                         {
-                            "runs": 96,
-                            "overs": "13.5",
-                            "balls": "83",
+                            "runs": 106,
+                            "overs": "16.1",
+                            "balls": "97",
                             "status": "IN_PROGRESS",
                             "wickets": 8
                         }
@@ -460,11 +460,11 @@
                     "color": "#559830",
                     "cricketScore": [
                         {
-                            "runs": 99,
-                            "overs": "16",
-                            "balls": "96",
+                            "runs": 130,
+                            "overs": "19",
+                            "balls": "114",
                             "status": "IN_PROGRESS",
-                            "wickets": 5
+                            "wickets": 7
                         }
                     ],
                     "kabaddiScore": null,
@@ -720,13 +720,19 @@
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": {
-                        "points": 1,
+                        "points": 2,
                         "goals": [
                             {
                                 "id": "113064",
                                 "shortName": "Y M'Changama",
                                 "isOwnGoal": false,
                                 "goalTime": "20'"
+                            },
+                            {
+                                "id": "208556",
+                                "shortName": "M Maolida",
+                                "isOwnGoal": false,
+                                "goalTime": "39'"
                             }
                         ]
                     },
@@ -781,10 +787,17 @@
                     "color": "#1278b9",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
-                    "status": null
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
                 },
                 {
                     "name": "Racing de Santander",
@@ -796,10 +809,17 @@
                     "color": "#752009",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
-                    "status": null
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
                 }
             ],
             "language": "ENGLISH",
@@ -882,219 +902,6 @@
                 "dai_google_cdn": "https://dai.google.com/linear/hls/event/P3s4pH3KSzqXi8ufXmhBeA/master.m3u8",
                 "cloudfront_cdn": "Unavailable",
                 "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Formula 1",
-            "title": "Race",
-            "tournament": "F1 PIRELLI GRAN PREMIO D\u2019ITALIA 2025",
-            "match_id": 118460,
-            "status": "LIVE",
-            "streamingStatus": "STARTED",
-            "startTime": "07 September 2025 06:30 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_match-card.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/118460_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_match-card.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_match-card.jpg",
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/R16-Italy-GP-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Formula1-1440-x-360.png",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_match-card.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_Sporty_Match_card_Race.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/118460_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Race",
-                    "shortName": "RC",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#EE0000",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Italy",
-                    "shortName": "Italy",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#141414",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://d266bbdxspm9rd.cloudfront.net/out/v1/aeb90808c10b4dfeb543017dc9144e91/index.m3u8",
-            "dai_stream": "Unavailable",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://d266bbdxspm9rd.cloudfront.net/out/v1/aeb90808c10b4dfeb543017dc9144e91/index.m3u8",
-                "fancode_cdn": "Unavailable",
-                "dai_google_cdn": "Unavailable",
-                "cloudfront_cdn": "https://d266bbdxspm9rd.cloudfront.net/out/v1/aeb90808c10b4dfeb543017dc9144e91/index.m3u8",
-                "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Formula 1",
-            "title": "Race",
-            "tournament": "F1 PIRELLI GRAN PREMIO D\u2019ITALIA 2025",
-            "match_id": 118460,
-            "status": "LIVE",
-            "streamingStatus": "STARTED",
-            "startTime": "07 September 2025 06:30 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_match-card.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/118460_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_match-card.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_match-card.jpg",
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/R16-Italy-GP-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Formula1-1440-x-360.png",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_match-card.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_Sporty_Match_card_Race.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/118460_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Race",
-                    "shortName": "RC",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#EE0000",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Italy",
-                    "shortName": "Italy",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#141414",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "HINDI",
-            "adfree_stream": "https://duow6nrpa93fz.cloudfront.net/out/v1/2de2a272f96c40b588b4fec6297b36c8/index.m3u8",
-            "dai_stream": "Unavailable",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://duow6nrpa93fz.cloudfront.net/out/v1/2de2a272f96c40b588b4fec6297b36c8/index.m3u8",
-                "fancode_cdn": "Unavailable",
-                "dai_google_cdn": "Unavailable",
-                "cloudfront_cdn": "https://duow6nrpa93fz.cloudfront.net/out/v1/2de2a272f96c40b588b4fec6297b36c8/index.m3u8",
-                "language": "HINDI"
-            }
-        },
-        {
-            "category": "Formula 1",
-            "title": "Race",
-            "tournament": "F1 PIRELLI GRAN PREMIO D\u2019ITALIA 2025",
-            "match_id": 118460,
-            "status": "LIVE",
-            "streamingStatus": "STARTED",
-            "startTime": "07 September 2025 06:30 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_match-card.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/118460_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_match-card.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_match-card.jpg",
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/R16-Italy-GP-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Formula1-1440-x-360.png",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_match-card.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-PIRELLI-GRAN-PREMIO-DITALIA-2025_Sporty_Match_card_Race.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/118460_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Race",
-                    "shortName": "RC",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#EE0000",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Italy",
-                    "shortName": "Italy",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#141414",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "TAMIL",
-            "adfree_stream": "https://d1cfwqtdc3qrsv.cloudfront.net/out/v1/fa85df966e0644c2964dd96ca9cedc97/index.m3u8",
-            "dai_stream": "Unavailable",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://d1cfwqtdc3qrsv.cloudfront.net/out/v1/fa85df966e0644c2964dd96ca9cedc97/index.m3u8",
-                "fancode_cdn": "Unavailable",
-                "dai_google_cdn": "Unavailable",
-                "cloudfront_cdn": "https://d1cfwqtdc3qrsv.cloudfront.net/out/v1/fa85df966e0644c2964dd96ca9cedc97/index.m3u8",
-                "language": "TAMIL"
             }
         },
         {
@@ -1828,6 +1635,74 @@
                     },
                     "isWinner": null,
                     "color": "#141414",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Baseball",
+            "title": "Baltimore Orioles Vs Los Angeles Dodgers",
+            "tournament": "Major League Baseball, 2025",
+            "match_id": 136822,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "07 September 2025 11:05 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/136822_5028_BAO_LAD_fc-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136822_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136822_5028_BAO_LAD_fc-Web.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/MLB-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Baseball-1440-x-360.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136822_5028_BAO_LAD_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136822_5028_BAO_LAD_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136822_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Baltimore Orioles",
+                    "shortName": "BAO",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-BALTI@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#ff8048",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Los Angeles Dodgers",
+                    "shortName": "LAD",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-LODOG@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#77c0f6",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -2598,74 +2473,6 @@
         },
         {
             "category": "Baseball",
-            "title": "Baltimore Orioles Vs Los Angeles Dodgers",
-            "tournament": "Major League Baseball, 2025",
-            "match_id": 136822,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "07 September 2025 11:05 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/136822_5028_BAO_LAD_fc-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136822_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136822_5028_BAO_LAD_fc-Web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/MLB-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Baseball-1440-x-360.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136822_5028_BAO_LAD_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136822_5028_BAO_LAD_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136822_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Baltimore Orioles",
-                    "shortName": "BAO",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-BALTI@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#ff8048",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Los Angeles Dodgers",
-                    "shortName": "LAD",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-LODOG@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#77c0f6",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Baseball",
             "title": "Texas Rangers Vs Houston Astros",
             "tournament": "Major League Baseball, 2025",
             "match_id": 136823,
@@ -2733,43 +2540,35 @@
             }
         },
         {
-            "category": "Cricket",
-            "title": "Kent Vs Lancashire",
-            "tournament": "Vitality Blast T20, 2025",
-            "match_id": 136726,
-            "status": "COMPLETED",
-            "streamingStatus": "COMPLETED",
-            "startTime": "06 September 2025 07:00 PM",
+            "category": "Football",
+            "title": "Eibar Vs Fc Andorra",
+            "tournament": "LALIGA Hypermotion 2025-26",
+            "match_id": 135975,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "09 September 2025 12:00 AM",
             "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Lancashire_vs_Kent_Old_match_-cards.jpg",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/135975_5572_EIB_AND_fc-Web.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136726_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Lancashire_vs_Kent_Old_match_-cards.jpg",
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/135975_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/135975_5572_EIB_AND_fc-Web.jpg",
                 "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/05/Vitality-Blast-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Lancashire_vs_Kent_Old_match_-cards.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Lancashire_vs_Kent_Sporty_match_-cards.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136726_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/135975_5572_EIB_AND_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/135975_5572_EIB_AND_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/135975_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "name": "Kent",
-                    "shortName": "KET",
+                    "name": "Eibar",
+                    "shortName": "EIB",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KET@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EIB@2x.png"
                     },
-                    "isWinner": false,
-                    "color": "#843961",
-                    "cricketScore": [
-                        {
-                            "runs": 153,
-                            "overs": "20",
-                            "balls": "120",
-                            "status": "COMPLETED",
-                            "wickets": 10
-                        }
-                    ],
+                    "isWinner": null,
+                    "color": "#F5D577",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2781,29 +2580,21 @@
                     }
                 },
                 {
-                    "name": "Lancashire",
-                    "shortName": "LAN",
+                    "name": "FC Andorra",
+                    "shortName": "AND",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LAN@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT13@2x.png"
                     },
-                    "isWinner": true,
-                    "color": "#e9515e",
-                    "cricketScore": [
-                        {
-                            "runs": 156,
-                            "overs": "18.3",
-                            "balls": "111",
-                            "status": "IN_PROGRESS",
-                            "wickets": 7
-                        }
-                    ],
+                    "isWinner": null,
+                    "color": "#141414",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": true
+                            "isBatting": false
                         }
                     }
                 }
@@ -3031,6 +2822,90 @@
                             "balls": "120",
                             "status": "IN_PROGRESS",
                             "wickets": 9
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "Trinbago Knight Riders Vs Guyana Amazon Warriors",
+            "tournament": "Caribbean Premier League, 2025",
+            "match_id": 132368,
+            "status": "COMPLETED",
+            "streamingStatus": "COMPLETED",
+            "startTime": "07 September 2025 04:30 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/132368_5512_GUY_TKR_fc-web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132368_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132368_5512_GUY_TKR_fc-web.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/CPL.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132368_5512_GUY_TKR_fc-web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132368_5512_GUY_TKR_fc-app.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132368_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Trinbago Knight Riders",
+                    "shortName": "TKR",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TKRD@2x.png"
+                    },
+                    "isWinner": false,
+                    "color": "#311659",
+                    "cricketScore": [
+                        {
+                            "runs": 167,
+                            "overs": "20",
+                            "balls": "120",
+                            "status": "COMPLETED",
+                            "wickets": 5
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Guyana Amazon Warriors",
+                    "shortName": "GUY",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png"
+                    },
+                    "isWinner": true,
+                    "color": "#b01018",
+                    "cricketScore": [
+                        {
+                            "runs": 168,
+                            "overs": "19.5",
+                            "balls": "119",
+                            "status": "IN_PROGRESS",
+                            "wickets": 7
                         }
                     ],
                     "kabaddiScore": null,
