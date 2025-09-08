@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "12:58:44 AM 09-09-2025",
+    "last_updated": "01:12:43 AM 09-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -114,8 +114,15 @@
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": {
-                        "points": 0,
-                        "goals": []
+                        "points": 1,
+                        "goals": [
+                            {
+                                "id": "490865",
+                                "shortName": "S Cubero",
+                                "isOwnGoal": false,
+                                "goalTime": "53'"
+                            }
+                        ]
                     },
                     "basketBallScore": null,
                     "hockeyScore": null,
@@ -2526,43 +2533,35 @@
             }
         },
         {
-            "category": "Cricket",
-            "title": "Guyana Amazon Warriors Women Vs Barbados Royals Women",
-            "tournament": "Women's Caribbean Premier League, 2025",
-            "match_id": 133801,
-            "status": "COMPLETED",
-            "streamingStatus": "COMPLETED",
-            "startTime": "08 September 2025 12:30 AM",
+            "category": "Football",
+            "title": "Peru Vs Paraguay",
+            "tournament": "CONMEBOL World Cup Qualifiers",
+            "match_id": 136675,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "10 September 2025 05:00 AM",
             "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/133801_5594_GUY-W_BR-W_fc-Web_1757131430160.jpg",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/136675_3542_PER_PAR_fc-Web.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/133801_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/133801_5594_GUY-W_BR-W_fc-Web_1757131430160.jpg",
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136675_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136675_3542_PER_PAR_fc-Web.jpg",
                 "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/WCPL.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133801_5594_GUY-W_BR-W_fc-Web_1757131430160.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/133801_5594_GUY-W_BR-W_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133801_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/FIFA_Qualifier_Tour_Logo-Grid.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136675_3542_PER_PAR_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136675_3542_PER_PAR_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136675_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "name": "Guyana Amazon Warriors Women",
-                    "shortName": "GUY-W",
+                    "name": "Peru",
+                    "shortName": "PER",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PERU@2x.png"
                     },
-                    "isWinner": false,
-                    "color": "#b01018",
-                    "cricketScore": [
-                        {
-                            "runs": 154,
-                            "overs": "20",
-                            "balls": "120",
-                            "status": "COMPLETED",
-                            "wickets": 4
-                        }
-                    ],
+                    "isWinner": null,
+                    "color": "#c21414",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2574,29 +2573,21 @@
                     }
                 },
                 {
-                    "name": "Barbados Royals Women",
-                    "shortName": "BR-W",
+                    "name": "Paraguay",
+                    "shortName": "PAR",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BROL@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PARU@2x.png"
                     },
-                    "isWinner": true,
-                    "color": "#621241",
-                    "cricketScore": [
-                        {
-                            "runs": 140,
-                            "overs": "17.2",
-                            "balls": "104",
-                            "status": "IN_PROGRESS",
-                            "wickets": 3
-                        }
-                    ],
+                    "isWinner": null,
+                    "color": "#008b03",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": true
+                            "isBatting": false
                         }
                     }
                 }
@@ -2610,43 +2601,35 @@
             }
         },
         {
-            "category": "Cricket",
-            "title": "St Kitts And Nevis Patriots Vs Guyana Amazon Warriors",
-            "tournament": "Caribbean Premier League, 2025",
-            "match_id": 132370,
-            "status": "COMPLETED",
-            "streamingStatus": "COMPLETED",
-            "startTime": "08 September 2025 05:30 AM",
+            "category": "Football",
+            "title": "Chile Vs Uruguay",
+            "tournament": "CONMEBOL World Cup Qualifiers",
+            "match_id": 136674,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "10 September 2025 05:00 AM",
             "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/132370_5512_GUY_SKN_fc-web.jpg",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/136674_3542_CHI_URU_fc-Web.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132370_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132370_5512_GUY_SKN_fc-web.jpg",
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136674_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136674_3542_CHI_URU_fc-Web.jpg",
                 "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/CPL.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132370_5512_GUY_SKN_fc-web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132370_5512_GUY_SKN_fc-app.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132370_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/FIFA_Qualifier_Tour_Logo-Grid.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136674_3542_CHI_URU_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136674_3542_CHI_URU_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136674_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "name": "St Kitts and Nevis Patriots",
-                    "shortName": "SKN",
+                    "name": "Chile",
+                    "shortName": "CHI",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SKPA@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHIL@2x.png"
                     },
-                    "isWinner": true,
-                    "color": "#3fd379",
-                    "cricketScore": [
-                        {
-                            "runs": 149,
-                            "overs": "20",
-                            "balls": "120",
-                            "status": "COMPLETED",
-                            "wickets": 6
-                        }
-                    ],
+                    "isWinner": null,
+                    "color": "#d23421",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2658,29 +2641,21 @@
                     }
                 },
                 {
-                    "name": "Guyana Amazon Warriors",
-                    "shortName": "GUY",
+                    "name": "Uruguay",
+                    "shortName": "URU",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUWA@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-URG@2x.png"
                     },
-                    "isWinner": false,
-                    "color": "#b01018",
-                    "cricketScore": [
-                        {
-                            "runs": 144,
-                            "overs": "20",
-                            "balls": "120",
-                            "status": "IN_PROGRESS",
-                            "wickets": 8
-                        }
-                    ],
+                    "isWinner": null,
+                    "color": "#2354b5",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": true
+                            "isBatting": false
                         }
                     }
                 }
