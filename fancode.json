@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "09:37:45 PM 08-09-2025",
+    "last_updated": "09:58:43 PM 08-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -172,7 +172,7 @@
             "title": "Guinea Bissau Vs Djibouti",
             "tournament": "CAF World Cup Qualifiers",
             "match_id": 136681,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "08 September 2025 09:30 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -198,7 +198,10 @@
                     "color": "#009e49",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
@@ -217,7 +220,10 @@
                     "color": "#c53028",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
@@ -371,8 +377,15 @@
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": {
-                        "points": 0,
-                        "goals": []
+                        "points": 1,
+                        "goals": [
+                            {
+                                "id": "658995",
+                                "shortName": "Y Allarabaye",
+                                "isOwnGoal": false,
+                                "goalTime": "25'"
+                            }
+                        ]
                     },
                     "basketBallScore": null,
                     "hockeyScore": null,
@@ -478,74 +491,6 @@
                 "cloudfront_cdn": "Unavailable",
                 "sony_cdn": "Unavailable",
                 "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Cricket",
-            "title": "Yalla Shabab Giants Vs Pai Xi Mavericks",
-            "tournament": "Oman D10 League, 2025",
-            "match_id": 136764,
-            "status": "LIVE",
-            "streamingStatus": "COMPLETED",
-            "startTime": "08 September 2025 07:15 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136764_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10,-2025-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_Sporty_03.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136764_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Yalla Shabab Giants",
-                    "shortName": "YSG",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-YSG@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#D11919",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Pai XI Mavericks",
-                    "shortName": "PXM",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PXM@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#ed8585",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
             }
         },
         {
@@ -1161,6 +1106,74 @@
             }
         },
         {
+            "category": "Cricket",
+            "title": "Yalla Shabab Giants Vs Renaissance Challengers",
+            "tournament": "Oman D10 League, 2025",
+            "match_id": 136767,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "09 September 2025 05:00 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136767_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10,-2025-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_Sporty_03.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136767_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Yalla Shabab Giants",
+                    "shortName": "YSG",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-YSG@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#D11919",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Renaissance Challengers",
+                    "shortName": "RNC",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RNC@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#bb4335",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
             "category": "Football",
             "title": "Eibar Vs Fc Andorra",
             "tournament": "LALIGA Hypermotion 2025-26",
@@ -1366,74 +1379,6 @@
         },
         {
             "category": "Cricket",
-            "title": "Yalla Shabab Giants Vs Renaissance Challengers",
-            "tournament": "Oman D10 League, 2025",
-            "match_id": 136767,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "09 September 2025 05:00 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136767_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10,-2025-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_Sporty_03.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136767_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Yalla Shabab Giants",
-                    "shortName": "YSG",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-YSG@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#D11919",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Renaissance Challengers",
-                    "shortName": "RNC",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RNC@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#bb4335",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Cricket",
             "title": "West Indies Under 19 Vs Sri Lanka Under 19",
             "tournament": "Sri Lanka Under-19 tour of West Indies, 2025",
             "match_id": 135985,
@@ -1597,7 +1542,7 @@
                     },
                     "isWinner": null,
                     "color": "#5438bd",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -1616,7 +1561,7 @@
                     },
                     "isWinner": null,
                     "color": "#9a91f9",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2683,6 +2628,90 @@
                             "balls": "120",
                             "status": "IN_PROGRESS",
                             "wickets": 9
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "Pakistan Vs Afghanistan",
+            "tournament": "Afghanistan and Pakistan tour of UAE, 2025",
+            "match_id": 135790,
+            "status": "COMPLETED",
+            "streamingStatus": "COMPLETED",
+            "startTime": "07 September 2025 08:30 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/UAE,-AFG-&-PAK-Tri-series_old.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/135790_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/UAE,-AFG-&-PAK-Tri-series_old.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Tri-Nation_UAEvPAKvAFG_Series2025.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/UAE,-AFG-&-PAK-Tri-series_old.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/UAE,-AFG-&-PAK-Tri-series_Sporty.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/135790_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Pakistan",
+                    "shortName": "PAK",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png"
+                    },
+                    "isWinner": true,
+                    "color": "#559830",
+                    "cricketScore": [
+                        {
+                            "runs": 141,
+                            "overs": "20",
+                            "balls": "120",
+                            "status": "COMPLETED",
+                            "wickets": 8
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Afghanistan",
+                    "shortName": "AFG",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AFG@2x.png"
+                    },
+                    "isWinner": false,
+                    "color": "#2f5ddf",
+                    "cricketScore": [
+                        {
+                            "runs": 66,
+                            "overs": "15.5",
+                            "balls": "95",
+                            "status": "IN_PROGRESS",
+                            "wickets": 10
                         }
                     ],
                     "kabaddiScore": null,
