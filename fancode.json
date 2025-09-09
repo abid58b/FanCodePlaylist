@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "05:05:24 AM 10-09-2025",
+    "last_updated": "05:12:25 AM 10-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -136,9 +136,9 @@
                     "color": "#6CA7E8",
                     "cricketScore": [
                         {
-                            "runs": 27,
-                            "overs": "7.3",
-                            "balls": "45",
+                            "runs": 48,
+                            "overs": "9.3",
+                            "balls": "57",
                             "status": "IN_PROGRESS",
                             "wickets": 4
                         }
@@ -224,11 +224,11 @@
                     "color": "#ac362c",
                     "cricketScore": [
                         {
-                            "runs": 27,
-                            "overs": "7",
-                            "balls": "42",
+                            "runs": 38,
+                            "overs": "8.4",
+                            "balls": "52",
                             "status": "IN_PROGRESS",
-                            "wickets": 5
+                            "wickets": 6
                         }
                     ],
                     "kabaddiScore": null,
@@ -427,10 +427,24 @@
                     "color": "#456cd3",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 1,
+                        "goals": [
+                            {
+                                "id": "485108",
+                                "shortName": "T Segovia",
+                                "isOwnGoal": false,
+                                "goalTime": "3'"
+                            }
+                        ]
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
-                    "status": null
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
                 },
                 {
                     "name": "Colombia",
@@ -442,10 +456,17 @@
                     "color": "#e4c01a",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
-                    "status": null
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
                 }
             ],
             "language": "ENGLISH",
