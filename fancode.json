@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "10:58:03 PM 10-09-2025",
+    "last_updated": "11:05:02 PM 10-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
     "total_matches": 38,
-    "live_matches": 1,
-    "upcoming_matches": 37,
+    "live_matches": 2,
+    "upcoming_matches": 36,
     "matches": [
         {
             "category": "Cricket",
@@ -16,14 +16,14 @@
             "tournament": "South Africa tour of England, 2025",
             "match_id": 135991,
             "status": "LIVE",
-            "streamingStatus": "NOT_STARTED",
+            "streamingStatus": "STARTED",
             "startTime": "10 September 2025 11:00 PM",
             "startDate": "01 January 1970 05:30 AM",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/South-Africa-Tour-of-England-T20Is_old_v1.jpg",
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/135991_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/South-Africa-Tour-of-England-T20Is_old_v1.jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/South-Africa-Tour-of-England-T20Is_old_v1.jpg",
                 "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ENG-vs-SA.png",
                 "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
                 "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/South-Africa-Tour-of-England-T20Is_old_v1.jpg",
@@ -70,12 +70,16 @@
                     }
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://sonypartnersdaimenew.akamaized.net/hls/live/2022315/DAI11FC/master.m3u8?hdnea=exp=1757550600~acl=/*~id=60760350757592916476926935954632~hmac=1bae2ca0b1155bd02cf4635af7486e09b6514df26b2f8c81b47c41fb00fc53bc",
+            "dai_stream": "https://dai.google.com/linear/hls/event/eerPuh7PQM-0T7qEJ9TwHQ/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://sonypartnersdaimenew.akamaized.net/hls/live/2022315/DAI11FC/master.m3u8?hdnea=exp=1757550600~acl=/*~id=60760350757592916476926935954632~hmac=1bae2ca0b1155bd02cf4635af7486e09b6514df26b2f8c81b47c41fb00fc53bc",
+                "fancode_cdn": "Unavailable",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/eerPuh7PQM-0T7qEJ9TwHQ/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2022315/DAI11FC/master.m3u8?hdnea=exp=1757550600~acl=/*~id=60760350757592916476926935954632~hmac=1bae2ca0b1155bd02cf4635af7486e09b6514df26b2f8c81b47c41fb00fc53bc",
+                "language": "ENGLISH"
             }
         },
         {
@@ -399,6 +403,74 @@
                     "isWinner": null,
                     "color": "#B8142D",
                     "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Baseball",
+            "title": "Texas Rangers Vs Milwaukee Brewers",
+            "tournament": "Major League Baseball, 2025",
+            "match_id": 136826,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "11 September 2025 12:05 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/136826_5028_TR_MB_fc-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136826_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136826_5028_TR_MB_fc-Web.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/MLB-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Baseball-1440-x-360.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136826_5028_TR_MB_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136826_5028_TR_MB_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136826_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Texas Rangers",
+                    "shortName": "TR",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-TEXSRA@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#4b8fef",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Milwaukee Brewers",
+                    "shortName": "MB",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-MILWAU@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#1f3b65",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -806,74 +878,6 @@
                     },
                     "isWinner": null,
                     "color": "#3fd379",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Baseball",
-            "title": "Texas Rangers Vs Milwaukee Brewers",
-            "tournament": "Major League Baseball, 2025",
-            "match_id": 136826,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "11 September 2025 12:05 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/136826_5028_TR_MB_fc-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136826_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136826_5028_TR_MB_fc-Web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/MLB-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Baseball-1440-x-360.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136826_5028_TR_MB_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136826_5028_TR_MB_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136826_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Texas Rangers",
-                    "shortName": "TR",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-TEXSRA@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#4b8fef",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Milwaukee Brewers",
-                    "shortName": "MB",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-MILWAU@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#1f3b65",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
