@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "07:19:23 PM 12-09-2025",
+    "last_updated": "07:37:10 PM 12-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -10,78 +10,6 @@
     "live_matches": 9,
     "upcoming_matches": 30,
     "matches": [
-        {
-            "category": "MotoGP",
-            "title": "Day 1",
-            "tournament": "RED BULL GRAND PRIX OF SAN MARINO & RIMINI RIVIERA",
-            "match_id": 119192,
-            "status": "LIVE",
-            "streamingStatus": "STARTED",
-            "startTime": "12 September 2025 06:30 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-old-match-card.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/119192_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-old-match-card.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-old-match-card.jpg",
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/GP16-San-Marino_1748921637774.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Moto_GP-1440-x-360.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-old-match-card.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-Sporty-match-card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/119192_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Day 1",
-                    "shortName": "PP",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-MG@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#EE0000",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Misano World Circuit Marco Simoncelli",
-                    "shortName": "Misano World Circuit Marco Simoncelli",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-LOT@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#EE0000",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/119192_english_hls_6480ffada670845ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/dND2mwV3S7a8_RfdCMdTUg/master.m3u8",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/119192_english_hls_6480ffada670845ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/119192_english_hls_6480ffada670845ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/dND2mwV3S7a8_RfdCMdTUg/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "sony_cdn": "Unavailable",
-                "language": "ENGLISH"
-            }
-        },
         {
             "category": "Cricket",
             "title": "Pakistan Vs Oman",
@@ -111,14 +39,22 @@
                     },
                     "isWinner": null,
                     "color": "#559830",
-                    "cricketScore": [],
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": false
+                            "isBatting": true
                         }
                     }
                 },
@@ -159,7 +95,7 @@
             "title": "West Indies Under 19 Vs Sri Lanka Under 19",
             "tournament": "Sri Lanka Under-19 tour of West Indies, 2025",
             "match_id": 135986,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "12 September 2025 07:00 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -231,7 +167,7 @@
             "title": "West Indies Under 19 Vs Sri Lanka Under 19",
             "tournament": "Sri Lanka Under-19 tour of West Indies, 2025",
             "match_id": 135986,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "12 September 2025 07:00 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -303,7 +239,7 @@
             "title": "Renaissance Challengers Vs Braveheart\u00a0xi",
             "tournament": "Oman D10 League, 2025",
             "match_id": 136777,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "12 September 2025 07:15 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -437,6 +373,78 @@
                 "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/135830_english_hls_1f3c7186b491214ta-di_h264/index.m3u8",
                 "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/135830_english_hls_1f3c7186b491214ta-di_h264/index.m3u8",
                 "dai_google_cdn": "https://dai.google.com/linear/hls/event/Bw6TUV1pS2CX7r1ruVndKw/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "sony_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "MotoGP",
+            "title": "San Marino Gp",
+            "tournament": "RED BULL GRAND PRIX OF SAN MARINO & RIMINI RIVIERA",
+            "match_id": 119192,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "12 September 2025 06:30 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-old-match-card.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/119192_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-old-match-card.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-old-match-card.jpg",
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/GP16-San-Marino_1748921637774.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Moto_GP-1440-x-360.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-old-match-card.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-Sporty-match-card.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/119192_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Day 1",
+                    "shortName": "PP",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-MG@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#EE0000",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Misano World Circuit Marco Simoncelli",
+                    "shortName": "Misano World Circuit Marco Simoncelli",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-LOT@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#EE0000",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/119192_english_hls_6480ffada670845ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/dND2mwV3S7a8_RfdCMdTUg/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/119192_english_hls_6480ffada670845ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/119192_english_hls_6480ffada670845ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/dND2mwV3S7a8_RfdCMdTUg/master.m3u8",
                 "cloudfront_cdn": "Unavailable",
                 "sony_cdn": "Unavailable",
                 "language": "ENGLISH"
@@ -1476,74 +1484,6 @@
         },
         {
             "category": "Cricket",
-            "title": "Majees Titans Vs Ideal International",
-            "tournament": "Oman D10 League, 2025",
-            "match_id": 136778,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "12 September 2025 09:45 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136778_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10,-2025-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_Sporty_03.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136778_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Majees Titans",
-                    "shortName": "MAT",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAJ@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#d8c50f",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Ideal International",
-                    "shortName": "IDI",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IDI@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#347c00",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Cricket",
             "title": "Bangladesh Vs Sri Lanka",
             "tournament": "Asia Cup, 2025",
             "match_id": 136735,
@@ -1591,6 +1531,74 @@
                     "isWinner": null,
                     "color": "#164fad",
                     "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "Majees Titans Vs Ideal International",
+            "tournament": "Oman D10 League, 2025",
+            "match_id": 136778,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "12 September 2025 09:45 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136778_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10,-2025-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_03.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_Sporty_03.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136778_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Majees Titans",
+                    "shortName": "MAT",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAJ@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#d8c50f",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Ideal International",
+                    "shortName": "IDI",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IDI@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#347c00",
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -1883,74 +1891,6 @@
             }
         },
         {
-            "category": "Cricket",
-            "title": "Kurung Blasters Vs Kra Dominators",
-            "tournament": "Arunachal T20 Championship, 2025",
-            "match_id": 136265,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "13 September 2025 09:00 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Arunachal-T20-Championship_Match_card.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136265_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Arunachal-T20-Championship_Match_card.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ARCA.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Arunachal-T20-Championship_Match_card.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Arunachal-T20-Championship_Sporty_Match_card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136265_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Kurung Blasters",
-                    "shortName": "KB",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KNB@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#ebb30e",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "KRA Dominators",
-                    "shortName": "KRA",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KRA@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#b0804f",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
             "category": "Football",
             "title": "Getafe Vs Real Oviedo",
             "tournament": "LALIGA 2025-26",
@@ -1999,6 +1939,74 @@
                     "isWinner": null,
                     "color": "#A71C10",
                     "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "Kurung Blasters Vs Kra Dominators",
+            "tournament": "Arunachal T20 Championship, 2025",
+            "match_id": 136265,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "13 September 2025 09:00 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Arunachal-T20-Championship_Match_card.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136265_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Arunachal-T20-Championship_Match_card.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ARCA.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Arunachal-T20-Championship_Match_card.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Arunachal-T20-Championship_Sporty_Match_card.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136265_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Kurung Blasters",
+                    "shortName": "KB",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KNB@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#ebb30e",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "KRA Dominators",
+                    "shortName": "KRA",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KRA@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#b0804f",
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -2359,74 +2367,6 @@
             }
         },
         {
-            "category": "Football",
-            "title": "Swansea City Vs Hull City",
-            "tournament": "EFL Championship 2025-26",
-            "match_id": 132004,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "13 September 2025 07:30 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/132004_5489_SWA_HUL_fc-web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132004_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132004_5489_SWA_HUL_fc-web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/07/EFl-Championship.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132004_5489_SWA_HUL_fc-web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132004_5489_SWA_HUL_fc-app.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132004_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Swansea City",
-                    "shortName": "SWA",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SWAN@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#c87b59",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Hull City",
-                    "shortName": "HUL",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-HLC@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#ca680d",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
             "category": "Cricket",
             "title": "Tbc Vs Tbc",
             "tournament": "Vitality Blast T20, 2025",
@@ -2474,6 +2414,74 @@
                     },
                     "isWinner": null,
                     "color": "#dcdcdc",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Football",
+            "title": "Swansea City Vs Hull City",
+            "tournament": "EFL Championship 2025-26",
+            "match_id": 132004,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "13 September 2025 07:30 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/132004_5489_SWA_HUL_fc-web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/132004_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/132004_5489_SWA_HUL_fc-web.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/07/EFl-Championship.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132004_5489_SWA_HUL_fc-web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/132004_5489_SWA_HUL_fc-app.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/132004_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Swansea City",
+                    "shortName": "SWA",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SWAN@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#c87b59",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Hull City",
+                    "shortName": "HUL",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-HLC@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#ca680d",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
