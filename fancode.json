@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "12:30:13 AM 14-09-2025",
+    "last_updated": "12:37:13 AM 14-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -109,11 +109,11 @@
                     "color": "#9b7614",
                     "cricketScore": [
                         {
-                            "runs": 166,
-                            "overs": "16.5",
-                            "balls": "101",
+                            "runs": 180,
+                            "overs": "18.2",
+                            "balls": "110",
                             "status": "IN_PROGRESS",
-                            "wickets": 3
+                            "wickets": 4
                         }
                     ],
                     "kabaddiScore": null,
@@ -410,10 +410,17 @@
                     "color": "#F1948A",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
-                    "status": null
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
                 },
                 {
                     "name": "Almer\u00eda",
@@ -425,10 +432,17 @@
                     "color": "#1278b9",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
-                    "status": null
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
                 }
             ],
             "language": "ENGLISH",
