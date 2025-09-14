@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "01:05:56 AM 15-09-2025",
+    "last_updated": "01:12:56 AM 15-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -297,13 +297,19 @@
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": {
-                        "points": 1,
+                        "points": 2,
                         "goals": [
                             {
                                 "id": "110979",
                                 "shortName": "S Man\u00e9",
                                 "isOwnGoal": false,
                                 "goalTime": "52'"
+                            },
+                            {
+                                "id": "90318",
+                                "shortName": "I Mart\u00ednez",
+                                "isOwnGoal": false,
+                                "goalTime": "81'"
                             }
                         ]
                     },
@@ -384,7 +390,7 @@
                             "runs": 132,
                             "overs": "20",
                             "balls": "120",
-                            "status": "IN_PROGRESS",
+                            "status": "COMPLETED",
                             "wickets": 6
                         }
                     ],
@@ -394,7 +400,7 @@
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": true
+                            "isBatting": false
                         }
                     }
                 },
@@ -406,14 +412,22 @@
                     },
                     "isWinner": null,
                     "color": "#b01018",
-                    "cricketScore": [],
+                    "cricketScore": [
+                        {
+                            "runs": 1,
+                            "overs": "0.2",
+                            "balls": "2",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": false
+                            "isBatting": true
                         }
                     }
                 }
@@ -556,8 +570,15 @@
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": {
-                        "points": 0,
-                        "goals": []
+                        "points": 1,
+                        "goals": [
+                            {
+                                "id": "538709",
+                                "shortName": "D Garc\u00eda",
+                                "isOwnGoal": false,
+                                "goalTime": "36'"
+                            }
+                        ]
                     },
                     "basketBallScore": null,
                     "hockeyScore": null,
