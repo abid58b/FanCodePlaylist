@@ -1,29 +1,29 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "06:44:56 PM 14-09-2025",
+    "last_updated": "06:51:59 PM 14-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
-    "total_matches": 38,
+    "total_matches": 39,
     "live_matches": 5,
-    "upcoming_matches": 33,
+    "upcoming_matches": 34,
     "matches": [
         {
             "category": "Cricket",
             "title": "India Vs Pakistan",
             "tournament": "Asia Cup, 2025",
             "match_id": 136736,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
             "startTime": "14 September 2025 08:00 PM",
             "startDate": "01 January 1970 05:30 AM",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/4-INDvsPAK_Old_match-card_v2.jpg",
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/136736_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/4-INDvsPAK_Old_match-card_v2.jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/4-INDvsPAK_Old_match-card_v2.jpg",
                 "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asia-Cup,-2025-(1).png",
                 "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
                 "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4-INDvsPAK_Old_match-card_v2.jpg",
@@ -70,12 +70,88 @@
                     }
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://d1zq5no55rw5ua.cloudfront.net/136736_english_hls_9776118ee542689ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/7ibpnTVwTmOer-X-nz-WOg/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://d1zq5no55rw5ua.cloudfront.net/136736_english_hls_9776118ee542689ta-di_h264/index.m3u8",
+                "fancode_cdn": "Unavailable",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/7ibpnTVwTmOer-X-nz-WOg/master.m3u8",
+                "cloudfront_cdn": "https://d1zq5no55rw5ua.cloudfront.net/136736_english_hls_9776118ee542689ta-di_h264/index.m3u8",
+                "sony_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "India Vs Pakistan",
+            "tournament": "Asia Cup, 2025",
+            "match_id": 136736,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "14 September 2025 08:00 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/4-INDvsPAK_Old_match-card_v2.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136736_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/4-INDvsPAK_Old_match-card_v2.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/4-INDvsPAK_Old_match-card_v2.jpg",
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asia-Cup,-2025-(1).png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4-INDvsPAK_Old_match-card_v2.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4-IND-vs-PAK_Match_card.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136736_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "India",
+                    "shortName": "IND",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IND@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#0f60de",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Pakistan",
+                    "shortName": "PAK",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#559830",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "HINDI",
+            "adfree_stream": "https://d1zq5no55rw5ua.cloudfront.net/136736_hindi_hls_201f23489044449ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/WNJBjkS9QTKz42pCO0QvAA/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://d1zq5no55rw5ua.cloudfront.net/136736_hindi_hls_201f23489044449ta-di_h264/index.m3u8",
+                "fancode_cdn": "Unavailable",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/WNJBjkS9QTKz42pCO0QvAA/master.m3u8",
+                "cloudfront_cdn": "https://d1zq5no55rw5ua.cloudfront.net/136736_hindi_hls_201f23489044449ta-di_h264/index.m3u8",
+                "sony_cdn": "Unavailable",
+                "language": "HINDI"
             }
         },
         {
@@ -83,7 +159,7 @@
             "title": "England Vs South Africa",
             "tournament": "South Africa tour of England, 2025",
             "match_id": 135993,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "NOT_STARTED",
             "startTime": "14 September 2025 07:00 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -226,78 +302,6 @@
                 "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/130863_english_hls_20bd2fbe0730858adfreeta-di_h264/index.m3u8",
                 "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/130863_english_hls_20bd2fbe0730858adfreeta-di_h264/index.m3u8",
                 "dai_google_cdn": "Unavailable",
-                "cloudfront_cdn": "Unavailable",
-                "sony_cdn": "Unavailable",
-                "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "MotoGP",
-            "title": "San Marino Gp",
-            "tournament": "RED BULL GRAND PRIX OF SAN MARINO & RIMINI RIVIERA",
-            "match_id": 119196,
-            "status": "LIVE",
-            "streamingStatus": "STARTED",
-            "startTime": "14 September 2025 01:10 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-old-match-card.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/119196_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-old-match-card.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-old-match-card.jpg",
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/GP16-San-Marino_1748921637774.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Moto_GP-1440-x-360.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-old-match-card.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RED-BULL-GRAND-PRIX-OF-SAN-MARINO--RIMINI-RIVIERA-Sporty-match-card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/119196_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Race Day",
-                    "shortName": "RC",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-MG@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#EE0000",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Misano World Circuit Marco Simoncelli",
-                    "shortName": "Misano World Circuit Marco Simoncelli",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-LOT@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#EE0000",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/119196_english_hls_f6df1e936d39012ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/QTyWfMUdT8ikM8-ilIeiPQ/master.m3u8",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/119196_english_hls_f6df1e936d39012ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/119196_english_hls_f6df1e936d39012ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/QTyWfMUdT8ikM8-ilIeiPQ/master.m3u8",
                 "cloudfront_cdn": "Unavailable",
                 "sony_cdn": "Unavailable",
                 "language": "ENGLISH"
@@ -1876,74 +1880,6 @@
             }
         },
         {
-            "category": "Baseball",
-            "title": "San Francisco Giants Vs Los Angeles Dodgers",
-            "tournament": "Major League Baseball, 2025",
-            "match_id": 136897,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "15 September 2025 01:35 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/136897_5028_SFG_LAD_FC-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136897_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136897_5028_SFG_LAD_FC-Web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/MLB-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Baseball-1440-x-360.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136897_5028_SFG_LAD_FC-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136897_5028_SFG_LAD_FC-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136897_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "San Francisco Giants",
-                    "shortName": "SFG",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-SANFC@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#581a02",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Los Angeles Dodgers",
-                    "shortName": "LAD",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-LODOG@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#77c0f6",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
             "category": "Football",
             "title": "Al Wahda Vs Al Ittihad",
             "tournament": "AFC Champions League Elite 2025-26",
@@ -1991,6 +1927,74 @@
                     },
                     "isWinner": null,
                     "color": "#c3bb19",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Baseball",
+            "title": "San Francisco Giants Vs Los Angeles Dodgers",
+            "tournament": "Major League Baseball, 2025",
+            "match_id": 136897,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "15 September 2025 01:35 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/136897_5028_SFG_LAD_FC-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136897_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136897_5028_SFG_LAD_FC-Web.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/MLB-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Baseball-1440-x-360.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136897_5028_SFG_LAD_FC-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136897_5028_SFG_LAD_FC-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136897_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "San Francisco Giants",
+                    "shortName": "SFG",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-SANFC@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#581a02",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Los Angeles Dodgers",
+                    "shortName": "LAD",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-LODOG@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#77c0f6",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -2683,6 +2687,74 @@
                     },
                     "isWinner": null,
                     "color": "#bd4040",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "Royal Oman Stallions Vs Muscat Thunders",
+            "tournament": "Oman D10 League, 2025",
+            "match_id": 136789,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "15 September 2025 10:00 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_02.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136789_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_02.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10,-2025-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_old_02.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-D10_Sporty_02.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136789_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Royal Oman Stallions",
+                    "shortName": "ROS",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ROS@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#d3b252",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Muscat Thunders",
+                    "shortName": "MUT",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MSCT@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#5438bd",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
