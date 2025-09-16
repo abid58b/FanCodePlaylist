@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "03:19:16 PM 16-09-2025",
+    "last_updated": "03:37:02 PM 16-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -83,7 +83,7 @@
             "title": "Machida Zelvia Vs Seoul",
             "tournament": "AFC Champions League Elite 2025-26",
             "match_id": 135997,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "16 September 2025 03:30 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -109,7 +109,10 @@
                     "color": "#248eff",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
@@ -128,7 +131,10 @@
                     "color": "#FFB741",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
@@ -155,7 +161,7 @@
             "title": "Gangwon Vs Shanghai Shenhua",
             "tournament": "AFC Champions League Elite 2025-26",
             "match_id": 135996,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "16 September 2025 03:30 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -181,7 +187,10 @@
                     "color": "#FF0000",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
@@ -200,7 +209,10 @@
                     "color": "#970b13",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
@@ -256,8 +268,8 @@
                             "runs": 75,
                             "overs": "10",
                             "balls": "60",
-                            "status": "IN_PROGRESS",
-                            "wickets": 0
+                            "status": "COMPLETED",
+                            "wickets": 8
                         }
                     ],
                     "kabaddiScore": null,
@@ -266,7 +278,7 @@
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": true
+                            "isBatting": false
                         }
                     }
                 },
@@ -278,14 +290,22 @@
                     },
                     "isWinner": null,
                     "color": "#287ee1",
-                    "cricketScore": [],
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": false
+                            "isBatting": true
                         }
                     }
                 }
