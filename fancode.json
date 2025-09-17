@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "07:37:11 PM 17-09-2025",
+    "last_updated": "07:58:11 PM 17-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
     "total_matches": 38,
-    "live_matches": 9,
-    "upcoming_matches": 29,
+    "live_matches": 8,
+    "upcoming_matches": 30,
     "matches": [
         {
             "category": "Cricket",
@@ -44,7 +44,7 @@
                             "runs": 196,
                             "overs": "20",
                             "balls": "120",
-                            "status": "IN_PROGRESS",
+                            "status": "COMPLETED",
                             "wickets": 3
                         }
                     ],
@@ -54,7 +54,7 @@
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": true
+                            "isBatting": false
                         }
                     }
                 },
@@ -66,14 +66,22 @@
                     },
                     "isWinner": null,
                     "color": "#3c9ae8",
-                    "cricketScore": [],
+                    "cricketScore": [
+                        {
+                            "runs": 52,
+                            "overs": "3",
+                            "balls": "18",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": false
+                            "isBatting": true
                         }
                     }
                 }
@@ -159,7 +167,7 @@
             "title": "Pakistan Vs United Arab Emirates",
             "tournament": "Asia Cup, 2025",
             "match_id": 136740,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "17 September 2025 08:00 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -293,103 +301,6 @@
                 "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137060_english_hls_33521c18fc60106ta-di_h264/index.m3u8",
                 "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137060_english_hls_33521c18fc60106ta-di_h264/index.m3u8",
                 "dai_google_cdn": "https://dai.google.com/linear/hls/event/Sfny4SiBS4qdtpmBBXJ7xw/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "sony_cdn": "Unavailable",
-                "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Football",
-            "title": "Shanghai Port Vs Vissel Kobe",
-            "tournament": "AFC Champions League Elite 2025-26",
-            "match_id": 136000,
-            "status": "LIVE",
-            "streamingStatus": "STARTED",
-            "startTime": "17 September 2025 05:45 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/136000_5647_SHG_VIS.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136000_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136000_5647_SHG_VIS.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/136000_5647_SHG_VIS.jpg",
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136000_5647_SHG_VIS.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136000_5647_SHG_VIS-(1).jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136000_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Shanghai Port",
-                    "shortName": "SHG",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SHANGP@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#121c3d",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": {
-                        "points": 0,
-                        "goals": []
-                    },
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Vissel Kobe",
-                    "shortName": "VIS",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VKO@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#761d30",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": {
-                        "points": 3,
-                        "goals": [
-                            {
-                                "id": "162818",
-                                "shortName": "Erik",
-                                "isOwnGoal": false,
-                                "goalTime": "19'"
-                            },
-                            {
-                                "id": "219277",
-                                "shortName": "T Miyashiro",
-                                "isOwnGoal": false,
-                                "goalTime": "40'"
-                            },
-                            {
-                                "id": "158206",
-                                "shortName": "Y Osako",
-                                "isOwnGoal": false,
-                                "goalTime": "44'"
-                            }
-                        ]
-                    },
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/136000_english_hls_be36c300ac77483ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/hsSPVTK7TxqMpcOQtB3ngA/master.m3u8",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/136000_english_hls_be36c300ac77483ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/136000_english_hls_be36c300ac77483ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/hsSPVTK7TxqMpcOQtB3ngA/master.m3u8",
                 "cloudfront_cdn": "Unavailable",
                 "sony_cdn": "Unavailable",
                 "language": "ENGLISH"
@@ -565,7 +476,7 @@
             "title": "Arkadag Vs Andijan",
             "tournament": "AFC Champions League Two 2025-26",
             "match_id": 136103,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "17 September 2025 07:15 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -594,11 +505,7 @@
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
+                    "status": null
                 },
                 {
                     "name": "Andijan",
@@ -613,11 +520,7 @@
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
+                    "status": null
                 }
             ],
             "language": "ENGLISH",
@@ -751,6 +654,99 @@
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Football",
+            "title": "Shanghai Port Vs Vissel Kobe",
+            "tournament": "AFC Champions League Elite 2025-26",
+            "match_id": 136000,
+            "status": "COMPLETED",
+            "streamingStatus": "COMPLETED",
+            "startTime": "17 September 2025 05:45 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/136000_5647_SHG_VIS.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136000_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136000_5647_SHG_VIS.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136000_5647_SHG_VIS.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136000_5647_SHG_VIS-(1).jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136000_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Shanghai Port",
+                    "shortName": "SHG",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SHANGP@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#121c3d",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Vissel Kobe",
+                    "shortName": "VIS",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VKO@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#761d30",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": {
+                        "points": 3,
+                        "goals": [
+                            {
+                                "id": "162818",
+                                "shortName": "Erik",
+                                "isOwnGoal": false,
+                                "goalTime": "19'"
+                            },
+                            {
+                                "id": "219277",
+                                "shortName": "T Miyashiro",
+                                "isOwnGoal": false,
+                                "goalTime": "40'"
+                            },
+                            {
+                                "id": "158206",
+                                "shortName": "Y Osako",
+                                "isOwnGoal": false,
+                                "goalTime": "44'"
+                            }
+                        ]
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
