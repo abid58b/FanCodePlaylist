@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "07:37:50 PM 21-09-2025",
+    "last_updated": "07:51:46 PM 21-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -15,7 +15,7 @@
             "title": "Pakistan Vs India",
             "tournament": "Asia Cup, 2025",
             "match_id": 136744,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "21 September 2025 08:00 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -95,7 +95,7 @@
             "title": "Pakistan Vs India",
             "tournament": "Asia Cup, 2025",
             "match_id": 136744,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "21 September 2025 08:00 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -255,7 +255,7 @@
             "title": "Rcd Mallorca Vs Atletico De Madrid",
             "tournament": "LALIGA 2025-26",
             "match_id": 130876,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "21 September 2025 07:45 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -281,7 +281,10 @@
                     "color": "#FBCCD1",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
@@ -300,7 +303,10 @@
                     "color": "#ca2917",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
