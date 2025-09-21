@@ -43,7 +43,7 @@ jobs:
       if: steps.check_file.outputs.file_found == 'true'
       run: |
         cp fancode.m3u fancode_ww2.m3u
-        sed -i 's|\(https://in-mc-fdlive.fancode.com/[^ ]*\)|https://allinonereborn.fun/fan-code/play.php?url=\1|g' fancode_ww2.m3u
+        sed -i 's|\(https://in-mc-fdlive.fancode.com/[^ ]*\)|https://allinonereborn.fun/fcw/live.php?url=\1|g' fancode_ww2.m3u
       
     - name: Commit and push modified file
       if: steps.check_file.outputs.file_found == 'true'
