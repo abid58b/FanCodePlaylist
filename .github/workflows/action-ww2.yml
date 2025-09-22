@@ -43,8 +43,10 @@ jobs:
       if: steps.check_file.outputs.file_found == 'true'
       run: |
         cp fancode.m3u fancode_ww2.m3u
-        sed -i 's|\(#EXTINF.*\)\n\(https://in-mc-fdlive\.fancode\.com/.*\)|#EXTVLCOPT:http-referrer=https://allinonereborn.fun/fcw/player_world.html?stream=\2\n\1\n\2|' fancode_ww2.m3u
-        sed -i 's|\(https://in-mc-fdlive.fancode.com/[^ ]*\)|https://allinonereborn.fun/fcw/live.php?url=\1|g' fancode_ww2.m3u
+
+        sed -i 's|\(#EXTINF.*\)\n\(https://in-mc-fdlive\.fancode\.com/[^ ]*\)|\1\n#EXTVLCOPT:http-referrer=https://allinonereborn.fun/fcw/player_world.html?stream=\2\nhttps://allinonereborn.fun/fcw/live.php?url=\2|g' fancode_ww2.m3u
+# sed -i 's|\(#EXTINF.*\)\n\(https://in-mc-fdlive\.fancode\.com/.*\)|#EXTVLCOPT:http-referrer=https://allinonereborn.fun/fcw/player_world.html?stream=\2\n\1\n\2|' fancode_ww2.m3u
+# sed -i 's|\(https://in-mc-fdlive.fancode.com/[^ ]*\)|https://allinonereborn.fun/fcw/live.php?url=\1|g' fancode_ww2.m3u
       
     - name: Commit and push modified file
       if: steps.check_file.outputs.file_found == 'true'
