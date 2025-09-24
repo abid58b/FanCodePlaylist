@@ -1,21 +1,21 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "12:19:57 AM 25-09-2025",
+    "last_updated": "12:37:57 AM 25-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
-    "total_matches": 39,
-    "live_matches": 8,
-    "upcoming_matches": 31,
+    "total_matches": 38,
+    "live_matches": 9,
+    "upcoming_matches": 29,
     "matches": [
         {
             "category": "Football",
             "title": "Huddersfield Town A.f.c. Vs Manchester City",
             "tournament": "Carabao Cup 2025-2026",
             "match_id": 136842,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "25 September 2025 12:15 AM",
             "startDate": "01 January 1970 05:30 AM",
@@ -41,7 +41,10 @@
                     "color": "#d7b921",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
@@ -60,7 +63,10 @@
                     "color": "#539fd7",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
@@ -87,7 +93,7 @@
             "title": "Tottenham Hotspur Vs Doncaster Rovers F.c.",
             "tournament": "Carabao Cup 2025-2026",
             "match_id": 136844,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "25 September 2025 12:15 AM",
             "startDate": "01 January 1970 05:30 AM",
@@ -113,7 +119,23 @@
                     "color": "#2c4cc0",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 2,
+                        "goals": [
+                            {
+                                "id": "196566",
+                                "shortName": "J McGrath",
+                                "isOwnGoal": false,
+                                "goalTime": "17'"
+                            },
+                            {
+                                "id": "17042",
+                                "shortName": "J Palhinha",
+                                "isOwnGoal": false,
+                                "goalTime": "14'"
+                            }
+                        ]
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
@@ -132,7 +154,10 @@
                     "color": "#bb3436",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
@@ -156,10 +181,373 @@
         },
         {
             "category": "Football",
+            "title": "Port Vale F.c. Vs Arsenal",
+            "tournament": "Carabao Cup 2025-2026",
+            "match_id": 136845,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "25 September 2025 12:30 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/136845_5488_PV_ARS_fc-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136845_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136845_5488_PV_ARS_fc-Web.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/136845_5488_PV_ARS_fc-Web.jpg",
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136845_5488_PV_ARS_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136845_5488_PV_ARS_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136845_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Port Vale F.C.",
+                    "shortName": "PV",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PORTV@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#f4a00f",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Arsenal",
+                    "shortName": "ARS",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARS@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#5ebae9",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/136845_english_hls_6f8214390738209ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/IsBWO1COQ-2VqTRI9ZdlOg/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/136845_english_hls_6f8214390738209ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/136845_english_hls_6f8214390738209ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/IsBWO1COQ-2VqTRI9ZdlOg/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "sony_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Football",
+            "title": "Newcastle United Vs Bradford City",
+            "tournament": "Carabao Cup 2025-2026",
+            "match_id": 136843,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "25 September 2025 12:15 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/136843_5488_NEW_BC_fc-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136843_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136843_5488_NEW_BC_fc-Web.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/136843_5488_NEW_BC_fc-Web.jpg",
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136843_5488_NEW_BC_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136843_5488_NEW_BC_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136843_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Newcastle United",
+                    "shortName": "NEW",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NEW@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#d15f6a",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": {
+                        "points": 1,
+                        "goals": [
+                            {
+                                "id": "41697",
+                                "shortName": "Joelinton",
+                                "isOwnGoal": false,
+                                "goalTime": "17'"
+                            }
+                        ]
+                    },
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Bradford City",
+                    "shortName": "BC",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BRAD@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#df7b00",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": {
+                        "points": 0,
+                        "goals": []
+                    },
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/136843_english_hls_e4b2c1515a4111ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/HyD8TVscRgKcpGxRN2QKEA/master.m3u8",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/136843_english_hls_e4b2c1515a4111ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/136843_english_hls_e4b2c1515a4111ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/HyD8TVscRgKcpGxRN2QKEA/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "sony_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Football",
+            "title": "Atletico De Madrid Vs Rayo Vallecano",
+            "tournament": "LALIGA 2025-26",
+            "match_id": 130882,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "25 September 2025 01:00 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/130882_5427_ATL_RVL_fc-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/130882_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/130882_5427_ATL_RVL_fc-Web.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/130882_5427_ATL_RVL_fc-Web.jpg",
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/130882_5427_ATL_RVL_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/130882_5427_ATL_RVL_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/130882_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Atletico de Madrid",
+                    "shortName": "ATL",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATLH@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#ca2917",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": null
+                },
+                {
+                    "name": "Rayo Vallecano",
+                    "shortName": "RVL",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAV@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#F77A1E",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": null
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/130882_english_hls_52f3e8312b43579adfreeta-di_h264/index.m3u8",
+            "dai_stream": "Unavailable",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/130882_english_hls_52f3e8312b43579adfreeta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/130882_english_hls_52f3e8312b43579adfreeta-di_h264/index.m3u8",
+                "dai_google_cdn": "Unavailable",
+                "cloudfront_cdn": "Unavailable",
+                "sony_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Football",
+            "title": "Real Sociedad Vs Rcd Mallorca",
+            "tournament": "LALIGA 2025-26",
+            "match_id": 130880,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "25 September 2025 01:00 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/130880_5427_RS_MRC_fc-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/130880_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/130880_5427_RS_MRC_fc-Web.jpg",
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/130880_5427_RS_MRC_fc-Web.jpg",
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/130880_5427_RS_MRC_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/130880_5427_RS_MRC_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/130880_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Real Sociedad",
+                    "shortName": "RS",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RSO@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#ae7a05",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": null
+                },
+                {
+                    "name": "RCD Mallorca",
+                    "shortName": "MRC",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MRC@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#FBCCD1",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": null
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/130880_english_hls_7f47a783a657866adfreeta-di_h264/index.m3u8",
+            "dai_stream": "Unavailable",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/130880_english_hls_7f47a783a657866adfreeta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/130880_english_hls_7f47a783a657866adfreeta-di_h264/index.m3u8",
+                "dai_google_cdn": "Unavailable",
+                "cloudfront_cdn": "Unavailable",
+                "sony_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Baseball",
+            "title": "Atlanta Braves Vs Washington Nationals",
+            "tournament": "Major League Baseball, 2025",
+            "match_id": 137130,
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
+            "startTime": "24 September 2025 09:45 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://images.fancode.com/aig/match/v1/137130_CASACARDS_APP.png",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/137130_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://images.fancode.com/aig/match/v1/137130_CASACARDS_APP.png",
+                "PLAYBACK": "https://images.fancode.com/aig/match/v1/137130_CASACARDS_APP.png",
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/MLB-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Baseball-1440-x-360.jpg",
+                "BG_IMAGE": "https://images.fancode.com/aig/match/v1/137130_CASACARDS_APP.png",
+                "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/137130_CASACARDS_SPORTY_APP.png",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137130_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Atlanta Braves",
+                    "shortName": "AB",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-ATLN@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#e42b5d",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Washington Nationals",
+                    "shortName": "WAN",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-WASHG@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#14264b",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/137130_english_hls_5bd2d1e05563914ta-di_h264/index.m3u8",
+            "dai_stream": "Unavailable",
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137130_english_hls_5bd2d1e05563914ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137130_english_hls_5bd2d1e05563914ta-di_h264/index.m3u8",
+                "dai_google_cdn": "Unavailable",
+                "cloudfront_cdn": "Unavailable",
+                "sony_cdn": "Unavailable",
+                "language": "ENGLISH"
+            }
+        },
+        {
+            "category": "Football",
             "title": "Getafe Cf Vs Deportivo Alaves",
             "tournament": "LALIGA 2025-26",
             "match_id": 130886,
-            "status": "LIVE",
+            "status": "COMPLETED",
             "streamingStatus": "STARTED",
             "startTime": "24 September 2025 10:30 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -244,526 +632,6 @@
                 "cloudfront_cdn": "Unavailable",
                 "sony_cdn": "Unavailable",
                 "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Football",
-            "title": "Port Vale F.c. Vs Arsenal",
-            "tournament": "Carabao Cup 2025-2026",
-            "match_id": 136845,
-            "status": "LIVE",
-            "streamingStatus": "STARTED",
-            "startTime": "25 September 2025 12:30 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/136845_5488_PV_ARS_fc-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136845_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136845_5488_PV_ARS_fc-Web.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/136845_5488_PV_ARS_fc-Web.jpg",
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136845_5488_PV_ARS_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136845_5488_PV_ARS_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136845_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Port Vale F.C.",
-                    "shortName": "PV",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PORTV@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#f4a00f",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": null
-                },
-                {
-                    "name": "Arsenal",
-                    "shortName": "ARS",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARS@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#5ebae9",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": null
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/136845_english_hls_6f8214390738209ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/IsBWO1COQ-2VqTRI9ZdlOg/master.m3u8",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/136845_english_hls_6f8214390738209ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/136845_english_hls_6f8214390738209ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/IsBWO1COQ-2VqTRI9ZdlOg/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "sony_cdn": "Unavailable",
-                "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Football",
-            "title": "Newcastle United Vs Bradford City",
-            "tournament": "Carabao Cup 2025-2026",
-            "match_id": 136843,
-            "status": "NOT_STARTED",
-            "streamingStatus": "STARTED",
-            "startTime": "25 September 2025 12:15 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/136843_5488_NEW_BC_fc-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136843_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136843_5488_NEW_BC_fc-Web.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/136843_5488_NEW_BC_fc-Web.jpg",
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136843_5488_NEW_BC_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136843_5488_NEW_BC_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136843_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Newcastle United",
-                    "shortName": "NEW",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NEW@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#d15f6a",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Bradford City",
-                    "shortName": "BC",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BRAD@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#df7b00",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/136843_english_hls_e4b2c1515a4111ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/HyD8TVscRgKcpGxRN2QKEA/master.m3u8",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/136843_english_hls_e4b2c1515a4111ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/136843_english_hls_e4b2c1515a4111ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/HyD8TVscRgKcpGxRN2QKEA/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "sony_cdn": "Unavailable",
-                "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Baseball",
-            "title": "Atlanta Braves Vs Washington Nationals",
-            "tournament": "Major League Baseball, 2025",
-            "match_id": 137130,
-            "status": "LIVE",
-            "streamingStatus": "STARTED",
-            "startTime": "24 September 2025 09:45 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://images.fancode.com/aig/match/v1/137130_CASACARDS_APP.png",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/137130_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://images.fancode.com/aig/match/v1/137130_CASACARDS_APP.png",
-                "PLAYBACK": "https://images.fancode.com/aig/match/v1/137130_CASACARDS_APP.png",
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/MLB-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Baseball-1440-x-360.jpg",
-                "BG_IMAGE": "https://images.fancode.com/aig/match/v1/137130_CASACARDS_APP.png",
-                "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/137130_CASACARDS_SPORTY_APP.png",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137130_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Atlanta Braves",
-                    "shortName": "AB",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-ATLN@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#e42b5d",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Washington Nationals",
-                    "shortName": "WAN",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-WASHG@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#14264b",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/137130_english_hls_5bd2d1e05563914ta-di_h264/index.m3u8",
-            "dai_stream": "Unavailable",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137130_english_hls_5bd2d1e05563914ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137130_english_hls_5bd2d1e05563914ta-di_h264/index.m3u8",
-                "dai_google_cdn": "Unavailable",
-                "cloudfront_cdn": "Unavailable",
-                "sony_cdn": "Unavailable",
-                "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Cricket",
-            "title": "India Vs Bangladesh",
-            "tournament": "Asia Cup, 2025",
-            "match_id": 136746,
-            "status": "COMPLETED",
-            "streamingStatus": "STARTED",
-            "startTime": "24 September 2025 08:00 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/12-INDvsBAN_Old_match-card_v2-(1).jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136746_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/12-INDvsBAN_Old_match-card_v2-(1).jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/12-INDvsBAN_Old_match-card_v2-(1).jpg",
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asia-Cup,-2025-(1).png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/12-INDvsBAN_Old_match-card_v2-(1).jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/12-IND-vs-BAN_Match_card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136746_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "India",
-                    "shortName": "IND",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IND@2x.png"
-                    },
-                    "isWinner": true,
-                    "color": "#0f60de",
-                    "cricketScore": [
-                        {
-                            "runs": 168,
-                            "overs": "20",
-                            "balls": "120",
-                            "status": "COMPLETED",
-                            "wickets": 6
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Bangladesh",
-                    "shortName": "BAN",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
-                    },
-                    "isWinner": false,
-                    "color": "#397b46",
-                    "cricketScore": [
-                        {
-                            "runs": 127,
-                            "overs": "19.3",
-                            "balls": "117",
-                            "status": "IN_PROGRESS",
-                            "wickets": 10
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": true
-                        }
-                    }
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mcacc-fdlive.fancode.com/mumbai-acc/136746_english_hls_7ba769f0b935850ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/IysI-xdwQF-skaLF6AYspg/master.m3u8",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mcacc-fdlive.fancode.com/mumbai-acc/136746_english_hls_7ba769f0b935850ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mcacc-fdlive.fancode.com/mumbai-acc/136746_english_hls_7ba769f0b935850ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/IysI-xdwQF-skaLF6AYspg/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "sony_cdn": "Unavailable",
-                "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Cricket",
-            "title": "India Vs Bangladesh",
-            "tournament": "Asia Cup, 2025",
-            "match_id": 136746,
-            "status": "COMPLETED",
-            "streamingStatus": "STARTED",
-            "startTime": "24 September 2025 08:00 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/12-INDvsBAN_Old_match-card_v2-(1).jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136746_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/12-INDvsBAN_Old_match-card_v2-(1).jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/12-INDvsBAN_Old_match-card_v2-(1).jpg",
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asia-Cup,-2025-(1).png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/12-INDvsBAN_Old_match-card_v2-(1).jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/12-IND-vs-BAN_Match_card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136746_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "India",
-                    "shortName": "IND",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IND@2x.png"
-                    },
-                    "isWinner": true,
-                    "color": "#0f60de",
-                    "cricketScore": [
-                        {
-                            "runs": 168,
-                            "overs": "20",
-                            "balls": "120",
-                            "status": "COMPLETED",
-                            "wickets": 6
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Bangladesh",
-                    "shortName": "BAN",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
-                    },
-                    "isWinner": false,
-                    "color": "#397b46",
-                    "cricketScore": [
-                        {
-                            "runs": 127,
-                            "overs": "19.3",
-                            "balls": "117",
-                            "status": "IN_PROGRESS",
-                            "wickets": 10
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": true
-                        }
-                    }
-                }
-            ],
-            "language": "HINDI",
-            "adfree_stream": "https://in-mcacc-fdlive.fancode.com/mumbai-acc/136746_hindi_hls_3037f7dcc570228ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/eNqxx4zjRIqxoNZ6XHAskQ/master.m3u8",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mcacc-fdlive.fancode.com/mumbai-acc/136746_hindi_hls_3037f7dcc570228ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mcacc-fdlive.fancode.com/mumbai-acc/136746_hindi_hls_3037f7dcc570228ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/eNqxx4zjRIqxoNZ6XHAskQ/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "sony_cdn": "Unavailable",
-                "language": "HINDI"
-            }
-        },
-        {
-            "category": "Football",
-            "title": "Atletico De Madrid Vs Rayo Vallecano",
-            "tournament": "LALIGA 2025-26",
-            "match_id": 130882,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "25 September 2025 01:00 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/130882_5427_ATL_RVL_fc-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/130882_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/130882_5427_ATL_RVL_fc-Web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/130882_5427_ATL_RVL_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/130882_5427_ATL_RVL_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/130882_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Atletico de Madrid",
-                    "shortName": "ATL",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATLH@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#ca2917",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Rayo Vallecano",
-                    "shortName": "RVL",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAV@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#F77A1E",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Football",
-            "title": "Real Sociedad Vs Rcd Mallorca",
-            "tournament": "LALIGA 2025-26",
-            "match_id": 130880,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "25 September 2025 01:00 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/130880_5427_RS_MRC_fc-Web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/130880_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/130880_5427_RS_MRC_fc-Web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/130880_5427_RS_MRC_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/130880_5427_RS_MRC_fc-App.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/130880_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Real Sociedad",
-                    "shortName": "RS",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RSO@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#ae7a05",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "RCD Mallorca",
-                    "shortName": "MRC",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MRC@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#FBCCD1",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
             }
         },
         {
@@ -1107,6 +975,74 @@
             }
         },
         {
+            "category": "Golf",
+            "title": "Opening Ceremony",
+            "tournament": "The Ryder Cup",
+            "match_id": 136871,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "25 September 2025 01:30 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Ryder_CUP_2025_Old_match-card.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136871_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Ryder_CUP_2025_Old_match-card.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Ryder-Cup-2025.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Golf_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ryder_CUP_2025_Old_match-card.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ryder_CUP_2025_Sporty_Match_card.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136871_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Opening Ceremony",
+                    "shortName": "Opening Ceremony",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-TRCD@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#022670",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Bethpage Black Course, USA",
+                    "shortName": "Bethpage Black Course, USA",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#141414",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
             "category": "Football",
             "title": "Ca Osasuna Vs Elche Cf",
             "tournament": "LALIGA 2025-26",
@@ -1311,74 +1247,6 @@
             }
         },
         {
-            "category": "Golf",
-            "title": "Opening Ceremony",
-            "tournament": "The Ryder Cup",
-            "match_id": 136871,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "25 September 2025 01:30 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Ryder_CUP_2025_Old_match-card.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136871_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Ryder_CUP_2025_Old_match-card.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Ryder-Cup-2025.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Golf_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ryder_CUP_2025_Old_match-card.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ryder_CUP_2025_Sporty_Match_card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136871_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Opening Ceremony",
-                    "shortName": "Opening Ceremony",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-TRCD@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#022670",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Bethpage Black Course, USA",
-                    "shortName": "Bethpage Black Course, USA",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#141414",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
             "category": "Baseball",
             "title": "Texas Rangers Vs Minnesota Twins",
             "tournament": "Major League Baseball, 2025",
@@ -1502,6 +1370,90 @@
                     "status": {
                         "cricket": {
                             "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "India Vs Bangladesh",
+            "tournament": "Asia Cup, 2025",
+            "match_id": 136746,
+            "status": "COMPLETED",
+            "streamingStatus": "COMPLETED",
+            "startTime": "24 September 2025 08:00 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/12-INDvsBAN_Old_match-card_v2-(1).jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136746_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/12-INDvsBAN_Old_match-card_v2-(1).jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asia-Cup,-2025-(1).png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/12-INDvsBAN_Old_match-card_v2-(1).jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/12-IND-vs-BAN_Match_card.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136746_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "India",
+                    "shortName": "IND",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IND@2x.png"
+                    },
+                    "isWinner": true,
+                    "color": "#0f60de",
+                    "cricketScore": [
+                        {
+                            "runs": 168,
+                            "overs": "20",
+                            "balls": "120",
+                            "status": "COMPLETED",
+                            "wickets": 6
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Bangladesh",
+                    "shortName": "BAN",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
+                    },
+                    "isWinner": false,
+                    "color": "#397b46",
+                    "cricketScore": [
+                        {
+                            "runs": 127,
+                            "overs": "19.3",
+                            "balls": "117",
+                            "status": "IN_PROGRESS",
+                            "wickets": 10
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
                         }
                     }
                 }
@@ -2473,7 +2425,7 @@
             "match_id": 136872,
             "status": "NOT_STARTED",
             "streamingStatus": "NOT_STARTED",
-            "startTime": "26 September 2025 03:30 PM",
+            "startTime": "26 September 2025 04:30 PM",
             "startDate": "01 January 1970 05:30 AM",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/Ryder_CUP_2025_Old_match-card.jpg",
             "image_cdn": {
