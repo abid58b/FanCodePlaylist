@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "12:51:31 AM 26-09-2025",
+    "last_updated": "12:58:31 AM 26-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
-    "total_matches": 42,
+    "total_matches": 41,
     "live_matches": 7,
-    "upcoming_matches": 35,
+    "upcoming_matches": 34,
     "matches": [
         {
             "category": "Football",
@@ -439,8 +439,15 @@
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": {
-                        "points": 0,
-                        "goals": []
+                        "points": 1,
+                        "goals": [
+                            {
+                                "id": "58495",
+                                "shortName": "A Pedrosa",
+                                "isOwnGoal": false,
+                                "goalTime": "90'"
+                            }
+                        ]
                     },
                     "basketBallScore": null,
                     "hockeyScore": null,
@@ -634,43 +641,35 @@
             }
         },
         {
-            "category": "Cricket",
-            "title": "Pakistan Vs Bangladesh",
-            "tournament": "Asia Cup, 2025",
-            "match_id": 136747,
-            "status": "COMPLETED",
+            "category": "Baseball",
+            "title": "Arizona Diamondbacks Vs Los Angeles Dodgers",
+            "tournament": "Major League Baseball, 2025",
+            "match_id": 137134,
+            "status": "LIVE",
             "streamingStatus": "STARTED",
-            "startTime": "25 September 2025 08:00 PM",
+            "startTime": "26 September 2025 01:10 AM",
             "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/11-PAKvsBAN_Old_match-card_v2.jpg",
+            "image": "https://images.fancode.com/aig/match/v1/137134_CASACARDS_APP.png",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136747_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/11-PAKvsBAN_Old_match-card_v2.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/11-PAKvsBAN_Old_match-card_v2.jpg",
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asia-Cup,-2025-(1).png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/11-PAKvsBAN_Old_match-card_v2.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/13-PAK-vs-BAN_Match_card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136747_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/137134_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://images.fancode.com/aig/match/v1/137134_CASACARDS_APP.png",
+                "PLAYBACK": "https://images.fancode.com/aig/match/v1/137134_CASACARDS_APP.png",
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/MLB-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Baseball-1440-x-360.jpg",
+                "BG_IMAGE": "https://images.fancode.com/aig/match/v1/137134_CASACARDS_APP.png",
+                "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/137134_CASACARDS_SPORTY_APP.png",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137134_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "name": "Pakistan",
-                    "shortName": "PAK",
+                    "name": "Arizona Diamondbacks",
+                    "shortName": "AD",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-ARIZ@2x.png"
                     },
-                    "isWinner": true,
-                    "color": "#559830",
-                    "cricketScore": [
-                        {
-                            "runs": 135,
-                            "overs": "20",
-                            "balls": "120",
-                            "status": "COMPLETED",
-                            "wickets": 8
-                        }
-                    ],
+                    "isWinner": null,
+                    "color": "#6f212e",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -682,131 +681,35 @@
                     }
                 },
                 {
-                    "name": "Bangladesh",
-                    "shortName": "BAN",
+                    "name": "Los Angeles Dodgers",
+                    "shortName": "LAD",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-LODOG@2x.png"
                     },
-                    "isWinner": false,
-                    "color": "#397b46",
-                    "cricketScore": [
-                        {
-                            "runs": 124,
-                            "overs": "20",
-                            "balls": "120",
-                            "status": "IN_PROGRESS",
-                            "wickets": 9
-                        }
-                    ],
+                    "isWinner": null,
+                    "color": "#77c0f6",
+                    "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": true
+                            "isBatting": false
                         }
                     }
                 }
             ],
             "language": "ENGLISH",
-            "adfree_stream": "https://livecf.fancode.com/136747_english_hls_630f7ced5b32225adfreeta-di_h264/index.m3u8",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/137134_english_hls_a9a93b092255615ta-di_h264/index.m3u8",
             "dai_stream": "Unavailable",
             "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://livecf.fancode.com/136747_english_hls_630f7ced5b32225adfreeta-di_h264/index.m3u8",
-                "fancode_cdn": "https://livecf.fancode.com/136747_english_hls_630f7ced5b32225adfreeta-di_h264/index.m3u8",
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137134_english_hls_a9a93b092255615ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137134_english_hls_a9a93b092255615ta-di_h264/index.m3u8",
                 "dai_google_cdn": "Unavailable",
                 "cloudfront_cdn": "Unavailable",
                 "sony_cdn": "Unavailable",
                 "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Cricket",
-            "title": "Pakistan Vs Bangladesh",
-            "tournament": "Asia Cup, 2025",
-            "match_id": 136747,
-            "status": "COMPLETED",
-            "streamingStatus": "STARTED",
-            "startTime": "25 September 2025 08:00 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/11-PAKvsBAN_Old_match-card_v2.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136747_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/11-PAKvsBAN_Old_match-card_v2.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/11-PAKvsBAN_Old_match-card_v2.jpg",
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asia-Cup,-2025-(1).png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/11-PAKvsBAN_Old_match-card_v2.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/13-PAK-vs-BAN_Match_card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136747_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Pakistan",
-                    "shortName": "PAK",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png"
-                    },
-                    "isWinner": true,
-                    "color": "#559830",
-                    "cricketScore": [
-                        {
-                            "runs": 135,
-                            "overs": "20",
-                            "balls": "120",
-                            "status": "COMPLETED",
-                            "wickets": 8
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Bangladesh",
-                    "shortName": "BAN",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
-                    },
-                    "isWinner": false,
-                    "color": "#397b46",
-                    "cricketScore": [
-                        {
-                            "runs": 124,
-                            "overs": "20",
-                            "balls": "120",
-                            "status": "IN_PROGRESS",
-                            "wickets": 9
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": true
-                        }
-                    }
-                }
-            ],
-            "language": "HINDI",
-            "adfree_stream": "https://livecf.fancode.com/136747_hindi_hls_542d2905d15425adfreeta-di_h264/index.m3u8",
-            "dai_stream": "Unavailable",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://livecf.fancode.com/136747_hindi_hls_542d2905d15425adfreeta-di_h264/index.m3u8",
-                "fancode_cdn": "https://livecf.fancode.com/136747_hindi_hls_542d2905d15425adfreeta-di_h264/index.m3u8",
-                "dai_google_cdn": "Unavailable",
-                "cloudfront_cdn": "Unavailable",
-                "sony_cdn": "Unavailable",
-                "language": "HINDI"
             }
         },
         {
@@ -1490,74 +1393,6 @@
             }
         },
         {
-            "category": "Baseball",
-            "title": "Arizona Diamondbacks Vs Los Angeles Dodgers",
-            "tournament": "Major League Baseball, 2025",
-            "match_id": 137134,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "26 September 2025 01:10 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://images.fancode.com/aig/match/v1/137134_CASACARDS_APP.png",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/137134_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://images.fancode.com/aig/match/v1/137134_CASACARDS_APP.png",
-                "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/MLB-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Baseball-1440-x-360.jpg",
-                "BG_IMAGE": "https://images.fancode.com/aig/match/v1/137134_CASACARDS_APP.png",
-                "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/137134_CASACARDS_SPORTY_APP.png",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137134_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Arizona Diamondbacks",
-                    "shortName": "AD",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-ARIZ@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#6f212e",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Los Angeles Dodgers",
-                    "shortName": "LAD",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/bb-flags/FC-LODOG@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#77c0f6",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
             "category": "Football",
             "title": "Al Ittihad Vs Al Nassr Fc",
             "tournament": "Roshn Saudi League 2025-2026",
@@ -2157,6 +1992,90 @@
                     "status": {
                         "cricket": {
                             "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "Pakistan Vs Bangladesh",
+            "tournament": "Asia Cup, 2025",
+            "match_id": 136747,
+            "status": "COMPLETED",
+            "streamingStatus": "COMPLETED",
+            "startTime": "25 September 2025 08:00 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/11-PAKvsBAN_Old_match-card_v2.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136747_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/11-PAKvsBAN_Old_match-card_v2.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asia-Cup,-2025-(1).png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/11-PAKvsBAN_Old_match-card_v2.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/13-PAK-vs-BAN_Match_card.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136747_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Pakistan",
+                    "shortName": "PAK",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png"
+                    },
+                    "isWinner": true,
+                    "color": "#559830",
+                    "cricketScore": [
+                        {
+                            "runs": 135,
+                            "overs": "20",
+                            "balls": "120",
+                            "status": "COMPLETED",
+                            "wickets": 8
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Bangladesh",
+                    "shortName": "BAN",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
+                    },
+                    "isWinner": false,
+                    "color": "#397b46",
+                    "cricketScore": [
+                        {
+                            "runs": 124,
+                            "overs": "20",
+                            "balls": "120",
+                            "status": "IN_PROGRESS",
+                            "wickets": 9
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
                         }
                     }
                 }
