@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "10:58:51 AM 27-09-2025",
+    "last_updated": "11:05:51 AM 27-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -12,7 +12,7 @@
     "matches": [
         {
             "category": "Cricket",
-            "title": "Usn Indians Vs Dehradun Warriors",
+            "title": "Dehradun Warriors Vs Usn Indians",
             "tournament": "Uttarakhand Premier League, 2025",
             "match_id": 137078,
             "status": "NOT_STARTED",
@@ -32,25 +32,6 @@
             },
             "teams": [
                 {
-                    "name": "USN Indians",
-                    "shortName": "UI",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UI@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#2f4699",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
                     "name": "Dehradun Warriors",
                     "shortName": "DHD",
                     "flag": {
@@ -58,6 +39,33 @@
                     },
                     "isWinner": null,
                     "color": "#f29264",
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                },
+                {
+                    "name": "USN Indians",
+                    "shortName": "UI",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UI@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#2f4699",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -1279,7 +1287,7 @@
                     },
                     "isWinner": null,
                     "color": "#e3ac1a",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -1298,7 +1306,7 @@
                     },
                     "isWinner": null,
                     "color": "#ff6e79",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
