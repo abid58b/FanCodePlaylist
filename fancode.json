@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "03:12:18 PM 01-10-2025",
+    "last_updated": "03:19:28 PM 01-10-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
     "total_matches": 38,
-    "live_matches": 3,
-    "upcoming_matches": 35,
+    "live_matches": 4,
+    "upcoming_matches": 34,
     "matches": [
         {
             "category": "Cricket",
@@ -16,14 +16,14 @@
             "tournament": "Australia tour of New Zealand, 2025",
             "match_id": 136875,
             "status": "COMPLETED",
-            "streamingStatus": "STARTED",
+            "streamingStatus": "COMPLETED",
             "startTime": "01 October 2025 11:45 AM",
             "startDate": "01 January 1970 05:30 AM",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/Australia-tour-of-New-Zealand-old-match-card-.png",
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/136875_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/Australia-tour-of-New-Zealand-old-match-card-.png",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Australia-tour-of-New-Zealand-old-match-card-.png",
+                "PLAYBACK": null,
                 "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-AUS-tour-logo.png",
                 "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
                 "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Australia-tour-of-New-Zealand-old-match-card-.png",
@@ -86,24 +86,20 @@
                     }
                 }
             ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-V3/master.m3u8?hdnea=exp=1759341610~acl=/*~id=65d1ec11677f4958b4ebc9fc0f1b9ab2-1759298374109~hmac=e4349dc5353eece2d23820a9d5f96635de9dad0fe13d8a61fdc4b2f09f0a9d88",
-            "dai_stream": "https://dai.google.com/linear/hls/event/HynNobMPSu6nQCgpxsK0lQ/master.m3u8",
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
             "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-V3/master.m3u8?hdnea=exp=1759341610~acl=/*~id=65d1ec11677f4958b4ebc9fc0f1b9ab2-1759298374109~hmac=e4349dc5353eece2d23820a9d5f96635de9dad0fe13d8a61fdc4b2f09f0a9d88",
-                "fancode_cdn": "Unavailable",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/HynNobMPSu6nQCgpxsK0lQ/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-V3/master.m3u8?hdnea=exp=1759341610~acl=/*~id=65d1ec11677f4958b4ebc9fc0f1b9ab2-1759298374109~hmac=e4349dc5353eece2d23820a9d5f96635de9dad0fe13d8a61fdc4b2f09f0a9d88",
-                "language": "ENGLISH"
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
             }
         },
         {
             "category": "Cricket",
-            "title": "Haridwar Elmas Vs Usn Indians",
+            "title": "Usn Indians Vs Haridwar Elmas",
             "tournament": "Uttarakhand Premier League, 2025",
             "match_id": 137090,
-            "status": "NOT_STARTED",
+            "status": "LIVE",
             "streamingStatus": "STARTED",
             "startTime": "01 October 2025 03:00 PM",
             "startDate": "01 January 1970 05:30 AM",
@@ -120,25 +116,6 @@
             },
             "teams": [
                 {
-                    "name": "Haridwar Elmas",
-                    "shortName": "HAH",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HAHU@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#134bbf",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
                     "name": "USN Indians",
                     "shortName": "UI",
                     "flag": {
@@ -146,6 +123,33 @@
                     },
                     "isWinner": null,
                     "color": "#2f4699",
+                    "cricketScore": [
+                        {
+                            "runs": 16,
+                            "overs": "2",
+                            "balls": "12",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                },
+                {
+                    "name": "Haridwar Elmas",
+                    "shortName": "HAH",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HAHU@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#134bbf",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -176,14 +180,14 @@
             "tournament": "AFC Champions League Elite 2025-26",
             "match_id": 136005,
             "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
+            "streamingStatus": "STARTED",
             "startTime": "01 October 2025 03:30 PM",
             "startDate": "01 January 1970 05:30 AM",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/136005_5647_VIS_MLC_fc-Web.jpg",
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/136005_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/136005_5647_VIS_MLC_fc-Web.jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/136005_5647_VIS_MLC_fc-Web.jpg",
                 "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
                 "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
                 "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136005_5647_VIS_MLC_fc-Web.jpg",
@@ -230,12 +234,16 @@
                     }
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/136005_english_hls_9f47c9da1d65405ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/N7RMws3MSau6l7OyWNXb_g/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/136005_english_hls_9f47c9da1d65405ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/136005_english_hls_9f47c9da1d65405ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/N7RMws3MSau6l7OyWNXb_g/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "sony_cdn": "Unavailable",
+                "language": "ENGLISH"
             }
         },
         {
@@ -244,14 +252,14 @@
             "tournament": "AFC Champions League Two 2025-26",
             "match_id": 136165,
             "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
+            "streamingStatus": "STARTED",
             "startTime": "01 October 2025 03:30 PM",
             "startDate": "01 January 1970 05:30 AM",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/136165_5648_LIO_SEL_fc-Web_1758118382779.jpg",
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/136165_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/136165_5648_LIO_SEL_fc-Web_1758118382779.jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/136165_5648_LIO_SEL_fc-Web_1758118382779.jpg",
                 "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Two.png",
                 "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
                 "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136165_5648_LIO_SEL_fc-Web_1758118382779.jpg",
@@ -298,12 +306,16 @@
                     }
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/136165_english_hls_f886236d9629353ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/lOwfCAArQuS_4ON1MDe9sg/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/136165_english_hls_f886236d9629353ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/136165_english_hls_f886236d9629353ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/lOwfCAArQuS_4ON1MDe9sg/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "sony_cdn": "Unavailable",
+                "language": "ENGLISH"
             }
         },
         {
@@ -851,6 +863,74 @@
             }
         },
         {
+            "category": "Cricket",
+            "title": "Haridwar Elmas Vs Nainital Tigers",
+            "tournament": "Uttarakhand Premier League, 2025",
+            "match_id": 137092,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "02 October 2025 11:00 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/137092_5686_HAH_NLT_fc-web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/137092_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/137092_5686_HAH_NLT_fc-web.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Women's-Uttarakhand-Premier-League,-2025-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137092_5686_HAH_NLT_fc-web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137092_5686_HAH_NLT_fc-app.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137092_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Haridwar Elmas",
+                    "shortName": "HAH",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HAHU@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#134bbf",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Nainital Tigers",
+                    "shortName": "NLT",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NLT@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#e3ac1a",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
             "category": "Football",
             "title": "Al Zawraa Sc Vs Al Nassr Fc",
             "tournament": "AFC Champions League Two 2025-26",
@@ -967,74 +1047,6 @@
                     "isWinner": null,
                     "color": "#10506F",
                     "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Cricket",
-            "title": "Haridwar Elmas Vs Nainital Tigers",
-            "tournament": "Uttarakhand Premier League, 2025",
-            "match_id": 137092,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "02 October 2025 11:00 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/137092_5686_HAH_NLT_fc-web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/137092_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/137092_5686_HAH_NLT_fc-web.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Women's-Uttarakhand-Premier-League,-2025-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137092_5686_HAH_NLT_fc-web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137092_5686_HAH_NLT_fc-app.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137092_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Haridwar Elmas",
-                    "shortName": "HAH",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HAHU@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#134bbf",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Nainital Tigers",
-                    "shortName": "NLT",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NLT@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#e3ac1a",
-                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
