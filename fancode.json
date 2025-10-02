@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "07:37:01 PM 02-10-2025",
+    "last_updated": "07:58:02 PM 02-10-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
     "total_matches": 38,
-    "live_matches": 9,
-    "upcoming_matches": 29,
+    "live_matches": 8,
+    "upcoming_matches": 30,
     "matches": [
         {
             "category": "Cricket",
@@ -39,14 +39,22 @@
                     },
                     "isWinner": null,
                     "color": "#2f5ddf",
-                    "cricketScore": [],
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": false
+                            "isBatting": true
                         }
                     }
                 },
@@ -140,11 +148,11 @@
                     "color": "#710000",
                     "cricketScore": [
                         {
-                            "runs": 26,
-                            "overs": "8",
-                            "balls": "48",
+                            "runs": 44,
+                            "overs": "12.4",
+                            "balls": "76",
                             "status": "IN_PROGRESS",
-                            "wickets": 1
+                            "wickets": 4
                         }
                     ],
                     "kabaddiScore": null,
@@ -228,11 +236,11 @@
                     "color": "#dfd32c",
                     "cricketScore": [
                         {
-                            "runs": 76,
-                            "overs": "6.2",
-                            "balls": "38",
+                            "runs": 106,
+                            "overs": "12.5",
+                            "balls": "77",
                             "status": "IN_PROGRESS",
-                            "wickets": 1
+                            "wickets": 2
                         }
                     ],
                     "kabaddiScore": null,
@@ -325,70 +333,6 @@
                 "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137094_english_hls_f4e93dd14a98797ta-di_h264/index.m3u8",
                 "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137094_english_hls_f4e93dd14a98797ta-di_h264/index.m3u8",
                 "dai_google_cdn": "https://dai.google.com/linear/hls/event/3WGmAnz0SIS8u7K_3pD0bw/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "sony_cdn": "Unavailable",
-                "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Football",
-            "title": "Ratchaburi Vs Gamba Osaka",
-            "tournament": "AFC Champions League Two 2025-26",
-            "match_id": 136154,
-            "status": "LIVE",
-            "streamingStatus": "STARTED",
-            "startTime": "02 October 2025 05:45 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/136154_5648_RAT_OSK_fc-Web_1758118382741.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136154_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/136154_5648_RAT_OSK_fc-Web_1758118382741.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/136154_5648_RAT_OSK_fc-Web_1758118382741.jpg",
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Two.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136154_5648_RAT_OSK_fc-Web_1758118382741.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136154_5648_RAT_OSK_fc-App_1758118411748.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136154_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Ratchaburi",
-                    "shortName": "RAT",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAB@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#a02c0c",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": null
-                },
-                {
-                    "name": "Gamba Osaka",
-                    "shortName": "OSK",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GOS@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#003f76",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": null
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/136154_english_hls_21297c93fe23622ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/4KtCoclQSL2sgoBUnIFKoQ/master.m3u8",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/136154_english_hls_21297c93fe23622ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/136154_english_hls_21297c93fe23622ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/4KtCoclQSL2sgoBUnIFKoQ/master.m3u8",
                 "cloudfront_cdn": "Unavailable",
                 "sony_cdn": "Unavailable",
                 "language": "ENGLISH"
@@ -740,6 +684,74 @@
         },
         {
             "category": "Cricket",
+            "title": "Afghanistan Vs Bangladesh",
+            "tournament": "Afghanistan and Bangladesh tour in UAE, 2025",
+            "match_id": 136879,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "03 October 2025 08:30 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-vs-Bangladesh-T20_Old-(1).jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136879_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-vs-Bangladesh-T20_Old-(1).jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFG-vs-BAN.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-vs-Bangladesh-T20_Old-(1).jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-vs-Bangladesh-T20_Sporty-(1).jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136879_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Afghanistan",
+                    "shortName": "AFG",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AFG@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#2f5ddf",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Bangladesh",
+                    "shortName": "BAN",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#397b46",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Cricket",
             "title": "Dehradun Warriors Vs Rishikesh Falcons",
             "tournament": "Uttarakhand Premier League, 2025",
             "match_id": 137096,
@@ -854,74 +866,6 @@
                     },
                     "isWinner": null,
                     "color": "#df7b00",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Cricket",
-            "title": "Afghanistan Vs Bangladesh",
-            "tournament": "Afghanistan and Bangladesh tour in UAE, 2025",
-            "match_id": 136879,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "03 October 2025 08:30 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-vs-Bangladesh-T20_Old-(1).jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136879_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-vs-Bangladesh-T20_Old-(1).jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFG-vs-BAN.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-vs-Bangladesh-T20_Old-(1).jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-vs-Bangladesh-T20_Sporty-(1).jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136879_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Afghanistan",
-                    "shortName": "AFG",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AFG@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#2f5ddf",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Bangladesh",
-                    "shortName": "BAN",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#397b46",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -1283,74 +1227,6 @@
             }
         },
         {
-            "category": "Formula 1",
-            "title": "Practice 1",
-            "tournament": "F1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2025",
-            "match_id": 118466,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "03 October 2025 03:00 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-Singapore_Old_match-card.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/118466_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1-Singapore_Old_match-card.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/R18-Singapore-GP-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Formula1-1440-x-360.png",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-Singapore_Old_match-card.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Singapore_F1_Practice-1_Race_Match_card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/118466_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Practice 1",
-                    "shortName": "P1",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#EE0000",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Singapore",
-                    "shortName": "Singapore",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#141414",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
             "category": "Football",
             "title": "Ca Osasuna Vs Getafe Cf",
             "tournament": "LALIGA 2025-26",
@@ -1466,6 +1342,74 @@
                     },
                     "isWinner": null,
                     "color": "#6183ca",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Formula 1",
+            "title": "Practice 1",
+            "tournament": "F1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2025",
+            "match_id": 118466,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "03 October 2025 03:00 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-Singapore_Old_match-card.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/118466_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1-Singapore_Old_match-card.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/R18-Singapore-GP-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Formula1-1440-x-360.png",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-Singapore_Old_match-card.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Singapore_F1_Practice-1_Race_Match_card.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/118466_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Practice 1",
+                    "shortName": "P1",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#EE0000",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Singapore",
+                    "shortName": "Singapore",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#141414",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -2622,6 +2566,74 @@
                     },
                     "isWinner": null,
                     "color": "#0088e7",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
+            "category": "Cricket",
+            "title": "New Zealand Vs Australia",
+            "tournament": "Australia tour of New Zealand, 2025",
+            "match_id": 136877,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "04 October 2025 11:45 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Australia-tour-of-New-Zealand-old-match-card-New-.png",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/136877_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Australia-tour-of-New-Zealand-old-match-card-New-.png",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-AUS-tour-logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Australia-tour-of-New-Zealand-old-match-card-New-.png",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Australia-tour-of-New-Zealand-Sporty-match-card-New-.png",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136877_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "New Zealand",
+                    "shortName": "NZ",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#1d2c6b",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Australia",
+                    "shortName": "AUS",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUS@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#002695",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
