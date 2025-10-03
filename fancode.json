@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "07:19:45 PM 03-10-2025",
+    "last_updated": "07:37:45 PM 03-10-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
     "total_matches": 38,
-    "live_matches": 6,
-    "upcoming_matches": 32,
+    "live_matches": 7,
+    "upcoming_matches": 31,
     "matches": [
         {
             "category": "Formula 1",
@@ -88,14 +88,14 @@
             "tournament": "Afghanistan and Bangladesh tour in UAE, 2025",
             "match_id": 136879,
             "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
+            "streamingStatus": "STARTED",
             "startTime": "03 October 2025 08:00 PM",
             "startDate": "01 January 1970 05:30 AM",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-vs-Bangladesh-T20_Old-(1).jpg",
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/136879_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-vs-Bangladesh-T20_Old-(1).jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-vs-Bangladesh-T20_Old-(1).jpg",
                 "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFG-vs-BAN.png",
                 "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
                 "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Afghanistan-vs-Bangladesh-T20_Old-(1).jpg",
@@ -111,14 +111,22 @@
                     },
                     "isWinner": null,
                     "color": "#2f5ddf",
-                    "cricketScore": [],
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
                     "hockeyScore": null,
                     "status": {
                         "cricket": {
-                            "isBatting": false
+                            "isBatting": true
                         }
                     }
                 },
@@ -142,17 +150,21 @@
                     }
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/136879_english_hls_e604dbb0ac62362ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/SxPumDhNQgmhS6ggi8IqBg/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/136879_english_hls_e604dbb0ac62362ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/136879_english_hls_e604dbb0ac62362ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/SxPumDhNQgmhS6ggi8IqBg/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "sony_cdn": "Unavailable",
+                "language": "ENGLISH"
             }
         },
         {
             "category": "Cricket",
-            "title": "Nainital Tigers Vs Usn Indians",
+            "title": "Usn Indians Vs Nainital Tigers",
             "tournament": "Uttarakhand Premier League, 2025",
             "match_id": 137097,
             "status": "NOT_STARTED",
@@ -172,25 +184,6 @@
             },
             "teams": [
                 {
-                    "name": "Nainital Tigers",
-                    "shortName": "NLT",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NLT@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#e3ac1a",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
                     "name": "USN Indians",
                     "shortName": "UI",
                     "flag": {
@@ -198,6 +191,33 @@
                     },
                     "isWinner": null,
                     "color": "#2f4699",
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                },
+                {
+                    "name": "Nainital Tigers",
+                    "shortName": "NLT",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NLT@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#e3ac1a",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -1835,7 +1855,7 @@
                     },
                     "isWinner": null,
                     "color": "#dcdcdc",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -1854,7 +1874,7 @@
                     },
                     "isWinner": null,
                     "color": "#dcdcdc",
-                    "cricketScore": null,
+                    "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
                     "basketBallScore": null,
@@ -1990,74 +2010,6 @@
                     },
                     "isWinner": null,
                     "color": "#4F7DE5",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Golf",
-            "title": "World Feed   Day 2",
-            "tournament": "Sanderson Farms Championship",
-            "match_id": 137259,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "04 October 2025 01:30 AM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/Sanderson-Farms-Championship-old-match-card.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/137259_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Sanderson-Farms-Championship-old-match-card.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sanderson-Farms-Championship.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Golf_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Sanderson-Farms-Championship-old-match-card.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Sanderson-Farms-Championship-Sporty-match-card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137259_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "World Feed - Day 2",
-                    "shortName": "World Feed - Day 2",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-SFC@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#004848",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "The Country Club of Jackson",
-                    "shortName": "The Country Club of Jackson",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#141414",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -2215,6 +2167,74 @@
             }
         },
         {
+            "category": "Golf",
+            "title": "World Feed   Day 2",
+            "tournament": "Sanderson Farms Championship",
+            "match_id": 137259,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "04 October 2025 01:30 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/Sanderson-Farms-Championship-old-match-card.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/137259_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/Sanderson-Farms-Championship-old-match-card.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sanderson-Farms-Championship.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Golf_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Sanderson-Farms-Championship-old-match-card.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Sanderson-Farms-Championship-Sporty-match-card.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137259_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "World Feed - Day 2",
+                    "shortName": "World Feed - Day 2",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-SFC@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#004848",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "The Country Club of Jackson",
+                    "shortName": "The Country Club of Jackson",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#141414",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
             "category": "Live events",
             "title": "Athletics",
             "tournament": "Tamil Nadu Chief Minister\u2019s Trophy Games 2025",
@@ -2351,6 +2371,74 @@
             }
         },
         {
+            "category": "Motorsports",
+            "title": "Sprint Race",
+            "tournament": "F1 ACADEMY SINGAPORE 2025",
+            "match_id": 119134,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "04 October 2025 12:30 PM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/F1_Academy_Generic_Old_match-card.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/119134_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_Academy_Generic_Old_match-card.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/R18-Singapore-GP-Tour-Logo.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Academy_Generic_Old_match-card.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Academy_Singapore_Sporty_Match_card.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/119134_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Sprint Race",
+                    "shortName": "Sprint Race",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FA@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#EE0000",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Singapore",
+                    "shortName": "Singapore",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#123456",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
             "category": "Cricket",
             "title": "Afghanistan Vs Bangladesh",
             "tournament": "Afghanistan and Bangladesh tour in UAE, 2025",
@@ -2422,74 +2510,6 @@
                     "status": {
                         "cricket": {
                             "isBatting": true
-                        }
-                    }
-                }
-            ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
-            "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
-            }
-        },
-        {
-            "category": "Motorsports",
-            "title": "Sprint Race",
-            "tournament": "F1 ACADEMY SINGAPORE 2025",
-            "match_id": 119134,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
-            "startTime": "04 October 2025 12:30 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/F1_Academy_Generic_Old_match-card.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/119134_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_Academy_Generic_Old_match-card.jpg",
-                "PLAYBACK": null,
-                "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/R18-Singapore-GP-Tour-Logo.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Academy_Generic_Old_match-card.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Academy_Singapore_Sporty_Match_card.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/119134_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Sprint Race",
-                    "shortName": "Sprint Race",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FA@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#EE0000",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Singapore",
-                    "shortName": "Singapore",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#123456",
-                    "cricketScore": null,
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
                         }
                     }
                 }
