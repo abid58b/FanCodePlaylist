@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "10:37:40 PM 07-10-2025",
+    "last_updated": "10:58:40 PM 07-10-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -41,10 +41,24 @@
                     "color": "#4c4c4c",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 1,
+                        "goals": [
+                            {
+                                "id": "156721",
+                                "shortName": "C Salvai",
+                                "isOwnGoal": false,
+                                "goalTime": "22'"
+                            }
+                        ]
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
-                    "status": null
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
                 },
                 {
                     "name": "Benfica Women",
@@ -56,10 +70,24 @@
                     "color": "#FF0000",
                     "cricketScore": null,
                     "kabaddiScore": null,
-                    "footballScore": null,
+                    "footballScore": {
+                        "points": 1,
+                        "goals": [
+                            {
+                                "id": "156670",
+                                "shortName": "L Alves",
+                                "isOwnGoal": false,
+                                "goalTime": "6'"
+                            }
+                        ]
+                    },
                     "basketBallScore": null,
                     "hockeyScore": null,
-                    "status": null
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
                 }
             ],
             "language": "ENGLISH",
@@ -76,106 +104,18 @@
         },
         {
             "category": "Cricket",
-            "title": "Fujairah Vs Sharjah",
-            "tournament": "Emirates D20 Tournament, 2025",
-            "match_id": 137479,
-            "status": "LIVE",
-            "streamingStatus": "STARTED",
-            "startTime": "07 October 2025 07:00 PM",
-            "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/137479_5722_SHA_FUJ_fc-web.jpg",
-            "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/137479_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/137479_5722_SHA_FUJ_fc-web.jpg",
-                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/137479_5722_SHA_FUJ_fc-web.jpg",
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Emirates-D20.png",
-                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137479_5722_SHA_FUJ_fc-web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137479_5722_SHA_FUJ_fc-app.jpg",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137479_CASACARDS_PARTNER_16_9_1920_1080.png"
-            },
-            "teams": [
-                {
-                    "name": "Fujairah",
-                    "shortName": "FUJ",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-FUJA@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#c8962f",
-                    "cricketScore": [
-                        {
-                            "runs": 177,
-                            "overs": "20",
-                            "balls": "120",
-                            "status": "COMPLETED",
-                            "wickets": 2
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
-                    "name": "Sharjah",
-                    "shortName": "SHA",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SHRJ@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#d94f55",
-                    "cricketScore": [
-                        {
-                            "runs": 149,
-                            "overs": "18",
-                            "balls": "108",
-                            "status": "IN_PROGRESS",
-                            "wickets": 7
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": true
-                        }
-                    }
-                }
-            ],
-            "language": "ENGLISH",
-            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/137479_english_hls_9e93f8161648795ta-di_h264/index.m3u8",
-            "dai_stream": "https://dai.google.com/linear/hls/event/n52xk_ZURaOBOOPUlxHPEQ/master.m3u8",
-            "STREAMING_CDN": {
-                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137479_english_hls_9e93f8161648795ta-di_h264/index.m3u8",
-                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137479_english_hls_9e93f8161648795ta-di_h264/index.m3u8",
-                "dai_google_cdn": "https://dai.google.com/linear/hls/event/n52xk_ZURaOBOOPUlxHPEQ/master.m3u8",
-                "cloudfront_cdn": "Unavailable",
-                "sony_cdn": "Unavailable",
-                "language": "ENGLISH"
-            }
-        },
-        {
-            "category": "Cricket",
             "title": "Emirates Blues Vs Abu Dhabi",
             "tournament": "Emirates D20 Tournament, 2025",
             "match_id": 137480,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
             "startTime": "07 October 2025 11:00 PM",
             "startDate": "01 January 1970 05:30 AM",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/137480_5722_EMB_ABD_fc-web.jpg",
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/137480_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/137480_5722_EMB_ABD_fc-web.jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/137480_5722_EMB_ABD_fc-web.jpg",
                 "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Emirates-D20.png",
                 "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
                 "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137480_5722_EMB_ABD_fc-web.jpg",
@@ -222,12 +162,16 @@
                     }
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/137480_english_hls_79d0e2e79595815ta-di_h264/index.m3u8",
+            "dai_stream": "https://dai.google.com/linear/hls/event/tv8UpdFkSpWL29c9oIKZJg/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137480_english_hls_79d0e2e79595815ta-di_h264/index.m3u8",
+                "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137480_english_hls_79d0e2e79595815ta-di_h264/index.m3u8",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/tv8UpdFkSpWL29c9oIKZJg/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "sony_cdn": "Unavailable",
+                "language": "ENGLISH"
             }
         },
         {
@@ -2407,6 +2351,74 @@
             }
         },
         {
+            "category": "Cricket",
+            "title": "Brampton Blitz Vs Toronto Sixers",
+            "tournament": "Canada Super 60, 2025",
+            "match_id": 137422,
+            "status": "NOT_STARTED",
+            "streamingStatus": "NOT_STARTED",
+            "startTime": "09 October 2025 05:30 AM",
+            "startDate": "01 January 1970 05:30 AM",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/137422_5719_BBZ_TTS_fc-Web.jpg",
+            "image_cdn": {
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/137422_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/137422_5719_BBZ_TTS_fc-Web.jpg",
+                "PLAYBACK": null,
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Canada-super-60.png",
+                "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137422_5719_BBZ_TTS_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137422_5719_BBZ_TTS_fc-App.png",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137422_CASACARDS_PARTNER_16_9_1920_1080.png"
+            },
+            "teams": [
+                {
+                    "name": "Brampton Blitz",
+                    "shortName": "BBZ",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BBZ@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#ff9747",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Toronto Sixers",
+                    "shortName": "TTS",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TTX@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#910040",
+                    "cricketScore": null,
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                }
+            ],
+            "language": "BLOODY_SWEET",
+            "adfree_stream": null,
+            "dai_stream": null,
+            "STREAMING_CDN": {
+                "language": "BLOODY_SWEET",
+                "Primary_Playback_URL": null
+            }
+        },
+        {
             "category": "Football",
             "title": "Niger Vs Congo",
             "tournament": "CAF World Cup Qualifiers",
@@ -2544,33 +2556,33 @@
         },
         {
             "category": "Cricket",
-            "title": "Brampton Blitz Vs Toronto Sixers",
-            "tournament": "Canada Super 60, 2025",
-            "match_id": 137422,
+            "title": "Atlanta Kings Cc Vs Chicago Cc",
+            "tournament": "National Cricket T10 League, 2025",
+            "match_id": 137301,
             "status": "NOT_STARTED",
             "streamingStatus": "NOT_STARTED",
-            "startTime": "09 October 2025 05:30 AM",
+            "startTime": "09 October 2025 04:30 AM",
             "startDate": "01 January 1970 05:30 AM",
-            "image": "https://www.fancode.com/skillup-uploads/cms-media/137422_5719_BBZ_TTS_fc-Web.jpg",
+            "image": "https://www.fancode.com/skillup-uploads/cms-media/137301_5711_ATL_DL_fc-Web.jpg",
             "image_cdn": {
-                "TATAPLAY": "https://images.fancode.com/aig/match/v1/137422_CASACARDS_PARTNER_16_9_1920_1080.png",
-                "APP": "https://www.fancode.com/skillup-uploads/cms-media/137422_5719_BBZ_TTS_fc-Web.jpg",
+                "TATAPLAY": "https://images.fancode.com/aig/match/v1/137301_CASACARDS_PARTNER_16_9_1920_1080.png",
+                "APP": "https://www.fancode.com/skillup-uploads/cms-media/137301_5711_ATL_DL_fc-Web.jpg",
                 "PLAYBACK": null,
-                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Canada-super-60.png",
+                "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/National-Cricket-League-Tour-Logo.png",
                 "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137422_5719_BBZ_TTS_fc-Web.jpg",
-                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137422_5719_BBZ_TTS_fc-App.png",
-                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137422_CASACARDS_PARTNER_16_9_1920_1080.png"
+                "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137301_5711_ATL_DL_fc-Web.jpg",
+                "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137301_5711_ATL_DL_fc-App.jpg",
+                "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137301_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
                 {
-                    "name": "Brampton Blitz",
-                    "shortName": "BBZ",
+                    "name": "Atlanta Kings CC",
+                    "shortName": "ATL",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BBZ@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ATLN@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#ff9747",
+                    "color": "#b41416",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
@@ -2583,13 +2595,13 @@
                     }
                 },
                 {
-                    "name": "Toronto Sixers",
-                    "shortName": "TTS",
+                    "name": "Chicago CC",
+                    "shortName": "CHI",
                     "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TTX@2x.png"
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CHIN@2x.png"
                     },
                     "isWinner": null,
-                    "color": "#910040",
+                    "color": "#0b9266",
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": null,
