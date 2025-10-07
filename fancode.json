@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "05:12:33 AM 08-10-2025",
+    "last_updated": "05:05:34 AM 08-10-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -12,7 +12,7 @@
     "matches": [
         {
             "category": "Cricket",
-            "title": "Tasmania Women Vs Victoria Women",
+            "title": "Victoria Women Vs Tasmania Women",
             "tournament": "Women's National Cricket League, 2025-26",
             "match_id": 133956,
             "status": "LIVE",
@@ -32,33 +32,6 @@
             },
             "teams": [
                 {
-                    "name": "Tasmania Women",
-                    "shortName": "TASW",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TAS@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#007e1e",
-                    "cricketScore": [
-                        {
-                            "runs": 5,
-                            "overs": "1",
-                            "balls": "6",
-                            "status": "IN_PROGRESS",
-                            "wickets": 0
-                        }
-                    ],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": true
-                        }
-                    }
-                },
-                {
                     "name": "Victoria Women",
                     "shortName": "VCTW",
                     "flag": {
@@ -66,6 +39,25 @@
                     },
                     "isWinner": null,
                     "color": "#00226a",
+                    "cricketScore": [],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": false
+                        }
+                    }
+                },
+                {
+                    "name": "Tasmania Women",
+                    "shortName": "TASW",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TAS@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#007e1e",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
