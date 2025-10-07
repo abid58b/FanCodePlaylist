@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "11:12:40 PM 07-10-2025",
+    "last_updated": "11:19:40 PM 07-10-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -104,7 +104,7 @@
         },
         {
             "category": "Cricket",
-            "title": "Emirates Blues Vs Abu Dhabi",
+            "title": "Abu Dhabi Vs Emirates Blues",
             "tournament": "Emirates D20 Tournament, 2025",
             "match_id": 137480,
             "status": "LIVE",
@@ -124,25 +124,6 @@
             },
             "teams": [
                 {
-                    "name": "Emirates Blues",
-                    "shortName": "EMB",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BLUE@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#62bfe9",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
-                },
-                {
                     "name": "Abu Dhabi",
                     "shortName": "ABD",
                     "flag": {
@@ -150,6 +131,33 @@
                     },
                     "isWinner": null,
                     "color": "#2279a4",
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                },
+                {
+                    "name": "Emirates Blues",
+                    "shortName": "EMB",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BLUE@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#62bfe9",
                     "cricketScore": [],
                     "kabaddiScore": null,
                     "footballScore": null,
