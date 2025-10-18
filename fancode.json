@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:21:00 PM 18-10-2025",
+  "last_updated": "05:49:00 PM 18-10-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -68,9 +68,9 @@
           "color": "#7B0041",
           "cricketScore": [
             {
-              "runs": 0,
-              "overs": "1.1",
-              "balls": "7",
+              "runs": 42,
+              "overs": "8.5",
+              "balls": "53",
               "status": "IN_PROGRESS",
               "wickets": 0
             }
@@ -156,9 +156,9 @@
           "color": "#7B0041",
           "cricketScore": [
             {
-              "runs": 0,
-              "overs": "1.1",
-              "balls": "7",
+              "runs": 42,
+              "overs": "8.5",
+              "balls": "53",
               "status": "IN_PROGRESS",
               "wickets": 0
             }
@@ -213,9 +213,17 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OID@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#289a14",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 50,
+              "overs": "10",
+              "balls": "60",
+              "status": "COMPLETED",
+              "wickets": 9
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -232,16 +240,24 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SKG@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#61223b",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 51,
+              "overs": "4.4",
+              "balls": "28",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -312,8 +328,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "155984",
+                "shortName": "F Azeez",
+                "isOwnGoal": false,
+                "goalTime": "36'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -341,7 +364,7 @@
       "title": "Sevilla Fc Vs Rcd Mallorca",
       "tournament": "LALIGA 2025-26",
       "match_id": 130919,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "18 October 2025 05:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -367,7 +390,17 @@
           "color": "#daa335",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "59173",
+                "shortName": "R Vargas",
+                "isOwnGoal": false,
+                "goalTime": "16'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -386,7 +419,10 @@
           "color": "#FBCCD1",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -1116,7 +1152,7 @@
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT1@2x.png"
           },
           "isWinner": null,
-          "color": "#B8142D",
+          "color": "#88070C",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1135,7 +1171,7 @@
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT2@2x.png"
           },
           "isWinner": null,
-          "color": "#1ba10e",
+          "color": "#614800",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
