@@ -1,29 +1,29 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "11:21:01 AM 20-10-2025",
+  "last_updated": "11:49:00 AM 20-10-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 4,
-  "upcoming_matches": 34,
+  "live_matches": 5,
+  "upcoming_matches": 33,
   "matches": [
     {
       "category": "Cricket",
-      "title": "New Zealand Vs England",
+      "title": "England Vs New Zealand",
       "tournament": "England tour of New Zealand, 2025",
       "match_id": 137158,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "20 October 2025 11:45 AM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/England-Tour-of-New-Zealand-2025_Old_match-card.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/137158_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/England-Tour-of-New-Zealand-2025_Old_match-card.jpg",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/England-Tour-of-New-Zealand-2025_Old_match-card.jpg",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-ENG-.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/England-Tour-of-New-Zealand-2025_Old_match-card.jpg",
@@ -31,6 +31,33 @@
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137158_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
+        {
+          "name": "England",
+          "shortName": "ENG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ENG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#3c9ae8",
+          "cricketScore": [
+            {
+              "runs": 10,
+              "overs": "0.4",
+              "balls": "4",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
         {
           "name": "New Zealand",
           "shortName": "NZ",
@@ -49,33 +76,18 @@
               "isBatting": false
             }
           }
-        },
-        {
-          "name": "England",
-          "shortName": "ENG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ENG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#3c9ae8",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
         }
       ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
+      "language": "ENGLISH",
+      "adfree_stream": "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-EVSN/master.m3u8?hdnea=exp=1760963400~acl=/*~id=77091317549798742937344769756531~hmac=cad94a17d17b193511140d9e15baacbccb69121dc0c4a91ca26bfac0cb942cbd",
+      "dai_stream": "https://dai.google.com/linear/hls/event/HynNobMPSu6nQCgpxsK0lQ/master.m3u8",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-EVSN/master.m3u8?hdnea=exp=1760963400~acl=/*~id=77091317549798742937344769756531~hmac=cad94a17d17b193511140d9e15baacbccb69121dc0c4a91ca26bfac0cb942cbd",
+        "fancode_cdn": "Unavailable",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/HynNobMPSu6nQCgpxsK0lQ/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-EVSN/master.m3u8?hdnea=exp=1760963400~acl=/*~id=77091317549798742937344769756531~hmac=cad94a17d17b193511140d9e15baacbccb69121dc0c4a91ca26bfac0cb942cbd",
+        "language": "ENGLISH"
       }
     },
     {
@@ -136,11 +148,11 @@
           "color": "#0088e7",
           "cricketScore": [
             {
-              "runs": 79,
-              "overs": "15",
-              "balls": "90",
+              "runs": 113,
+              "overs": "24",
+              "balls": "144",
               "status": "IN_PROGRESS",
-              "wickets": 2
+              "wickets": 6
             }
           ],
           "kabaddiScore": null,
@@ -224,11 +236,11 @@
           "color": "#007e1e",
           "cricketScore": [
             {
-              "runs": 137,
-              "overs": "22",
-              "balls": "132",
+              "runs": 191,
+              "overs": "30",
+              "balls": "180",
               "status": "IN_PROGRESS",
-              "wickets": 3
+              "wickets": 4
             }
           ],
           "kabaddiScore": null,
@@ -285,11 +297,11 @@
           "color": "#ffd500",
           "cricketScore": [
             {
-              "runs": 110,
-              "overs": "20.4",
-              "balls": "124",
+              "runs": 128,
+              "overs": "23.5",
+              "balls": "143",
               "status": "IN_PROGRESS",
-              "wickets": 7
+              "wickets": 10
             }
           ],
           "kabaddiScore": null,
@@ -1083,74 +1095,6 @@
       }
     },
     {
-      "category": "Football",
-      "title": "Cádiz Vs Burgos",
-      "tournament": "LALIGA Hypermotion 2025-26",
-      "match_id": 137216,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "21 October 2025 12:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/137216_5572_CDZ_BUR_fc-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137216_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137216_5572_CDZ_BUR_fc-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137216_5572_CDZ_BUR_fc-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137216_5572_CDZ_BUR_fc-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137216_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Cádiz",
-          "shortName": "CDZ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CDZ@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Burgos",
-          "shortName": "BUR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BUG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#108E2F",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
       "category": "Cricket",
       "title": "Bangladesh Vs West Indies",
       "tournament": "West Indies tour of Bangladesh, 2025",
@@ -1198,6 +1142,74 @@
           },
           "isWinner": null,
           "color": "#7B0041",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Cádiz Vs Burgos",
+      "tournament": "LALIGA Hypermotion 2025-26",
+      "match_id": 137216,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "21 October 2025 12:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/137216_5572_CDZ_BUR_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137216_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137216_5572_CDZ_BUR_fc-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137216_5572_CDZ_BUR_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137216_5572_CDZ_BUR_fc-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137216_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Cádiz",
+          "shortName": "CDZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CDZ@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Burgos",
+          "shortName": "BUR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BUG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#108E2F",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
