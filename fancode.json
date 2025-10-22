@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:21:00 PM 22-10-2025",
+  "last_updated": "07:28:00 PM 22-10-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -15,7 +15,7 @@
       "title": "Fc Goa Vs Al Nassr Fc",
       "tournament": "AFC Champions League Two 2025-26",
       "match_id": 136132,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "22 October 2025 07:15 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -41,7 +41,10 @@
           "color": "#f16622",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -60,7 +63,17 @@
           "color": "#b6b64a",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "151438",
+                "shortName": "A Gabriel",
+                "isOwnGoal": false,
+                "goalTime": "10'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
