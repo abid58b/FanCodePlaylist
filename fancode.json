@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "04:35:01 AM 26-10-2025",
+  "last_updated": "04:49:11 AM 26-10-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -124,7 +124,7 @@
     },
     {
       "category": "Cricket",
-      "title": "Hobart Hurricanes Women Vs Brisbane Heat Women",
+      "title": "Brisbane Heat Women Vs Hobart Hurricanes Women",
       "tournament": "T20 Spring Challenge, 2025",
       "match_id": 134006,
       "status": "LIVE",
@@ -144,25 +144,6 @@
       },
       "teams": [
         {
-          "name": "Hobart Hurricanes Women",
-          "shortName": "HB-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HURN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#771ad2",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "Brisbane Heat Women",
           "shortName": "BH-W",
           "flag": {
@@ -170,6 +151,33 @@
           },
           "isWinner": null,
           "color": "#11aab2",
+          "cricketScore": [
+            {
+              "runs": 26,
+              "overs": "2",
+              "balls": "12",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Hobart Hurricanes Women",
+          "shortName": "HB-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HURN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#771ad2",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -223,14 +231,22 @@
           },
           "isWinner": null,
           "color": "#9a4802",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 5,
+              "overs": "1",
+              "balls": "6",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
