@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:28:01 PM 25-10-2025",
+  "last_updated": "07:35:01 PM 25-10-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -15,7 +15,7 @@
       "title": "Girona Fc Vs Real Oviedo",
       "tournament": "LALIGA 2025-26",
       "match_id": 130920,
-      "status": "LIVE",
+      "status": "COMPLETED",
       "streamingStatus": "STARTED",
       "startTime": "25 October 2025 05:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -83,8 +83,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 2,
+            "points": 3,
             "goals": [
+              {
+                "id": "39456",
+                "shortName": "D Carmo",
+                "isOwnGoal": false,
+                "goalTime": "90'"
+              },
               {
                 "id": "5614",
                 "shortName": "S Rondon",
@@ -295,10 +301,17 @@
           "color": "#2f68e4",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Southampton F.C.",
@@ -310,10 +323,17 @@
           "color": "#de4d5f",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
