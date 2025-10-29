@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:21:00 AM 30-10-2025",
+  "last_updated": "01:42:00 AM 30-10-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -171,7 +171,7 @@
       "title": "Newcastle United Vs Tottenham Hotspur",
       "tournament": "Carabao Cup 2025-2026",
       "match_id": 137357,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "30 October 2025 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -197,7 +197,10 @@
           "color": "#d15f6a",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -216,7 +219,10 @@
           "color": "#2c4cc0",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -292,8 +298,21 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 2,
+            "goals": [
+              {
+                "id": "190968",
+                "shortName": "T George",
+                "isOwnGoal": false,
+                "goalTime": "15'"
+              },
+              {
+                "id": "174488",
+                "shortName": "A Santos",
+                "isOwnGoal": false,
+                "goalTime": "5'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -348,8 +367,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "153297",
+                "shortName": "G Franco",
+                "isOwnGoal": false,
+                "goalTime": "12'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
