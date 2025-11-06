@@ -80,7 +80,7 @@ jobs:
         else
           git fetch origin main
           git reset --soft origin/main
-          git commit -m "Auto-generated: Fancode M3U playlist from JSON data"
+          git commit -m "Auto-generated: Fancode new M3U playlist from JSON data"
           git push origin main
         fi
       env:
