@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:49:00 PM 07-11-2025",
+  "last_updated": "01:00:00 PM 07-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 4,
-  "upcoming_matches": 34,
+  "live_matches": 5,
+  "upcoming_matches": 33,
   "matches": [
     {
       "category": "Cricket",
@@ -16,14 +16,14 @@
       "tournament": "Hong Kong Sixes, 2025",
       "match_id": 137833,
       "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "streamingStatus": "STARTED",
       "startTime": "07 November 2025 01:05 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/137833_5738_IND_PAK_fc-web.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/137833_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/137833_5738_IND_PAK_fc-web.png",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/137833_5738_IND_PAK_fc-web.png",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Hong-Kong-Sixes,-2025.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137833_5738_IND_PAK_fc-web.png",
@@ -78,12 +78,16 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
+      "language": "ENGLISH",
+      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/137833_english_hls_45d3a8d78e21529_1ta-di_h264/index.m3u8",
+      "dai_stream": "https://dai.google.com/linear/hls/event/tu_MYXzdRRm8-aysFjUBuQ/master.m3u8",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137833_english_hls_45d3a8d78e21529_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137833_english_hls_45d3a8d78e21529_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/tu_MYXzdRRm8-aysFjUBuQ/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       }
     },
     {
@@ -144,11 +148,11 @@
           "color": "#164fad",
           "cricketScore": [
             {
-              "runs": 23,
-              "overs": "1.3",
-              "balls": "9",
+              "runs": 53,
+              "overs": "4.2",
+              "balls": "26",
               "status": "IN_PROGRESS",
-              "wickets": 1
+              "wickets": 4
             }
           ],
           "kabaddiScore": null,
