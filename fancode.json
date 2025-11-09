@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "04:28:00 AM 10-11-2025",
+  "last_updated": "04:35:01 AM 10-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -179,14 +179,22 @@
           },
           "isWinner": null,
           "color": "#007e1e",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
@@ -220,7 +228,7 @@
     },
     {
       "category": "Cricket",
-      "title": "New South Wales Vs Victoria",
+      "title": "Victoria Vs New South Wales",
       "tournament": "Sheffield Shield, 2025-26",
       "match_id": 134023,
       "status": "NOT_STARTED",
@@ -240,25 +248,6 @@
       },
       "teams": [
         {
-          "name": "New South Wales",
-          "shortName": "NSW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NSW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0088e7",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "Victoria",
           "shortName": "VCT",
           "flag": {
@@ -266,6 +255,33 @@
           },
           "isWinner": null,
           "color": "#00226a",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "New South Wales",
+          "shortName": "NSW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NSW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0088e7",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
