@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "02:00:01 PM 09-11-2025",
+  "last_updated": "02:07:01 PM 09-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -44,8 +44,8 @@
               "runs": 135,
               "overs": "6",
               "balls": "36",
-              "status": "IN_PROGRESS",
-              "wickets": 4
+              "status": "COMPLETED",
+              "wickets": 3
             }
           ],
           "kabaddiScore": null,
@@ -54,7 +54,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -66,14 +66,22 @@
           },
           "isWinner": null,
           "color": "#5a8543",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 26,
+              "overs": "0.5",
+              "balls": "5",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -121,11 +129,11 @@
           "color": "#B8142D",
           "cricketScore": [
             {
-              "runs": 10,
-              "overs": "1.3",
-              "balls": "9",
+              "runs": 18,
+              "overs": "3",
+              "balls": "18",
               "status": "IN_PROGRESS",
-              "wickets": 0
+              "wickets": 2
             }
           ],
           "kabaddiScore": null,
@@ -175,7 +183,7 @@
       "title": "Tokyo Verdy Beleza Vs Naegohyang Women's Fc",
       "tournament": "AFC Women's Champions League 2025-26",
       "match_id": 137944,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "09 November 2025 02:00 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -204,11 +212,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Naegohyang Women's FC",
@@ -223,11 +227,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
       "language": "ENGLISH",
