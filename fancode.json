@@ -1,29 +1,29 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:21:00 AM 11-11-2025",
+  "last_updated": "09:00:01 AM 11-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 5,
-  "upcoming_matches": 33,
+  "live_matches": 6,
+  "upcoming_matches": 32,
   "matches": [
     {
       "category": "Cricket",
-      "title": "Bangladesh Vs Ireland",
+      "title": "Ireland Vs Bangladesh",
       "tournament": "Ireland tour of Bangladesh, 2025",
       "match_id": 138237,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "11 November 2025 09:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
+      "startDate": "11 November 2025 09:00 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/BAN-vs-IRE_old-match-card.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/138237_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/BAN-vs-IRE_old-match-card.png",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/BAN-vs-IRE_old-match-card.png",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-tour-of-Bangladesh,-2025-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BAN-vs-IRE_old-match-card.png",
@@ -31,6 +31,33 @@
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138237_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
+        {
+          "name": "Ireland",
+          "shortName": "IRE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ba6a15",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
         {
           "name": "Bangladesh",
           "shortName": "BAN",
@@ -49,33 +76,18 @@
               "isBatting": false
             }
           }
-        },
-        {
-          "name": "Ireland",
-          "shortName": "IRE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ba6a15",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
         }
       ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
+      "language": "ENGLISH",
+      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/138237_english_hls_3626c1011429635_1ta-di_h264/index.m3u8",
+      "dai_stream": "https://dai.google.com/linear/hls/event/yro-wN2GQCiEKbyqdbQo1Q/master.m3u8",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138237_english_hls_3626c1011429635_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138237_english_hls_3626c1011429635_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/yro-wN2GQCiEKbyqdbQo1Q/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       }
     },
     {
@@ -136,7 +148,7 @@
           "color": "#c50008",
           "cricketScore": [
             {
-              "runs": 167,
+              "runs": 168,
               "overs": "44.4",
               "balls": "0",
               "status": "IN_PROGRESS",
@@ -224,11 +236,11 @@
           "color": "#0088e7",
           "cricketScore": [
             {
-              "runs": 34,
-              "overs": "21",
+              "runs": 63,
+              "overs": "27",
               "balls": "0",
               "status": "IN_PROGRESS",
-              "wickets": 2
+              "wickets": 3
             }
           ],
           "kabaddiScore": null,
@@ -285,11 +297,11 @@
           "color": "#1b4604",
           "cricketScore": [
             {
-              "runs": 86,
-              "overs": "16.4",
-              "balls": "100",
-              "status": "IN_PROGRESS",
-              "wickets": 6
+              "runs": 102,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 7
             }
           ],
           "kabaddiScore": null,
@@ -298,7 +310,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -310,14 +322,22 @@
           },
           "isWinner": null,
           "color": "#dc3f31",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 4,
+              "overs": "0.2",
+              "balls": "2",
+              "status": "IN_PROGRESS",
+              "wickets": 1
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -365,8 +385,8 @@
           "color": "#ffd500",
           "cricketScore": [
             {
-              "runs": 4,
-              "overs": "3",
+              "runs": 30,
+              "overs": "8",
               "balls": "0",
               "status": "IN_PROGRESS",
               "wickets": 0
@@ -735,82 +755,6 @@
           "isWinner": null,
           "color": "#91ca6b",
           "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "West Indies Vs New Zealand",
-      "tournament": "West Indies tour of New Zealand, 2025",
-      "match_id": 137691,
-      "status": "ABANDONED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "10 November 2025 05:45 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-NZ_T20Is_old.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137691_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-NZ_T20Is_old.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vc-WI.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-NZ_T20Is_old.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-NZ_T20Is_Sporty.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137691_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "West Indies",
-          "shortName": "WI",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#7B0041",
-          "cricketScore": [
-            {
-              "runs": 38,
-              "overs": "6.3",
-              "balls": "39",
-              "status": "IN_PROGRESS",
-              "wickets": 1
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        },
-        {
-          "name": "New Zealand",
-          "shortName": "NZ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#1d2c6b",
-          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -2646,6 +2590,74 @@
           },
           "isWinner": null,
           "color": "#EE0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Naegohyang Women's Fc Vs Ispe Wfc",
+      "tournament": "AFC Women's Champions League 2025-26",
+      "match_id": 137957,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "15 November 2025 06:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/137957_5744_NAE-W_ISP-W_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137957_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137957_5744_NAE-W_ISP-W_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137957_5744_NAE-W_ISP-W_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137957_5744_NAE-W_ISP-W_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137957_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Naegohyang Women's FC",
+          "shortName": "NAE-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT5@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ff5800",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "ISPE WFC",
+          "shortName": "ISP-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#B8142D",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
