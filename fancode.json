@@ -1,86 +1,74 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "04:07:01 AM 13-11-2025",
+  "last_updated": "06:28:01 AM 13-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 4,
-  "upcoming_matches": 34,
+  "live_matches": 2,
+  "upcoming_matches": 36,
   "matches": [
     {
-      "category": "Football",
-      "title": "Benfica Women Vs Fc Twente Women",
-      "tournament": "UEFA Women's Champions League 2025-26",
-      "match_id": 137568,
-      "status": "COMPLETED",
+      "category": "Cricket",
+      "title": "West Indies Vs New Zealand",
+      "tournament": "West Indies tour of New Zealand, 2025",
+      "match_id": 137692,
+      "status": "LIVE",
       "streamingStatus": "STARTED",
-      "startTime": "13 November 2025 01:30 AM",
+      "startTime": "13 November 2025 05:45 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/137568_5720_BEN-W_TWE-W_fc-web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-NZ_T20Is_old.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137568_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137568_5720_BEN-W_TWE-W_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/137568_5720_BEN-W_TWE-W_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WHL.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137568_5720_BEN-W_TWE-W_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137568_5720_BEN-W_TWE-W_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137568_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137692_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-NZ_T20Is_old.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-NZ_T20Is_old.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vc-WI.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-NZ_T20Is_old.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-NZ_T20Is_Sporty.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137692_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Benfica Women",
-          "shortName": "BEN-W",
+          "name": "West Indies",
+          "shortName": "WI",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BEN@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
+          "color": "#7B0041",
+          "cricketScore": [
+            {
+              "runs": 58,
+              "overs": "8",
+              "balls": "48",
+              "status": "IN_PROGRESS",
+              "wickets": 5
+            }
+          ],
           "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "199547",
-                "shortName": "CM Prieto",
-                "isOwnGoal": false,
-                "goalTime": "62'"
-              }
-            ]
-          },
+          "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
         {
-          "name": "FC Twente Women",
-          "shortName": "TWE-W",
+          "name": "New Zealand",
+          "shortName": "NZ",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-TWE@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png"
           },
           "isWinner": null,
-          "color": "#ff5800",
-          "cricketScore": null,
+          "color": "#1d2c6b",
+          "cricketScore": [],
           "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "225998",
-                "shortName": "L Groenewegen",
-                "isOwnGoal": false,
-                "goalTime": "69'"
-              }
-            ]
-          },
+          "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -91,210 +79,14 @@
         }
       ],
       "language": "ENGLISH",
-      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/137568_english_hls_c119c6243614568_1ta-di_h264/index.m3u8",
-      "dai_stream": "https://dai.google.com/linear/hls/event/z16yabklQBO2NxDJCtQAzA/master.m3u8",
+      "adfree_stream": "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-wivsnz/master.m3u8?hdnea=exp=1763015400~acl=/*~id=48204b0390cc49888b8507685173f43c-1755427161715~hmac=22cadb4afd8b86066f4428a00dc119a0aa5fbe06d8ab3b3fe493c8511a6990a9",
+      "dai_stream": "https://dai.google.com/linear/hls/event/HynNobMPSu6nQCgpxsK0lQ/master.m3u8",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137568_english_hls_c119c6243614568_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137568_english_hls_c119c6243614568_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/z16yabklQBO2NxDJCtQAzA/master.m3u8",
+        "Primary_Playback_URL": "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-wivsnz/master.m3u8?hdnea=exp=1763015400~acl=/*~id=48204b0390cc49888b8507685173f43c-1755427161715~hmac=22cadb4afd8b86066f4428a00dc119a0aa5fbe06d8ab3b3fe493c8511a6990a9",
+        "fancode_cdn": "Unavailable",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/HynNobMPSu6nQCgpxsK0lQ/master.m3u8",
         "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Manchester United Women Vs Paris Saint Germain Women",
-      "tournament": "UEFA Women's Champions League 2025-26",
-      "match_id": 137567,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "13 November 2025 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/137567_5720_MUN-W_PSG-W_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137567_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137567_5720_MUN-W_PSG-W_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/137567_5720_MUN-W_PSG-W_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WHL.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137567_5720_MUN-W_PSG-W_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137567_5720_MUN-W_PSG-W_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137567_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Manchester United Women",
-          "shortName": "MUN-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MUW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#bcae34",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 2,
-            "goals": [
-              {
-                "id": "31588",
-                "shortName": "F Rolfo",
-                "isOwnGoal": false,
-                "goalTime": "58'"
-              },
-              {
-                "id": "152509",
-                "shortName": "M Malard",
-                "isOwnGoal": false,
-                "goalTime": "31'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Paris Saint-Germain Women",
-          "shortName": "PSG-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PSG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#5c9dcd",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "156726",
-                "shortName": "O Carmona",
-                "isOwnGoal": false,
-                "goalTime": "45'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/137567_english_hls_a2d42a567a46880_1ta-di_h264/index.m3u8",
-      "dai_stream": "https://dai.google.com/linear/hls/event/n_lWcQgCRZ6Ikar4196foA/master.m3u8",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137567_english_hls_a2d42a567a46880_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137567_english_hls_a2d42a567a46880_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/n_lWcQgCRZ6Ikar4196foA/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Club Atletico De Madrid Femenino Vs Juventus Women",
-      "tournament": "UEFA Women's Champions League 2025-26",
-      "match_id": 137566,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "13 November 2025 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/137566_5720_ATL-W_JUV-W_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137566_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137566_5720_ATL-W_JUV-W_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/137566_5720_ATL-W_JUV-W_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WHL.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137566_5720_ATL-W_JUV-W_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137566_5720_ATL-W_JUV-W_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137566_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Club Atletico de Madrid Femenino",
-          "shortName": "ATL-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/ATL-FT2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#5C63E7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "160724",
-                "shortName": "A Sarriegi",
-                "isOwnGoal": false,
-                "goalTime": "39'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Juventus Women",
-          "shortName": "JUV-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JUVE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#4c4c4c",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 2,
-            "goals": [
-              {
-                "id": "156712",
-                "shortName": "B Bonansea",
-                "isOwnGoal": false,
-                "goalTime": "56'"
-              },
-              {
-                "id": "195761",
-                "shortName": "ES Godo",
-                "isOwnGoal": false,
-                "goalTime": "45'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/137566_english_hls_04a04c349746552_1ta-di_h264/index.m3u8",
-      "dai_stream": "https://dai.google.com/linear/hls/event/qTsHJgQ3RoSSFDOlVQK9Ag/master.m3u8",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137566_english_hls_04a04c349746552_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137566_english_hls_04a04c349746552_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/qTsHJgQ3RoSSFDOlVQK9Ag/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
+        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-wivsnz/master.m3u8?hdnea=exp=1763015400~acl=/*~id=48204b0390cc49888b8507685173f43c-1755427161715~hmac=22cadb4afd8b86066f4428a00dc119a0aa5fbe06d8ab3b3fe493c8511a6990a9",
         "language": "ENGLISH"
       }
     },
@@ -384,33 +176,33 @@
     },
     {
       "category": "Cricket",
-      "title": "New Zealand Vs West Indies",
-      "tournament": "West Indies tour of New Zealand, 2025",
-      "match_id": 137692,
+      "title": "Timor Leste Vs Indonesia",
+      "tournament": "Rising East Asia Tri-Series, 2025",
+      "match_id": 138020,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "13 November 2025 05:45 AM",
+      "startTime": "13 November 2025 07:00 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-NZ_T20Is_old.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138020_5753_TLS_INA_FC-Web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137692_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-NZ_T20Is_old.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138020_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138020_5753_TLS_INA_FC-Web.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vc-WI.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/BBI_Risingeast.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-NZ_T20Is_old.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-NZ_T20Is_Sporty.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137692_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138020_5753_TLS_INA_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138020_5753_TLS_INA_FC-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138020_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "New Zealand",
-          "shortName": "NZ",
+          "name": "Timor-Leste",
+          "shortName": "TLS",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ETI@2x.png"
           },
           "isWinner": null,
-          "color": "#1d2c6b",
+          "color": "#B8142D",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -423,13 +215,13 @@
           }
         },
         {
-          "name": "West Indies",
-          "shortName": "WI",
+          "name": "Indonesia",
+          "shortName": "INA",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-INDA@2x.png"
           },
           "isWinner": null,
-          "color": "#7B0041",
+          "color": "#dc3f31",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -522,74 +314,6 @@
           "status": {
             "cricket": {
               "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "Timor Leste Vs Indonesia",
-      "tournament": "Rising East Asia Tri-Series, 2025",
-      "match_id": 138020,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 November 2025 07:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138020_5753_TLS_INA_FC-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138020_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138020_5753_TLS_INA_FC-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/BBI_Risingeast.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138020_5753_TLS_INA_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138020_5753_TLS_INA_FC-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138020_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Timor-Leste",
-          "shortName": "TLS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ETI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#B8142D",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Indonesia",
-          "shortName": "INA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-INDA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#dc3f31",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
             }
           }
         }
@@ -2690,6 +2414,210 @@
           },
           "isWinner": null,
           "color": "#f3a42d",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "Janakpur Bolts Vs Kathmandu Gurkhas",
+      "tournament": "Nepal Premier League, 2025",
+      "match_id": 138293,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "17 November 2025 03:45 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138293_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/NPL_Ncell-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138293_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Janakpur Bolts",
+          "shortName": "JKB",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-JKB@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1d2b68",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Kathmandu Gurkhas",
+          "shortName": "KMG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KMG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#a1800e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Wuhan Jiangda Women Vs Pfc Nasaf",
+      "tournament": "AFC Women's Champions League 2025-26",
+      "match_id": 137949,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "17 November 2025 04:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/137949_5744_WJ-W_NAS-W_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137949_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137949_5744_WJ-W_NAS-W_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137949_5744_WJ-W_NAS-W_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137949_5744_WJ-W_NAS-W_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137949_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Wuhan Jiangda Women",
+          "shortName": "WJ-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WJW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#089bc5",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "PFC Nasaf",
+          "shortName": "NAS-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Cultural Leonesa Vs Málaga",
+      "tournament": "LALIGA Hypermotion 2025-26",
+      "match_id": 138064,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "18 November 2025 01:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1/138064_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138064_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1/138064_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/138064_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/138064_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138064_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Cultural Leonesa",
+          "shortName": "CL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#614800",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Málaga",
+          "shortName": "MAG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MAG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#537eba",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
