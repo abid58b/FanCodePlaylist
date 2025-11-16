@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:21:01 PM 16-11-2025",
+  "last_updated": "06:28:01 PM 16-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -105,7 +105,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#4fb319",
           "cricketScore": [
             {
@@ -132,15 +132,15 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OMA@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#ad1b0e",
           "cricketScore": [
             {
-              "runs": 154,
-              "overs": "19.4",
-              "balls": "118",
+              "runs": 155,
+              "overs": "20",
+              "balls": "120",
               "status": "IN_PROGRESS",
-              "wickets": 7
+              "wickets": 8
             }
           ],
           "kabaddiScore": null,
@@ -168,7 +168,7 @@
     },
     {
       "category": "Cricket",
-      "title": "West Indies Under 19 Vs England Under 19",
+      "title": "England Under 19 Vs West Indies Under 19",
       "tournament": "England Under-19 tour of West Indies, 2025",
       "match_id": 138037,
       "status": "NOT_STARTED",
@@ -188,25 +188,6 @@
       },
       "teams": [
         {
-          "name": "West Indies Under-19",
-          "shortName": "WI-U19",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#c9618c",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "England Under-19",
           "shortName": "EN-U19",
           "flag": {
@@ -214,6 +195,33 @@
           },
           "isWinner": null,
           "color": "#143898",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "West Indies Under-19",
+          "shortName": "WI-U19",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#c9618c",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
