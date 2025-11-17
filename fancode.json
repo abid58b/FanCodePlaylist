@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "04:42:01 PM 17-11-2025",
+  "last_updated": "04:56:01 PM 17-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -41,9 +41,9 @@
           "color": "#1d2b68",
           "cricketScore": [
             {
-              "runs": 62,
-              "overs": "11",
-              "balls": "66",
+              "runs": 76,
+              "overs": "13",
+              "balls": "78",
               "status": "IN_PROGRESS",
               "wickets": 4
             }
@@ -124,7 +124,7 @@
               "runs": 117,
               "overs": "20",
               "balls": "120",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 9
             }
           ],
@@ -134,7 +134,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -146,14 +146,22 @@
           },
           "isWinner": null,
           "color": "#164fad",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 23,
+              "overs": "2.5",
+              "balls": "17",
+              "status": "IN_PROGRESS",
+              "wickets": 1
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -175,7 +183,7 @@
       "title": "Wuhan Jiangda Women Vs Pfc Nasaf",
       "tournament": "AFC Women's Champions League 2025-26",
       "match_id": 137949,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "17 November 2025 04:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -204,11 +212,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "PFC Nasaf",
@@ -223,11 +227,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
       "language": "ENGLISH",
