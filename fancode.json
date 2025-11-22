@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:07:01 PM 22-11-2025",
+  "last_updated": "09:14:00 PM 22-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -68,9 +68,9 @@
           "color": "#E1D544",
           "cricketScore": [
             {
-              "runs": 66,
-              "overs": "6.1",
-              "balls": "37",
+              "runs": 86,
+              "overs": "7.4",
+              "balls": "46",
               "status": "IN_PROGRESS",
               "wickets": 4
             }
@@ -512,8 +512,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "79372",
+                "shortName": "M Kvistgaarden",
+                "isOwnGoal": false,
+                "goalTime": "33'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -538,7 +545,7 @@
     },
     {
       "category": "Cricket",
-      "title": "Quetta Qavalry Vs Uae Bulls",
+      "title": "Uae Bulls Vs Quetta Qavalry",
       "tournament": "Abu Dhabi T10, 2025",
       "match_id": 138216,
       "status": "NOT_STARTED",
@@ -558,25 +565,6 @@
       },
       "teams": [
         {
-          "name": "Quetta Qavalry",
-          "shortName": "QQY",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-QQY@2x.png"
-          },
-          "isWinner": null,
-          "color": "#371A82",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "UAE Bulls",
           "shortName": "UAB",
           "flag": {
@@ -584,6 +572,33 @@
           },
           "isWinner": null,
           "color": "#DA4E33",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Quetta Qavalry",
+          "shortName": "QQY",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-QQY@2x.png"
+          },
+          "isWinner": null,
+          "color": "#371A82",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
