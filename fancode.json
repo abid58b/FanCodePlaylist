@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:21:00 PM 23-11-2025",
+  "last_updated": "06:49:01 PM 23-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 8,
-  "upcoming_matches": 30,
+  "live_matches": 7,
+  "upcoming_matches": 31,
   "matches": [
     {
       "category": "Cricket",
@@ -37,7 +37,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ROCA@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#1a4e26",
           "cricketScore": [
             {
@@ -64,15 +64,15 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AJT@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#a87446",
           "cricketScore": [
             {
-              "runs": 51,
-              "overs": "3.5",
-              "balls": "23",
+              "runs": 112,
+              "overs": "8.2",
+              "balls": "50",
               "status": "IN_PROGRESS",
-              "wickets": 1
+              "wickets": 3
             }
           ],
           "kabaddiScore": null,
@@ -96,6 +96,74 @@
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
+      }
+    },
+    {
+      "category": "Hockey",
+      "title": "India Vs Korea",
+      "tournament": "Sultan Azlan Shah Cup",
+      "match_id": 138411,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "23 November 2025 07:45 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138411_5777_IND_KOR_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138411_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138411_5777_IND_KOR_fc-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sultan-Azlan-Shah-Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Hockey-1440-x-360.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138411_5777_IND_KOR_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138411_5777_IND_KOR_fc-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138411_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "India",
+          "shortName": "IND",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/hk-flags/FC-INDA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0f60de",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Korea",
+          "shortName": "KOR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/hk-flags/FC-SOK@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00006c",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
       }
     },
     {
@@ -152,8 +220,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "39736",
+                "shortName": "T Campbell",
+                "isOwnGoal": false,
+                "goalTime": "48'"
+              },
               {
                 "id": "39736",
                 "shortName": "T Campbell",
@@ -178,6 +252,84 @@
         "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/136967_english_hls_7a2da38f837216_1ta-di_h264/index.m3u8",
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/136967_english_hls_7a2da38f837216_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/Sf5YNDnvR9eO89r1PIULuA/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Real Oviedo Vs Rayo Vallecano",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 130954,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "23 November 2025 06:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/130954_5427_RO_RVL_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/130954_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/130954_5427_RO_RVL_fc-Web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/130954_5427_RO_RVL_fc-Web.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/130954_5427_RO_RVL_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/130954_5427_RO_RVL_fc-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/130954_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Real Oviedo",
+          "shortName": "RO",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#A71C10",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Rayo Vallecano",
+          "shortName": "RVL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAV@2x.png"
+          },
+          "isWinner": null,
+          "color": "#F77A1E",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/130954_english_hls_d214906bb360656_1adfreeta-di_h264/index.m3u8",
+      "dai_stream": "Unavailable",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/130954_english_hls_d214906bb360656_1adfreeta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/130954_english_hls_d214906bb360656_1adfreeta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -260,147 +412,11 @@
       }
     },
     {
-      "category": "Football",
-      "title": "Real Oviedo Vs Rayo Vallecano",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 130954,
-      "status": "NOT_STARTED",
-      "streamingStatus": "STARTED",
-      "startTime": "23 November 2025 06:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/130954_5427_RO_RVL_fc-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/130954_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/130954_5427_RO_RVL_fc-Web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/130954_5427_RO_RVL_fc-Web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/130954_5427_RO_RVL_fc-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/130954_5427_RO_RVL_fc-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/130954_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Real Oviedo",
-          "shortName": "RO",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png"
-          },
-          "isWinner": null,
-          "color": "#A71C10",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Rayo Vallecano",
-          "shortName": "RVL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAV@2x.png"
-          },
-          "isWinner": null,
-          "color": "#F77A1E",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/130954_english_hls_d214906bb360656_1adfreeta-di_h264/index.m3u8",
-      "dai_stream": "Unavailable",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/130954_english_hls_d214906bb360656_1adfreeta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/130954_english_hls_d214906bb360656_1adfreeta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Wuhan Jiangda Women Vs Bam Khatoon Fc",
-      "tournament": "AFC Women's Champions League 2025-26",
-      "match_id": 137961,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "23 November 2025 04:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/137961_5744_WJ-W_BKFC_fc-web_1763103330898.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137961_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137961_5744_WJ-W_BKFC_fc-web_1763103330898.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/137961_5744_WJ-W_BKFC_fc-web_1763103330898.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Women's-Champions-League.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137961_5744_WJ-W_BKFC_fc-web_1763103330898.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137961_5744_WJ-W_BKFC_fc-app_1763103322446.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137961_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Wuhan Jiangda Women",
-          "shortName": "WJ-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WJW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#089bc5",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        },
-        {
-          "name": "Bam Khatoon FC",
-          "shortName": "BKFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BKFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#bb1016",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        }
-      ],
-      "language": "ENGLISH",
-      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/137961_english_hls_f500d57b2724167_1ta-di_h264/index.m3u8",
-      "dai_stream": "https://dai.google.com/linear/hls/event/EOPdBJD9RTG0kQWfU8m1CA/master.m3u8",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137961_english_hls_f500d57b2724167_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137961_english_hls_f500d57b2724167_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/EOPdBJD9RTG0kQWfU8m1CA/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
       "category": "Cricket",
       "title": "Leeward Islands Hurricanes Vs Jamaica Scorpions",
       "tournament": "CG United Super50 Cup, 2025",
       "match_id": 138051,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "23 November 2025 06:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -472,7 +488,7 @@
       "title": "Barbados Pride Vs Windward Islands Volcanoes",
       "tournament": "CG United Super50 Cup, 2025",
       "match_id": 138050,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "23 November 2025 06:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -1100,35 +1116,35 @@
       }
     },
     {
-      "category": "Hockey",
-      "title": "India Vs Korea",
-      "tournament": "Sultan Azlan Shah Cup",
-      "match_id": 138411,
+      "category": "Cricket",
+      "title": "Janakpur Bolts Vs Biratnagar Kings",
+      "tournament": "Nepal Premier League, 2025",
+      "match_id": 138301,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "23 November 2025 07:30 PM",
+      "startTime": "24 November 2025 11:30 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138411_5777_IND_KOR_fc-Web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Biratnagar-Kings_Old_match-card_02.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138411_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138411_5777_IND_KOR_fc-Web.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138301_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Biratnagar-Kings_Old_match-card_02.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sultan-Azlan-Shah-Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Hockey-1440-x-360.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138411_5777_IND_KOR_fc-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138411_5777_IND_KOR_fc-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138411_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/NPL_Ncell-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Biratnagar-Kings_Old_match-card_02.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Biratnagar-Kings_Sporty_match-card_02.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138301_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "India",
-          "shortName": "IND",
+          "name": "Janakpur Bolts",
+          "shortName": "JKB",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/hk-flags/FC-INDA@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-JKB@2x.png"
           },
           "isWinner": null,
-          "color": "#0f60de",
-          "cricketScore": null,
+          "color": "#1d2b68",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1140,14 +1156,14 @@
           }
         },
         {
-          "name": "Korea",
-          "shortName": "KOR",
+          "name": "Biratnagar Kings",
+          "shortName": "BK",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/hk-flags/FC-SOK@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BKN@2x.png"
           },
           "isWinner": null,
-          "color": "#00006c",
-          "cricketScore": null,
+          "color": "#bda521",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1323,74 +1339,6 @@
           "status": {
             "cricket": {
               "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "Janakpur Bolts Vs Biratnagar Kings",
-      "tournament": "Nepal Premier League, 2025",
-      "match_id": 138301,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "24 November 2025 11:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Biratnagar-Kings_Old_match-card_02.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138301_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Biratnagar-Kings_Old_match-card_02.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/NPL_Ncell-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Biratnagar-Kings_Old_match-card_02.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Biratnagar-Kings_Sporty_match-card_02.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138301_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Janakpur Bolts",
-          "shortName": "JKB",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-JKB@2x.png"
-          },
-          "isWinner": null,
-          "color": "#1d2b68",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Biratnagar Kings",
-          "shortName": "BK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BKN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#bda521",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
             }
           }
         }
@@ -1608,74 +1556,6 @@
       }
     },
     {
-      "category": "Hockey",
-      "title": "Korea Vs New Zealand",
-      "tournament": "Sultan Azlan Shah Cup",
-      "match_id": 138414,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "24 November 2025 01:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138414_5777_KOR_NZ_fc-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138414_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138414_5777_KOR_NZ_fc-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sultan-Azlan-Shah-Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Hockey-1440-x-360.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138414_5777_KOR_NZ_fc-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138414_5777_KOR_NZ_fc-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138414_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Korea",
-          "shortName": "KOR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/hk-flags/FC-SOK@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00006c",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "New Zealand",
-          "shortName": "NZ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/hk-flags/FC-NZC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#1d2c6b",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
       "category": "Cricket",
       "title": "Sudurpaschim Royals Vs Karnali Yaks",
       "tournament": "Nepal Premier League, 2025",
@@ -1724,6 +1604,74 @@
           "isWinner": null,
           "color": "#1583ab",
           "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Hockey",
+      "title": "Korea Vs New Zealand",
+      "tournament": "Sultan Azlan Shah Cup",
+      "match_id": 138414,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "24 November 2025 01:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138414_5777_KOR_NZ_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138414_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138414_5777_KOR_NZ_fc-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sultan-Azlan-Shah-Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Hockey-1440-x-360.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138414_5777_KOR_NZ_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138414_5777_KOR_NZ_fc-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138414_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Korea",
+          "shortName": "KOR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/hk-flags/FC-SOK@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00006c",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "New Zealand",
+          "shortName": "NZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/hk-flags/FC-NZC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1d2c6b",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1908,7 +1856,7 @@
           },
           "isWinner": null,
           "color": "#c9618c",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1927,7 +1875,7 @@
           },
           "isWinner": null,
           "color": "#143898",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -2753,6 +2701,74 @@
           },
           "isWinner": null,
           "color": "#daa335",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Real Sociedad B Vs Real Valladolid",
+      "tournament": "LALIGA Hypermotion 2025-26",
+      "match_id": 138068,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "25 November 2025 01:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Real-Sociedad-B_vs_Real-Valladolid_Old.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138068_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Real-Sociedad-B_vs_Real-Valladolid_Old.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Real-Sociedad-B_vs_Real-Valladolid_Old.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Real-Sociedad-B_vs_Real-Valladolid_sporty.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138068_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Real Sociedad B",
+          "shortName": "RSB",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RSO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ae7a05",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Real Valladolid",
+          "shortName": "VLD",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VLD@2x.png"
+          },
+          "isWinner": null,
+          "color": "#F1948A",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
