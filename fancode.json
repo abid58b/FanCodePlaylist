@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "10:21:02 PM 23-11-2025",
+  "last_updated": "10:42:03 PM 23-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -68,11 +68,11 @@
           "color": "#d48020",
           "cricketScore": [
             {
-              "runs": 48,
-              "overs": "7.5",
-              "balls": "47",
+              "runs": 69,
+              "overs": "11.5",
+              "balls": "72",
               "status": "IN_PROGRESS",
-              "wickets": 4
+              "wickets": 7
             }
           ],
           "kabaddiScore": null,
@@ -129,10 +129,10 @@
           "color": "#E1D544",
           "cricketScore": [
             {
-              "runs": 99,
-              "overs": "9.3",
-              "balls": "58",
-              "status": "IN_PROGRESS",
+              "runs": 112,
+              "overs": "10",
+              "balls": "60",
+              "status": "COMPLETED",
               "wickets": 4
             }
           ],
@@ -142,7 +142,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -154,14 +154,22 @@
           },
           "isWinner": null,
           "color": "#2166a7",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 31,
+              "overs": "1.5",
+              "balls": "11",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -210,8 +218,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "160337",
+                "shortName": "V Gomez",
+                "isOwnGoal": false,
+                "goalTime": "75'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -268,7 +283,7 @@
       "title": "Getafe Cf Vs Atletico De Madrid",
       "tournament": "LALIGA 2025-26",
       "match_id": 130956,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "23 November 2025 11:00 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -297,11 +312,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Atletico de Madrid",
@@ -316,11 +327,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
       "language": "ENGLISH",
@@ -536,6 +543,74 @@
           "isWinner": null,
           "color": "#A1B5DB",
           "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "Trinidad & Tobago Red Force Vs Guyana Harpy Eagles",
+      "tournament": "CG United Super50 Cup, 2025",
+      "match_id": 138052,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "23 November 2025 11:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/CG-United-Super50-2025_match-card.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138052_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/CG-United-Super50-2025_match-card.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/CG-United-Super50_Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/CG-United-Super50-2025_match-card.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/CG-United-Super50-2025_Sporty_Match_card_.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138052_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Trinidad & Tobago Red Force",
+          "shortName": "TNT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RFRC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#a1090f",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Guyana Harpy Eagles",
+          "shortName": "GUY",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HARP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#d3b016",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1080,74 +1155,6 @@
       }
     },
     {
-      "category": "Cricket",
-      "title": "Trinidad & Tobago Red Force Vs Guyana Harpy Eagles",
-      "tournament": "CG United Super50 Cup, 2025",
-      "match_id": 138052,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "23 November 2025 11:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/CG-United-Super50-2025_match-card.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138052_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/CG-United-Super50-2025_match-card.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/CG-United-Super50_Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/CG-United-Super50-2025_match-card.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/CG-United-Super50-2025_Sporty_Match_card_.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138052_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Trinidad & Tobago Red Force",
-          "shortName": "TNT",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RFRC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#a1090f",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Guyana Harpy Eagles",
-          "shortName": "GUY",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HARP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#d3b016",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
       "category": "Football",
       "title": "Málaga Vs Mirandés",
       "tournament": "LALIGA Hypermotion 2025-26",
@@ -1196,74 +1203,6 @@
           "isWinner": null,
           "color": "#028ed9",
           "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "Malaysia Vs Thailand",
-      "tournament": "Mini SEA Games Men's T20, 2025",
-      "match_id": 138451,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "24 November 2025 07:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138451_5780_MAS_TL_fc-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138451_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138451_5780_MAS_TL_fc-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138451_5780_MAS_TL_fc-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138451_5780_MAS_TL_fc-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138451_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Malaysia",
-          "shortName": "MAS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALY@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ffd800",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Thailand",
-          "shortName": "TL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-THL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#16369a",
-          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1421,6 +1360,74 @@
     },
     {
       "category": "Cricket",
+      "title": "Malaysia Vs Thailand",
+      "tournament": "Mini SEA Games Men's T20, 2025",
+      "match_id": 138451,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "24 November 2025 07:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138451_5780_MAS_TL_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138451_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138451_5780_MAS_TL_fc-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138451_5780_MAS_TL_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138451_5780_MAS_TL_fc-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138451_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Malaysia",
+          "shortName": "MAS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALY@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ffd800",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Thailand",
+          "shortName": "TL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-THL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#16369a",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Cricket",
       "title": "Bahrain Vs Malaysia A",
       "tournament": "Mini SEA Games Men's T20, 2025",
       "match_id": 138457,
@@ -1467,6 +1474,74 @@
           },
           "isWinner": null,
           "color": "#B8142D",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Golf",
+      "title": "World Feed   Day 4",
+      "tournament": "The RSM Classic",
+      "match_id": 138275,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "23 November 2025 11:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--old-match-card.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138275_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--old-match-card.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSM-Classic-Tour--&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Golf_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--old-match-card.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--Sporty-match-card.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138275_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "World Feed - Day 4",
+          "shortName": "World Feed - Day 4",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Sea Island Golf Club",
+          "shortName": "Sea Island Golf Club",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1807,74 +1882,6 @@
           },
           "isWinner": null,
           "color": "#213993",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Golf",
-      "title": "World Feed   Day 4",
-      "tournament": "The RSM Classic",
-      "match_id": 138275,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "23 November 2025 11:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--old-match-card.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138275_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--old-match-card.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSM-Classic-Tour--&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Golf_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--old-match-card.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--Sporty-match-card.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138275_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "World Feed - Day 4",
-          "shortName": "World Feed - Day 4",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Sea Island Golf Club",
-          "shortName": "Sea Island Golf Club",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
