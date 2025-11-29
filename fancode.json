@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:07:01 PM 29-11-2025",
+  "last_updated": "08:00:00 PM 29-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.3.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -140,9 +140,9 @@
           "color": "#397b46",
           "cricketScore": [
             {
-              "runs": 66,
-              "overs": "6",
-              "balls": "36",
+              "runs": 47,
+              "overs": "4.5",
+              "balls": "29",
               "status": "IN_PROGRESS",
               "wickets": 1
             }
@@ -202,21 +202,8 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 2,
-            "goals": [
-              {
-                "id": "37078",
-                "shortName": "V Muriqi",
-                "isOwnGoal": false,
-                "goalTime": "66'"
-              },
-              {
-                "id": "37078",
-                "shortName": "V Muriqi",
-                "isOwnGoal": false,
-                "goalTime": "62'"
-              }
-            ]
+            "points": 0,
+            "goals": []
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -292,11 +279,11 @@
           "color": "#371A82",
           "cricketScore": [
             {
-              "runs": 97,
-              "overs": "9.4",
-              "balls": "58",
+              "runs": 84,
+              "overs": "8.1",
+              "balls": "49",
               "status": "IN_PROGRESS",
-              "wickets": 6
+              "wickets": 4
             }
           ],
           "kabaddiScore": null,
@@ -426,7 +413,7 @@
       "title": "Al Hilal Sfc Vs Al Fateh Sc",
       "tournament": "Saudi Kings Cup 2025-2026",
       "match_id": 138027,
-      "status": "LIVE",
+      "status": "NOT_STARTED",
       "streamingStatus": "STARTED",
       "startTime": "29 November 2025 08:10 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -455,7 +442,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Al-Fateh SC",
@@ -470,7 +461,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
