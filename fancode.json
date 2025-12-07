@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "02:42:01 PM 07-12-2025",
+  "last_updated": "02:56:02 PM 07-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.3.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 3,
-  "upcoming_matches": 35,
+  "live_matches": 4,
+  "upcoming_matches": 34,
   "matches": [
     {
       "category": "Cricket",
@@ -105,14 +105,22 @@
           },
           "isWinner": null,
           "color": "#1583ab",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
@@ -140,6 +148,76 @@
       "STREAMING_CDN": {
         "language": "BLOODY_SWEET",
         "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "Oman Women Vs Qatar Women",
+      "tournament": "Oman Women's T20I Triangular Series, 2025",
+      "match_id": 138710,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "07 December 2025 03:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/OMAN-vs-Qatar-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138710_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/OMAN-vs-Qatar-web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/OMAN-vs-Qatar-web.jpg",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/OMAN-vs-Qatar-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/OMAN-vs-Qatar-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138710_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Oman Women",
+          "shortName": "OMN-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OMA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#f78282",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Qatar Women",
+          "shortName": "QAT-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-QTR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#d15972",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://fancode-dlt-adns.airteledge.in/mum-airtel-origin/138710_english_hls_98d37671be33223_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://fancode-dlt-adns.airteledge.in/mum-airtel-origin/138710_english_hls_98d37671be33223_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       }
     },
     {
@@ -330,72 +408,6 @@
           },
           "isWinner": null,
           "color": "#3a0f6a",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "Oman Women Vs Qatar Women",
-      "tournament": "Oman Women's T20I Triangular Series, 2025",
-      "match_id": 138710,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "07 December 2025 03:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/OMAN-vs-Qatar-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138710_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/OMAN-vs-Qatar-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/OMAN-vs-Qatar-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/OMAN-vs-Qatar-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138710_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Oman Women",
-          "shortName": "OMN-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OMA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#f78282",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Qatar Women",
-          "shortName": "QAT-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-QTR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#d15972",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
