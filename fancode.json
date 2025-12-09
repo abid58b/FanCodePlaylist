@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:14:01 AM 10-12-2025",
+  "last_updated": "03:07:01 AM 10-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.3.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -12,7 +12,7 @@
   "matches": [
     {
       "category": "Cricket",
-      "title": "West Indies Vs New Zealand",
+      "title": "New Zealand Vs West Indies",
       "tournament": "West Indies tour of New Zealand, 2025",
       "match_id": 137697,
       "status": "NOT_STARTED",
@@ -32,33 +32,6 @@
       },
       "teams": [
         {
-          "name": "West Indies",
-          "shortName": "WI",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#7B0041",
-          "cricketScore": [
-            {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
-              "status": "IN_PROGRESS",
-              "wickets": 0
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        },
-        {
           "name": "New Zealand",
           "shortName": "NZ",
           "flag": {
@@ -66,6 +39,25 @@
           },
           "isWinner": null,
           "color": "#1d2c6b",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "West Indies",
+          "shortName": "WI",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#7B0041",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
