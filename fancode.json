@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "11:21:02 PM 09-12-2025",
+  "last_updated": "11:42:03 PM 09-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.3.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -68,11 +68,11 @@
           "color": "#bf4216",
           "cricketScore": [
             {
-              "runs": 136,
-              "overs": "16.4",
-              "balls": "100",
+              "runs": 158,
+              "overs": "19.5",
+              "balls": "119",
               "status": "IN_PROGRESS",
-              "wickets": 4
+              "wickets": 8
             }
           ],
           "kabaddiScore": null,
@@ -127,10 +127,17 @@
           "color": "#0071c9",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Juventus Women",
@@ -142,10 +149,24 @@
           "color": "#4c4c4c",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "163634",
+                "shortName": "A Vangsgaard",
+                "isOwnGoal": false,
+                "goalTime": "6'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
