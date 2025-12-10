@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:28:03 PM 10-12-2025",
+  "last_updated": "03:21:08 PM 10-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.3.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 5,
-  "upcoming_matches": 33,
+  "live_matches": 4,
+  "upcoming_matches": 34,
   "matches": [
     {
       "category": "Cricket",
@@ -233,7 +233,7 @@
       "title": "Sanfrecce Hiroshima Vs Shanghai Shenhua",
       "tournament": "AFC Champions League Elite 2025-26",
       "match_id": 136029,
-      "status": "LIVE",
+      "status": "NOT_STARTED",
       "streamingStatus": "STARTED",
       "startTime": "10 December 2025 03:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -262,7 +262,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Shanghai Shenhua",
@@ -277,7 +281,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
@@ -444,14 +452,14 @@
       "tournament": "Nepal Premier League, 2025",
       "match_id": 138322,
       "status": "NOT_STARTED",
-      "streamingStatus": "STARTED",
+      "streamingStatus": "NOT_STARTED",
       "startTime": "10 December 2025 03:45 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/138303_5771_KMG_LBL_FC-Web.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/138322_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/138303_5771_KMG_LBL_FC-Web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138303_5771_KMG_LBL_FC-Web.jpg",
+        "PLAYBACK": null,
         "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/NPL_Ncell-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138303_5771_KMG_LBL_FC-Web.jpg",
@@ -498,14 +506,10 @@
           }
         }
       ],
-      "language": "ENGLISH",
+      "language": "BLOODY_SWEET",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138322_english_hls_ef7a22fc9347033_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138322_english_hls_ef7a22fc9347033_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
       }
     },
     {
