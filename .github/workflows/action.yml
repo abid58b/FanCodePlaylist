@@ -18,7 +18,7 @@ jobs:
         token: ${{ secrets.FANCODE_TOKEN }} # Use the GitHub token for authentication
 
     - name: Remove existing files
-      run: rm -f fancode.json fancode.m3u fancode-ww.m3u
+      run: rm -f fancode.json fancode.m3u
 
     - name: Configure Git
       run: |
@@ -29,10 +29,9 @@ jobs:
       run: |
         curl -o fancode.json ${{ secrets.FANCODE_JSON_API }}
         curl -o fancode.m3u ${{ secrets.FANCODE_M3U_API }}
-        curl -o fancode-ww.m3u ${{ secrets.FANCODE_WW_M3U_API }}
     - name: Commit and push changes
       run: |
-        git add fancode.json fancode.m3u fancode-ww.m3u
+        git add fancode.json fancode.m3u
         git fetch origin main
         git reset --soft origin/main
         if git diff --cached --quiet; then
