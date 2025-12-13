@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:07:01 PM 13-12-2025",
+  "last_updated": "07:14:05 PM 13-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -10,92 +10,6 @@
   "live_matches": 3,
   "upcoming_matches": 35,
   "matches": [
-    {
-      "category": "Cricket",
-      "title": "Oman Women Vs Saudi Arabia Women",
-      "tournament": "GCC Women's T20I Championship, 2025",
-      "match_id": 138716,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "13 December 2025 03:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138716_5798_OMN-W_KSAW_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138716_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138716_5798_OMN-W_KSAW_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138716_5798_OMN-W_KSAW_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/GCC-Championship---Logo-Oman-2025.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138716_5798_OMN-W_KSAW_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138716_5798_OMN-W_KSAW_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138716_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Oman Women",
-          "shortName": "OMN-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OMA@2x.png"
-          },
-          "isWinner": true,
-          "color": "#f78282",
-          "cricketScore": [
-            {
-              "runs": 203,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 3
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Saudi Arabia Women",
-          "shortName": "KSAW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SAU@2x.png"
-          },
-          "isWinner": false,
-          "color": "#7CB699",
-          "cricketScore": [
-            {
-              "runs": 36,
-              "overs": "18.4",
-              "balls": "112",
-              "status": "IN_PROGRESS",
-              "wickets": 10
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138716_english_hls_e513d15d8c44553_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138716_english_hls_e513d15d8c44553_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/C3N0AeCWRjmDxIUjOuqOHQ/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
     {
       "category": "Football",
       "title": "Norwich City F.c. Vs Southampton F.c.",
@@ -128,8 +42,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "186572",
+                "shortName": "J Makama",
+                "isOwnGoal": false,
+                "goalTime": "48'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -250,6 +171,92 @@
         "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/130988_english_hls_c39fddfedd77886_1ta-di_h264/index.m3u8",
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/130988_english_hls_c39fddfedd77886_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "Oman Women Vs Saudi Arabia Women",
+      "tournament": "GCC Women's T20I Championship, 2025",
+      "match_id": 138716,
+      "status": "COMPLETED",
+      "streamingStatus": "STARTED",
+      "startTime": "13 December 2025 03:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138716_5798_OMN-W_KSAW_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138716_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138716_5798_OMN-W_KSAW_fc-web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138716_5798_OMN-W_KSAW_fc-web.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/GCC-Championship---Logo-Oman-2025.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138716_5798_OMN-W_KSAW_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138716_5798_OMN-W_KSAW_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138716_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Oman Women",
+          "shortName": "OMN-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OMA@2x.png"
+          },
+          "isWinner": true,
+          "color": "#f78282",
+          "cricketScore": [
+            {
+              "runs": 203,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 3
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Saudi Arabia Women",
+          "shortName": "KSAW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SAU@2x.png"
+          },
+          "isWinner": false,
+          "color": "#7CB699",
+          "cricketScore": [
+            {
+              "runs": 36,
+              "overs": "18.4",
+              "balls": "112",
+              "status": "IN_PROGRESS",
+              "wickets": 10
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138716_english_hls_e513d15d8c44553_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138716_english_hls_e513d15d8c44553_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/C3N0AeCWRjmDxIUjOuqOHQ/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
