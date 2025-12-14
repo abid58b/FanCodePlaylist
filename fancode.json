@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:42:01 PM 14-12-2025",
+  "last_updated": "10:07:03 PM 14-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -44,7 +44,7 @@
               "runs": 166,
               "overs": "20",
               "balls": "120",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 4
             }
           ],
@@ -54,7 +54,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -66,14 +66,22 @@
           },
           "isWinner": null,
           "color": "#c0242b",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 29,
+              "overs": "3.2",
+              "balls": "20",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -120,8 +128,21 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 2,
+            "goals": [
+              {
+                "id": "159423",
+                "shortName": "J El-Abdellaoui",
+                "isOwnGoal": false,
+                "goalTime": "55'"
+              },
+              {
+                "id": "155110",
+                "shortName": "W Swedberg",
+                "isOwnGoal": false,
+                "goalTime": "48'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
