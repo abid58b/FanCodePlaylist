@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:21:01 PM 16-12-2025",
+  "last_updated": "01:49:01 PM 16-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -18,7 +18,7 @@
       "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "16 December 2025 08:30 AM",
-      "startDate": "16 December 2025 08:30 AM",
+      "startDate": "17 December 2025 08:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/129th-Harris-Shield-Cricket-Tournament-old-match-card_v2.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/138910_CASACARDS_PARTNER_16_9_1920_1080.png",
@@ -88,7 +88,7 @@
       "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "16 December 2025 08:30 AM",
-      "startDate": "16 December 2025 08:30 AM",
+      "startDate": "17 December 2025 08:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/129th-Harris-Shield-Cricket-Tournament-old-match-card_v2.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/138911_CASACARDS_PARTNER_16_9_1920_1080.png",
@@ -184,7 +184,7 @@
               "runs": 138,
               "overs": "20",
               "balls": "120",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 6
             }
           ],
@@ -194,7 +194,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -206,14 +206,22 @@
           },
           "isWinner": null,
           "color": "#ff5142",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 51,
+              "overs": "7",
+              "balls": "42",
+              "status": "IN_PROGRESS",
+              "wickets": 5
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
