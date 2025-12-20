@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:00:04 PM 20-12-2025",
+  "last_updated": "03:14:01 PM 20-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -160,7 +160,7 @@
     },
     {
       "category": "Cricket",
-      "title": "Abu Dhabi Knight Riders Vs Mi Emirates",
+      "title": "Mi Emirates Vs Abu Dhabi Knight Riders",
       "tournament": "DP World ILT20 2025-26",
       "match_id": 138643,
       "status": "LIVE",
@@ -180,25 +180,6 @@
       },
       "teams": [
         {
-          "name": "Abu Dhabi Knight Riders",
-          "shortName": "ADKR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ADKR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#3a0f6a",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "MI Emirates",
           "shortName": "MIE",
           "flag": {
@@ -206,6 +187,33 @@
           },
           "isWinner": null,
           "color": "#bf4216",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Abu Dhabi Knight Riders",
+          "shortName": "ADKR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ADKR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#3a0f6a",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
