@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "02:56:01 AM 23-12-2025",
+  "last_updated": "03:14:02 AM 23-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -222,10 +222,24 @@
           "color": "#b99530",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "72564",
+                "shortName": "O Marmoush",
+                "isOwnGoal": false,
+                "goalTime": "64'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Zimbabwe",
@@ -237,10 +251,24 @@
           "color": "#d2c622",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "157668",
+                "shortName": "P Dube",
+                "isOwnGoal": false,
+                "goalTime": "20'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
