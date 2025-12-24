@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:21:05 AM 25-12-2025",
+  "last_updated": "01:42:01 AM 25-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -100,7 +100,7 @@
       "title": "Cameroon Vs Gabon",
       "tournament": "Africa Cup of Nations 2025-26",
       "match_id": 138347,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "25 December 2025 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -126,7 +126,17 @@
           "color": "#347960",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "162343",
+                "shortName": "E Eyong",
+                "isOwnGoal": false,
+                "goalTime": "6'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -145,7 +155,10 @@
           "color": "#5586c6",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
