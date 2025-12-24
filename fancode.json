@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "10:42:01 PM 24-12-2025",
+  "last_updated": "11:00:01 PM 24-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 8,
-  "upcoming_matches": 30,
+  "live_matches": 9,
+  "upcoming_matches": 29,
   "matches": [
     {
       "category": "Football",
@@ -153,11 +153,11 @@
           "color": "#bd8a16",
           "cricketScore": [
             {
-              "runs": 68,
-              "overs": "10.5",
-              "balls": "65",
+              "runs": 97,
+              "overs": "14.5",
+              "balls": "89",
               "status": "IN_PROGRESS",
-              "wickets": 1
+              "wickets": 3
             }
           ],
           "kabaddiScore": null,
@@ -253,6 +253,76 @@
     },
     {
       "category": "Football",
+      "title": "Ivory Coast Vs Mozambique",
+      "tournament": "Africa Cup of Nations 2025-26",
+      "match_id": 138346,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "24 December 2025 11:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138346_5774_IVC_MOZ_fc-web_1766386874729.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138346_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138346_5774_IVC_MOZ_fc-web_1766386874729.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138346_5774_IVC_MOZ_fc-web_1766386874729.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Afcon-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138346_5774_IVC_MOZ_fc-web_1766386874729.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138346_5774_IVC_MOZ_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138346_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Ivory Coast",
+          "shortName": "IVC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-IVR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#e07d15",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Mozambique",
+          "shortName": "MOZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MZM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#19ae72",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138346_english_hls_cd76dbdef086874_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138346_english_hls_cd76dbdef086874_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/p30pOnIaRxWKTuSPahZPSw/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      }
+    },
+    {
+      "category": "Football",
       "title": "Al Nassr Fc Vs Al Zawraa Sc",
       "tournament": "AFC Champions League Two 2025-26",
       "match_id": 136138,
@@ -283,8 +353,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 4,
+            "points": 5,
             "goals": [
+              {
+                "id": "11552",
+                "shortName": "K Coman",
+                "isOwnGoal": false,
+                "goalTime": "56'"
+              },
               {
                 "id": "58761",
                 "shortName": "J Felix",
@@ -420,8 +496,21 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 2,
+            "goals": [
+              {
+                "id": "225885",
+                "shortName": "A Juraboev",
+                "isOwnGoal": false,
+                "goalTime": "56'"
+              },
+              {
+                "id": "225892",
+                "shortName": "P Komolafe",
+                "isOwnGoal": false,
+                "goalTime": "53'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -738,72 +827,6 @@
           },
           "isWinner": false,
           "color": "#068E4E",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Ivory Coast Vs Mozambique",
-      "tournament": "Africa Cup of Nations 2025-26",
-      "match_id": 138346,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "24 December 2025 11:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138346_5774_IVC_MOZ_fc-web_1766386874729.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138346_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138346_5774_IVC_MOZ_fc-web_1766386874729.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Afcon-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138346_5774_IVC_MOZ_fc-web_1766386874729.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138346_5774_IVC_MOZ_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138346_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Ivory Coast",
-          "shortName": "IVC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-IVR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e07d15",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Mozambique",
-          "shortName": "MOZ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MZM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#19ae72",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1243,15 +1266,15 @@
       "streamingStatus": "NOT_STARTED",
       "startTime": "26 December 2025 10:50 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138763_5801_NB-W_AH-W_fc-web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138763_5801_NB-W_AH-W_fc-web_1766596522051.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/138763_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138763_5801_NB-W_AH-W_fc-web.jpg",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138763_5801_NB-W_AH-W_fc-web_1766596522051.jpg",
         "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138763_5801_NB-W_AH-W_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138763_5801_NB-W_AH-W_fc-app.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138763_5801_NB-W_AH-W_fc-web_1766596522051.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138763_5801_NB-W_AH-W_fc-app_1766596318993.jpg",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138763_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
@@ -2365,15 +2388,15 @@
       "streamingStatus": "NOT_STARTED",
       "startTime": "27 December 2025 05:10 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138764_5801_CH-W_WB-W_fc-web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138764_5801_CH-W_WB-W_fc-web_1766596522063.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/138764_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138764_5801_CH-W_WB-W_fc-web.jpg",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138764_5801_CH-W_WB-W_fc-web_1766596522063.jpg",
         "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138764_5801_CH-W_WB-W_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138764_5801_CH-W_WB-W_fc-app.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138764_5801_CH-W_WB-W_fc-web_1766596522063.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138764_5801_CH-W_WB-W_fc-app_1766596318979.jpg",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138764_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
