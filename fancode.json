@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:14:01 AM 30-12-2025",
+  "last_updated": "01:24:02 AM 30-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -64,8 +64,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "23682",
+                "shortName": "W Burns",
+                "isOwnGoal": false,
+                "goalTime": "83'"
+              },
               {
                 "id": "50992",
                 "shortName": "J Clarke",
@@ -266,7 +272,7 @@
       "title": "Wrexham A.f.c. Vs Preston North End F.c.",
       "tournament": "EFL Championship 2025-26",
       "match_id": 136991,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "30 December 2025 01:15 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -292,7 +298,10 @@
           "color": "#0fb378",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -311,7 +320,10 @@
           "color": "#0075bb",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
