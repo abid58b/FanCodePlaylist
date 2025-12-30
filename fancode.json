@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:44:01 PM 30-12-2025",
+  "last_updated": "10:14:01 PM 30-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -44,7 +44,7 @@
               "runs": 233,
               "overs": "20",
               "balls": "120",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 1
             }
           ],
@@ -54,7 +54,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -66,14 +66,22 @@
           },
           "isWinner": null,
           "color": "#bf4216",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 27,
+              "overs": "3.3",
+              "balls": "21",
+              "status": "IN_PROGRESS",
+              "wickets": 1
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -143,8 +151,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "152728",
+                "shortName": "I Gharbi",
+                "isOwnGoal": false,
+                "goalTime": "43'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -220,8 +235,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "5986",
+                "shortName": "P Ebere",
+                "isOwnGoal": false,
+                "goalTime": "28'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
