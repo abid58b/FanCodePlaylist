@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:14:01 AM 05-01-2026",
+  "last_updated": "01:07:01 AM 05-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 4,
-  "upcoming_matches": 34,
+  "live_matches": 5,
+  "upcoming_matches": 33,
   "matches": [
     {
       "category": "Football",
@@ -333,45 +333,40 @@
       }
     },
     {
-      "category": "Cricket",
-      "title": "Desert Vipers Vs Mi Emirates",
-      "tournament": "DP World ILT20 2025-26",
-      "match_id": 138656,
+      "category": "Football",
+      "title": "Damac Vs Al Hilal Sfc",
+      "tournament": "Roshn Saudi League 2025-2026",
+      "match_id": 139200,
       "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "04 January 2026 08:00 PM",
+      "streamingStatus": "STARTED",
+      "startTime": "04 January 2026 11:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138646_5786_DV_MIE_FC-Web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Damac-vs-Al-Hilal-SFC_fc-web_1767365352766.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138656_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138646_5786_DV_MIE_FC-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/DPW-ILT20-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138646_5786_DV_MIE_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138646_5786_DV_MIE_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138656_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139200_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Damac-vs-Al-Hilal-SFC_fc-web_1767365352766.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Damac-vs-Al-Hilal-SFC_fc-web_1767365352766.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Damac-vs-Al-Hilal-SFC_fc-web_1767365352766.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Damac-vs-Al-Hilal-SFC_fc-app_1767409330785.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139200_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Desert Vipers",
-          "shortName": "DV",
+          "name": "Damac",
+          "shortName": "DAM",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DVDD@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-DAM@2x.png"
           },
-          "isWinner": true,
-          "color": "#c0242b",
-          "cricketScore": [
-            {
-              "runs": 182,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 4
-            }
-          ],
+          "isWinner": null,
+          "color": "#82ACE0",
+          "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -381,37 +376,50 @@
           }
         },
         {
-          "name": "MI Emirates",
-          "shortName": "MIE",
+          "name": "Al Hilal SFC",
+          "shortName": "AHS",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MIE@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AH@2x.png"
           },
-          "isWinner": false,
-          "color": "#bf4216",
-          "cricketScore": [
-            {
-              "runs": 136,
-              "overs": "18.3",
-              "balls": "111",
-              "status": "IN_PROGRESS",
-              "wickets": 10
-            }
-          ],
+          "isWinner": null,
+          "color": "#031537",
+          "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 2,
+            "goals": [
+              {
+                "id": "143173",
+                "shortName": "M Leonardo",
+                "isOwnGoal": false,
+                "goalTime": "53'"
+              },
+              {
+                "id": "45254",
+                "shortName": "D Nunez",
+                "isOwnGoal": false,
+                "goalTime": "35'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/139200_english_hls_2bb16bf43e51533_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139200_english_hls_2bb16bf43e51533_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139200_english_hls_2bb16bf43e51533_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/_m6DmaSxSI26u85Zfpyvzw/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       }
     },
     {
@@ -1075,72 +1083,6 @@
       }
     },
     {
-      "category": "Cricket",
-      "title": "Act Meteors Vs Victoria Women",
-      "tournament": "Women's National Cricket League, 2025-26",
-      "match_id": 133963,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "06 January 2026 04:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v2_1758034980092.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/133963_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v2_1758034980092.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/WNCL-1.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v2_1758034980092.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_Sporty_v2_1758034980088.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133963_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "ACT Meteors",
-          "shortName": "ACTM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ACTM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#006ba6",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Victoria Women",
-          "shortName": "VCTW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VCT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00226a",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
       "category": "Tennis",
       "title": "Day 1",
       "tournament": "ATP Challenger 125 -  Bengaluru Open",
@@ -1188,6 +1130,72 @@
           },
           "isWinner": null,
           "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "Act Meteors Vs Victoria Women",
+      "tournament": "Women's National Cricket League, 2025-26",
+      "match_id": 133963,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "06 January 2026 04:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v2_1758034980092.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/133963_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v2_1758034980092.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/WNCL-1.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v2_1758034980092.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_Sporty_v2_1758034980088.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133963_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "ACT Meteors",
+          "shortName": "ACTM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ACTM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#006ba6",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Victoria Women",
+          "shortName": "VCTW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VCT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00226a",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1581,6 +1589,88 @@
               "balls": "120",
               "status": "IN_PROGRESS",
               "wickets": 4
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "Desert Vipers Vs Mi Emirates",
+      "tournament": "DP World ILT20 2025-26",
+      "match_id": 138656,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "04 January 2026 08:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138646_5786_DV_MIE_FC-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138656_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138646_5786_DV_MIE_FC-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/DPW-ILT20-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138646_5786_DV_MIE_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138646_5786_DV_MIE_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138656_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Desert Vipers",
+          "shortName": "DV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DVDD@2x.png"
+          },
+          "isWinner": true,
+          "color": "#c0242b",
+          "cricketScore": [
+            {
+              "runs": 182,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 4
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "MI Emirates",
+          "shortName": "MIE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MIE@2x.png"
+          },
+          "isWinner": false,
+          "color": "#bf4216",
+          "cricketScore": [
+            {
+              "runs": 136,
+              "overs": "18.3",
+              "balls": "111",
+              "status": "IN_PROGRESS",
+              "wickets": 10
             }
           ],
           "kabaddiScore": null,
@@ -2572,72 +2662,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "Dhaka Capitals Vs Noakhali Express",
-      "tournament": "Bangladesh Premier League, 2025-26",
-      "match_id": 138940,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "07 January 2026 12:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138940_5808_DC_NOE_fc-web_1766733054889.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138940_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138940_5808_DC_NOE_fc-web_1766733054889.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/BPL-T20.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138940_5808_DC_NOE_fc-web_1766733054889.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138940_5808_DC_NOE_fc-App_1766733044239.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138940_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Dhaka Capitals",
-          "shortName": "DC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DHC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#CFAE1C",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Noakhali Express",
-          "shortName": "NOE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NOE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#2BA6BD",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
