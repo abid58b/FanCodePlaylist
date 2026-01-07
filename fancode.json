@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:00:01 AM 08-01-2026",
+  "last_updated": "01:14:01 AM 08-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -41,10 +41,42 @@
           "color": "#fee64e",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 4,
+            "goals": [
+              {
+                "id": "58585",
+                "shortName": "R Belloli",
+                "isOwnGoal": false,
+                "goalTime": "38'"
+              },
+              {
+                "id": "158757",
+                "shortName": "R Bardghji",
+                "isOwnGoal": false,
+                "goalTime": "34'"
+              },
+              {
+                "id": "174285",
+                "shortName": "F Marin",
+                "isOwnGoal": false,
+                "goalTime": "30'"
+              },
+              {
+                "id": "34124",
+                "shortName": "F Torres",
+                "isOwnGoal": false,
+                "goalTime": "22'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Athletic Club",
@@ -56,10 +88,17 @@
           "color": "#ff674d",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
