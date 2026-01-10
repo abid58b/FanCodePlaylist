@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:21:05 PM 10-01-2026",
+  "last_updated": "09:35:02 PM 10-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -163,7 +163,7 @@
       "title": "Algeria Vs Nigeria",
       "tournament": "Africa Cup of Nations 2025-26",
       "match_id": 138389,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "10 January 2026 09:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -189,7 +189,10 @@
           "color": "#1c7d06",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -208,7 +211,10 @@
           "color": "#00752d",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
