@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:21:14 PM 28-01-2026",
+  "last_updated": "03:49:02 PM 28-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 39,
-  "live_matches": 5,
-  "upcoming_matches": 34,
+  "live_matches": 4,
+  "upcoming_matches": 35,
   "matches": [
     {
       "category": "Cricket",
@@ -39,14 +39,22 @@
           },
           "isWinner": null,
           "color": "#B8142D",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 112,
+              "overs": "13",
+              "balls": "78",
+              "status": "IN_PROGRESS",
+              "wickets": 4
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
@@ -110,14 +118,22 @@
           },
           "isWinner": null,
           "color": "#B8142D",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 112,
+              "overs": "13",
+              "balls": "78",
+              "status": "IN_PROGRESS",
+              "wickets": 4
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
@@ -179,7 +195,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-USA@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#132f86",
           "cricketScore": [
             {
@@ -206,7 +222,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NED@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#2c5ab3",
           "cricketScore": [
             {
@@ -234,77 +250,6 @@
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139240_english_hls_a07f583c0d9030_1ta-di_h264/index.m3u8",
         "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139240_english_hls_a07f583c0d9030_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/Hy1sE74BSxSNBqCg26V8Ag/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Futsal",
-      "title": "Japan Vs Australia",
-      "tournament": "AFC Futsal Asian Cup, 2026",
-      "match_id": 139886,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "28 January 2026 01:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139886_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Fustsal-Asian-Cup,-Indonesia,-2026.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Futsal-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(2)_1769333142199.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139886_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Japan",
-          "shortName": "JPN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/fs-flags/FC-JPN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#d04c6c",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Australia",
-          "shortName": "AUS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/fs-flags/FC-AUS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#4d66a3",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/139886_english_hls_04456d6e1818265_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139886_english_hls_04456d6e1818265_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139886_english_hls_04456d6e1818265_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/EOb9WmhBS3OJk87uORGkyA/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -1517,15 +1462,15 @@
       "streamingStatus": "NOT_STARTED",
       "startTime": "29 January 2026 07:30 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-tour-of-UAE-old-match-card-.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/140132_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-tour-of-UAE-old-match-card-.png",
         "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UAE-vs-Ireland.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-tour-of-UAE-old-match-card-.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-tour-of-UAE-sporty-match-card-.png",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140132_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
@@ -2644,6 +2589,72 @@
           },
           "isWinner": null,
           "color": "#2e176a",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Futsal",
+      "title": "Korea Republic Vs Iraq",
+      "tournament": "AFC Futsal Asian Cup, 2026",
+      "match_id": 139890,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "29 January 2026 01:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139890_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Fustsal-Asian-Cup,-Indonesia,-2026.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Futsal-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(2)_1769333142199.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139890_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Korea Republic",
+          "shortName": "KOR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/fs-flags/FC-KOR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#dd717a",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Iraq",
+          "shortName": "IRQ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/fs-flags/FC-IRQ@2x.png"
+          },
+          "isWinner": null,
+          "color": "#e36e79",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
