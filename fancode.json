@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "11:14:08 AM 31-01-2026",
+  "last_updated": "11:56:01 AM 31-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 7,
-  "upcoming_matches": 31,
+  "live_matches": 8,
+  "upcoming_matches": 30,
   "matches": [
     {
       "category": "Cricket",
@@ -41,9 +41,9 @@
           "color": "#DE3018",
           "cricketScore": [
             {
-              "runs": 64,
-              "overs": "10",
-              "balls": "60",
+              "runs": 155,
+              "overs": "19.3",
+              "balls": "117",
               "status": "IN_PROGRESS",
               "wickets": 5
             }
@@ -84,6 +84,85 @@
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138762_english_hls_ca9a13406282789_1ta-di_h264/index.m3u8",
         "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138762_english_hls_ca9a13406282789_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/AhMW91aORCu2Ce7TmnbC1Q/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "Ireland Vs United Arab Emirates",
+      "tournament": "Ireland tour of United Arab Emirates, 2026",
+      "match_id": 140133,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "31 January 2026 11:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-tour-of-UAE-old-match-card-.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140133_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-tour-of-UAE-old-match-card-.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-tour-of-UAE-old-match-card-.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UAE-vs-Ireland.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-tour-of-UAE-old-match-card-.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-tour-of-UAE-sporty-match-card-.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140133_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Ireland",
+          "shortName": "IRE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ba6a15",
+          "cricketScore": [
+            {
+              "runs": 42,
+              "overs": "5",
+              "balls": "30",
+              "status": "IN_PROGRESS",
+              "wickets": 2
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "United Arab Emirates",
+          "shortName": "UAE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#4fb319",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/140133_english_hls_f6a6ca5d1458083_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/140133_english_hls_f6a6ca5d1458083_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/140133_english_hls_f6a6ca5d1458083_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/MSblrMLoR2CiMDsE7WFuhQ/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -505,80 +584,6 @@
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "Ireland Vs United Arab Emirates",
-      "tournament": "Ireland tour of United Arab Emirates, 2026",
-      "match_id": 140133,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "31 January 2026 11:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-tour-of-UAE-old-match-card-.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140133_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-tour-of-UAE-old-match-card-.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/UAE-vs-Ireland.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-tour-of-UAE-old-match-card-.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-tour-of-UAE-sporty-match-card-.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140133_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Ireland",
-          "shortName": "IRE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ba6a15",
-          "cricketScore": [
-            {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
-              "status": "IN_PROGRESS",
-              "wickets": 0
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        },
-        {
-          "name": "United Arab Emirates",
-          "shortName": "UAE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#4fb319",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
       }
     },
     {
@@ -1770,6 +1775,138 @@
       }
     },
     {
+      "category": "Cricket",
+      "title": "Ireland Women Vs Thailand Women",
+      "tournament": "ICC Women's T20 World Cup Global Qualifier, 2026",
+      "match_id": 139245,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "01 February 2026 08:45 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1768324021772.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139245_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1768324021772.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/ICC-Womens-T20-World-Cup-Global-Qualifier-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1768324021772.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)_1768324021793.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139245_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Ireland Women",
+          "shortName": "IR-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#32752E",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Thailand Women",
+          "shortName": "TL-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-THL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#16369a",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "Bangladesh Women Vs Netherlands Women",
+      "tournament": "ICC Women's T20 World Cup Global Qualifier, 2026",
+      "match_id": 139244,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "01 February 2026 08:45 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1768324021772.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139244_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1768324021772.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/ICC-Womens-T20-World-Cup-Global-Qualifier-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1768324021772.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)_1768324021793.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139244_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Bangladesh Women",
+          "shortName": "BD-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#397b46",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Netherlands Women",
+          "shortName": "ND-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NED@2x.png"
+          },
+          "isWinner": null,
+          "color": "#2c5ab3",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
       "category": "Padel",
       "title": "Adv Vs Hexagon Team",
       "tournament": "Hexagon Cup 2026 DNU",
@@ -2412,138 +2549,6 @@
           "isWinner": null,
           "color": "#d1acff",
           "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "Ireland Women Vs Thailand Women",
-      "tournament": "ICC Women's T20 World Cup Global Qualifier, 2026",
-      "match_id": 139245,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "01 February 2026 08:45 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1768324021772.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139245_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1768324021772.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/ICC-Womens-T20-World-Cup-Global-Qualifier-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1768324021772.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)_1768324021793.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139245_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Ireland Women",
-          "shortName": "IR-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#32752E",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Thailand Women",
-          "shortName": "TL-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-THL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#16369a",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "Bangladesh Women Vs Netherlands Women",
-      "tournament": "ICC Women's T20 World Cup Global Qualifier, 2026",
-      "match_id": 139244,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "01 February 2026 08:45 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1768324021772.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139244_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1768324021772.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/ICC-Womens-T20-World-Cup-Global-Qualifier-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1768324021772.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)_1768324021793.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139244_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Bangladesh Women",
-          "shortName": "BD-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#397b46",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Netherlands Women",
-          "shortName": "ND-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NED@2x.png"
-          },
-          "isWinner": null,
-          "color": "#2c5ab3",
-          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
