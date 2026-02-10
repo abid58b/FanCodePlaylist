@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:07:01 PM 10-02-2026",
+  "last_updated": "04:00:01 PM 10-02-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 3,
-  "upcoming_matches": 35,
+  "live_matches": 6,
+  "upcoming_matches": 32,
   "matches": [
     {
       "category": "Cricket",
@@ -44,7 +44,7 @@
               "runs": 318,
               "overs": "50",
               "balls": "300",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 10
             }
           ],
@@ -54,7 +54,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -66,7 +66,86 @@
           },
           "isWinner": null,
           "color": "#6fc9ff",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 8,
+              "overs": "3",
+              "balls": "18",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/133945_english_hls_a1fc7b8e5440632_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/133945_english_hls_a1fc7b8e5440632_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/133945_english_hls_a1fc7b8e5440632_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/Jy_XprJCQ7Wp1lUd2_eH0A/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Sanfrecce Hiroshima Vs Johor Darul Ta'zim",
+      "tournament": "AFC Champions League Elite 2025-26",
+      "match_id": 136032,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "10 February 2026 03:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/11_Sanfrecce-Hiroshima-vs-Johor-Darul-Ta'zim_1770634775101.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/136032_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/11_Sanfrecce-Hiroshima-vs-Johor-Darul-Ta'zim_1770634775101.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/11_Sanfrecce-Hiroshima-vs-Johor-Darul-Ta'zim_1770634775101.png",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/11_Sanfrecce-Hiroshima-vs-Johor-Darul-Ta'zim_1770634775101.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/11_Sanfrecce-Hiroshima-vs-Johor-Darul-Ta'zim.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136032_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Sanfrecce Hiroshima",
+          "shortName": "HIR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SHI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#544194",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Johor Darul Ta'zim",
+          "shortName": "JDT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JOHOR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#f2545b",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -80,10 +159,81 @@
       ],
       "language": "ENGLISH",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/133945_english_hls_a1fc7b8e5440632_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/133945_english_hls_a1fc7b8e5440632_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/133945_english_hls_a1fc7b8e5440632_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/Jy_XprJCQ7Wp1lUd2_eH0A/master.m3u8",
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/136032_english_hls_c736b054ae9039_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/136032_english_hls_c736b054ae9039_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/136032_english_hls_c736b054ae9039_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/rvIRlCY6RY2C35hmpgWMMQ/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Vissel Kobe Vs Seoul",
+      "tournament": "AFC Champions League Elite 2025-26",
+      "match_id": 136031,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "10 February 2026 03:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/12_Vissel-Kobe-vs-Seoul_1770634622987.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/136031_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/12_Vissel-Kobe-vs-Seoul_1770634622987.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/12_Vissel-Kobe-vs-Seoul_1770634622987.png",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/12_Vissel-Kobe-vs-Seoul_1770634622987.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/12_Vissel-Kobe-vs-Seoul.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136031_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Vissel Kobe",
+          "shortName": "VIS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VKO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#761d30",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Seoul",
+          "shortName": "SE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FFB741",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/136031_english_hls_7e45d734e439997_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/136031_english_hls_7e45d734e439997_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/136031_english_hls_7e45d734e439997_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/n9O_CZKNT2-NUaeU0JozXw/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -161,34 +311,34 @@
       }
     },
     {
-      "category": "Live Events",
-      "title": "Day 7",
-      "tournament": "Asian Rifle & Pistol Championship 2026",
-      "match_id": 140325,
+      "category": "Tennis",
+      "title": "World Feed",
+      "tournament": "ATP 500 - ABN AMRO Open 2026",
+      "match_id": 140543,
       "status": "LIVE",
       "streamingStatus": "STARTED",
-      "startTime": "10 February 2026 12:05 PM",
+      "startTime": "10 February 2026 03:30 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Asian-Rifle_Pistol-Championship-2026-old-match-card.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140325_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Asian-Rifle_Pistol-Championship-2026-old-match-card.png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Asian-Rifle_Pistol-Championship-2026-old-match-card.png",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Asian-Rifle-Pistol-Championship,-New-Delhi,-2026.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Live-Event-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Asian-Rifle_Pistol-Championship-2026-old-match-card.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Asian-Rifle_Pistol-Championship-2026-old-Sporty-.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140325_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140543_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(2)_1770389196820.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140543_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Day 7",
-          "shortName": "Day 7",
+          "name": "World Feed",
+          "shortName": "World Feed",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/le-flags/FC-ARC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
           "isWinner": null,
-          "color": "#07669D",
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -201,13 +351,13 @@
           }
         },
         {
-          "name": "Delhi",
-          "shortName": "Delhi",
+          "name": "Rotterdam, Netherlands",
+          "shortName": "Rotterdam, Netherlands",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/le-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
           },
           "isWinner": null,
-          "color": "#FFFFFF",
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -222,44 +372,44 @@
       ],
       "language": "ENGLISH",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/140325_english_hls_7127e52b4197504_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/140325_english_hls_7127e52b4197504_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/140325_english_hls_7127e52b4197504_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/66u8srErQ5OtyxpKQsRWhQ/master.m3u8",
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/140543_english_hls_f65455d4a422900_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/140543_english_hls_f65455d4a422900_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/140543_english_hls_f65455d4a422900_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/UHVGNcbnTVqBzIm2SPOI-w/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
       }
     },
     {
-      "category": "Football",
-      "title": "Sanfrecce Hiroshima Vs Johor Darul Ta'zim",
-      "tournament": "AFC Champions League Elite 2025-26",
-      "match_id": 136032,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "category": "Tennis",
+      "title": "Centre Court",
+      "tournament": "ATP 500 - ABN AMRO Open 2026",
+      "match_id": 140542,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "10 February 2026 03:30 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/11_Sanfrecce-Hiroshima-vs-Johor-Darul-Ta'zim_1770634775101.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/136032_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/11_Sanfrecce-Hiroshima-vs-Johor-Darul-Ta'zim_1770634775101.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/11_Sanfrecce-Hiroshima-vs-Johor-Darul-Ta'zim_1770634775101.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/11_Sanfrecce-Hiroshima-vs-Johor-Darul-Ta'zim.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136032_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140542_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(2)_1770389196820.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140542_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Sanfrecce Hiroshima",
-          "shortName": "HIR",
+          "name": "Centre Court",
+          "shortName": "Centre Court",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SHI@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
           "isWinner": null,
-          "color": "#544194",
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -272,13 +422,13 @@
           }
         },
         {
-          "name": "Johor Darul Ta'zim",
-          "shortName": "JDT",
+          "name": "Rotterdam, Netherlands",
+          "shortName": "Rotterdam, Netherlands",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JOHOR@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
           },
           "isWinner": null,
-          "color": "#f2545b",
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -291,76 +441,15 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Vissel Kobe Vs Seoul",
-      "tournament": "AFC Champions League Elite 2025-26",
-      "match_id": 136031,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "10 February 2026 03:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/12_Vissel-Kobe-vs-Seoul_1770634622987.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/136031_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/12_Vissel-Kobe-vs-Seoul_1770634622987.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/12_Vissel-Kobe-vs-Seoul_1770634622987.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/12_Vissel-Kobe-vs-Seoul.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136031_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Vissel Kobe",
-          "shortName": "VIS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VKO@2x.png"
-          },
-          "isWinner": null,
-          "color": "#761d30",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Seoul",
-          "shortName": "SE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FFB741",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/140542_english_hls_647ee1df7834456_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/140542_english_hls_647ee1df7834456_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/140542_english_hls_647ee1df7834456_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/2-zzupMwQ1yzZauteyAhbw/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       }
     },
     {
@@ -873,138 +962,6 @@
           },
           "isWinner": null,
           "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Tennis",
-      "title": "World Feed",
-      "tournament": "ATP 500 - ABN AMRO Open 2026",
-      "match_id": 140543,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "10 February 2026 03:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140543_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(2)_1770389196820.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140543_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "World Feed",
-          "shortName": "World Feed",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Rotterdam, Netherlands",
-          "shortName": "Rotterdam, Netherlands",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Tennis",
-      "title": "Centre Court",
-      "tournament": "ATP 500 - ABN AMRO Open 2026",
-      "match_id": 140542,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "10 February 2026 03:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140542_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(2)_1770389196820.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140542_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Centre Court",
-          "shortName": "Centre Court",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Rotterdam, Netherlands",
-          "shortName": "Rotterdam, Netherlands",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1684,72 +1641,6 @@
       }
     },
     {
-      "category": "Live Events",
-      "title": "Day 3",
-      "tournament": "Strikers Cup 2026",
-      "match_id": 140317,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 February 2026 09:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140317_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Live-Event-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140317_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Day 3",
-          "shortName": "Day 3",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/le-flags/FC-SKC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Delhi",
-          "shortName": "Delhi",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/le-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FFFFFF",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
       "category": "Football",
       "title": "Cong An Ha Noi Vs Tampines Rovers Fc",
       "tournament": "AFC Champions League Two 2025-26",
@@ -1863,6 +1754,72 @@
           },
           "isWinner": null,
           "color": "#00a850",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Live Events",
+      "title": "Day 3",
+      "tournament": "Strikers Cup 2026",
+      "match_id": 140317,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 February 2026 09:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140317_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Live-Event-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140317_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Day 3",
+          "shortName": "Day 3",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/le-flags/FC-SKC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Delhi",
+          "shortName": "Delhi",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/le-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FFFFFF",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2523,6 +2480,72 @@
           },
           "isWinner": null,
           "color": "#ae7a05",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Formula 1",
+      "title": "Day 1",
+      "tournament": "F1 ARAMCO PRE-SEASON TESTING 2026",
+      "match_id": 139558,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 February 2026 08:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1_web_1770205109895.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139558_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_web_1770205109895.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Bahrain_1769027827029.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_web_1770205109895.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Aramco_testing_Old_Sporty.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139558_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Day 1",
+          "shortName": "TD1",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
+          },
+          "isWinner": null,
+          "color": "#80081C",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Bahrain International Circuit",
+          "shortName": "Bahrain International Circuit",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
