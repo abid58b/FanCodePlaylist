@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:28:01 AM 13-02-2026",
+  "last_updated": "02:07:01 AM 13-02-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -15,7 +15,7 @@
       "title": "Atletico De Madrid Femenino Vs Manchester United Women",
       "tournament": "UEFA Women's Champions League 2025-26",
       "match_id": 140415,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "13 February 2026 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -41,7 +41,10 @@
           "color": "#5C63E7",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -60,7 +63,17 @@
           "color": "#bcae34",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "179233",
+                "shortName": "E Terland",
+                "isOwnGoal": false,
+                "goalTime": "3'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -86,7 +99,7 @@
       "title": "Atletico De Madrid Vs Fc Barcelona",
       "tournament": "Copa del Rey, 2025-26",
       "match_id": 140523,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "13 February 2026 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -112,7 +125,29 @@
           "color": "#ca2917",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 3,
+            "goals": [
+              {
+                "id": "22786",
+                "shortName": "A Lookman",
+                "isOwnGoal": false,
+                "goalTime": "33'"
+              },
+              {
+                "id": "1220",
+                "shortName": "A Griezmann",
+                "isOwnGoal": false,
+                "goalTime": "14'"
+              },
+              {
+                "id": "34111",
+                "shortName": "E Garcia",
+                "isOwnGoal": false,
+                "goalTime": "7'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -131,7 +166,10 @@
           "color": "#fee64e",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -1001,72 +1039,6 @@
     },
     {
       "category": "Football",
-      "title": "Cruz Azul Vs Vancouver Fc",
-      "tournament": "CONCACAF Champions Cup 2026",
-      "match_id": 140377,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 February 2026 06:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140377_5954_CRU_VFC_FC-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140377_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140377_5954_CRU_VFC_FC-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Concacaf-Champions-Cup-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140377_5954_CRU_VFC_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140377_5954_CRU_VFC_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140377_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Cruz Azul",
-          "shortName": "CRU",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CRAZ@2x.png"
-          },
-          "isWinner": null,
-          "color": "#9CF993",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Vancouver FC",
-          "shortName": "VFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#6f7275",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Football",
       "title": "Al Hilal Sfc Vs Al Ettifaq",
       "tournament": "Roshn Saudi League 2025-2026",
       "match_id": 139839,
@@ -1113,6 +1085,72 @@
           },
           "isWinner": null,
           "color": "#A0A0D0",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Cruz Azul Vs Vancouver Fc",
+      "tournament": "CONCACAF Champions Cup 2026",
+      "match_id": 140377,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 February 2026 06:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140377_5954_CRU_VFC_FC-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140377_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140377_5954_CRU_VFC_FC-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Concacaf-Champions-Cup-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140377_5954_CRU_VFC_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140377_5954_CRU_VFC_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140377_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Cruz Azul",
+          "shortName": "CRU",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CRAZ@2x.png"
+          },
+          "isWinner": null,
+          "color": "#9CF993",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Vancouver FC",
+          "shortName": "VFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VFC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#6f7275",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
