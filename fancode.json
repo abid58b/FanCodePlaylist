@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:21:06 PM 19-02-2026",
+  "last_updated": "04:07:31 PM 19-02-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -82,11 +82,11 @@
               "wickets": 10
             },
             {
-              "runs": 99,
-              "overs": "23.5",
+              "runs": 119,
+              "overs": "33.4",
               "balls": "0",
               "status": "IN_PROGRESS",
-              "wickets": 3
+              "wickets": 5
             }
           ],
           "kabaddiScore": null,
@@ -153,7 +153,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Bangkok United",
@@ -168,7 +172,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
@@ -984,7 +992,7 @@
           },
           "isWinner": null,
           "color": "#eb5764",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1003,7 +1011,7 @@
           },
           "isWinner": null,
           "color": "#d8a918",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
