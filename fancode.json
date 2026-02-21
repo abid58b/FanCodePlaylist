@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:14:10 PM 21-02-2026",
+  "last_updated": "08:35:36 PM 21-02-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 3,
-  "upcoming_matches": 37,
+  "live_matches": 5,
+  "upcoming_matches": 35,
   "matches": [
     {
       "category": "Football",
@@ -355,7 +355,7 @@
       "title": "Southampton F.c. Vs Charlton Athletic F.c",
       "tournament": "EFL Championship 2025-26",
       "match_id": 140124,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "21 February 2026 08:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -381,7 +381,10 @@
           "color": "#de4d5f",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -400,7 +403,10 @@
           "color": "#50E907",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -412,9 +418,9 @@
       ],
       "language": "ENGLISH",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/index.m3u8",
+        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
@@ -422,9 +428,9 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/240p.m3u8?hdntl=Expires=1771685381~_GO=Generated~acl=/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/*~Signature=AScLvDuNQARPFanUMtOTDgkIdB5ZK82WkUdHAOmouMvU3cTaS8KgwEW8J21wuSQtrJnI-16QqeyNe39hF-ouc8ZoW0MC\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/360p.m3u8?hdntl=Expires=1771685381~_GO=Generated~acl=/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/*~Signature=AScLvDuNQARPFanUMtOTDgkIdB5ZK82WkUdHAOmouMvU3cTaS8KgwEW8J21wuSQtrJnI-16QqeyNe39hF-ouc8ZoW0MC\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/480p.m3u8?hdntl=Expires=1771685381~_GO=Generated~acl=/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/*~Signature=AScLvDuNQARPFanUMtOTDgkIdB5ZK82WkUdHAOmouMvU3cTaS8KgwEW8J21wuSQtrJnI-16QqeyNe39hF-ouc8ZoW0MC\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/540p.m3u8?hdntl=Expires=1771685381~_GO=Generated~acl=/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/*~Signature=AScLvDuNQARPFanUMtOTDgkIdB5ZK82WkUdHAOmouMvU3cTaS8KgwEW8J21wuSQtrJnI-16QqeyNe39hF-ouc8ZoW0MC\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/720p.m3u8?hdntl=Expires=1771685381~_GO=Generated~acl=/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/*~Signature=AScLvDuNQARPFanUMtOTDgkIdB5ZK82WkUdHAOmouMvU3cTaS8KgwEW8J21wuSQtrJnI-16QqeyNe39hF-ouc8ZoW0MC\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771685381~_GO=Generated~acl=/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/*~Signature=AScLvDuNQARPFanUMtOTDgkIdB5ZK82WkUdHAOmouMvU3cTaS8KgwEW8J21wuSQtrJnI-16QqeyNe39hF-ouc8ZoW0MC",
-          "cookie_valid": "1771685381",
-          "expire_date": "Saturday, February 21, 2026, 8:19:41 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/240p.m3u8?hdntl=Expires=1771772731~_GO=Generated~acl=/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/*~Signature=AScLvDtj4TbveIGOi7bIeVe5mIejKumuQ8fLfVSdlQRGYL4pPkGBXKlgsw1XK5fSyw6mgoW6MkdMQ__VlKimkDAb4o0G\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/360p.m3u8?hdntl=Expires=1771772731~_GO=Generated~acl=/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/*~Signature=AScLvDtj4TbveIGOi7bIeVe5mIejKumuQ8fLfVSdlQRGYL4pPkGBXKlgsw1XK5fSyw6mgoW6MkdMQ__VlKimkDAb4o0G\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/480p.m3u8?hdntl=Expires=1771772731~_GO=Generated~acl=/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/*~Signature=AScLvDtj4TbveIGOi7bIeVe5mIejKumuQ8fLfVSdlQRGYL4pPkGBXKlgsw1XK5fSyw6mgoW6MkdMQ__VlKimkDAb4o0G\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/540p.m3u8?hdntl=Expires=1771772731~_GO=Generated~acl=/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/*~Signature=AScLvDtj4TbveIGOi7bIeVe5mIejKumuQ8fLfVSdlQRGYL4pPkGBXKlgsw1XK5fSyw6mgoW6MkdMQ__VlKimkDAb4o0G\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/720p.m3u8?hdntl=Expires=1771772731~_GO=Generated~acl=/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/*~Signature=AScLvDtj4TbveIGOi7bIeVe5mIejKumuQ8fLfVSdlQRGYL4pPkGBXKlgsw1XK5fSyw6mgoW6MkdMQ__VlKimkDAb4o0G\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771772731~_GO=Generated~acl=/mumbai/140124_english_hls_e5cf35b13920993_1ta-di_h264/*~Signature=AScLvDtj4TbveIGOi7bIeVe5mIejKumuQ8fLfVSdlQRGYL4pPkGBXKlgsw1XK5fSyw6mgoW6MkdMQ__VlKimkDAb4o0G",
+          "cookie_valid": "1771772731",
+          "expire_date": "Sunday, February 22, 2026, 8:35:31 PM",
           "language": "ENGLISH"
         }
       ]
@@ -435,14 +441,14 @@
       "tournament": "LALIGA 2025-26",
       "match_id": 131078,
       "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "streamingStatus": "STARTED",
       "startTime": "21 February 2026 08:45 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/131078_5427_RB_RVL_FC-Web.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/131078_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/131078_5427_RB_RVL_FC-Web.png",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131078_5427_RB_RVL_FC-Web.png",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131078_5427_RB_RVL_FC-Web.png",
@@ -489,27 +495,39 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/240p.m3u8?hdntl=Expires=1771771867~_GO=Generated~acl=/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/*~Signature=AScLvDsLfrbM_zVZLlCbEwq1yDdctuPfUA3Pnn3SnIg6jFvr7V029FrIHlHQtNxiFlZH6WgzfNhkTXxauDSZttSaBBAG\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/360p.m3u8?hdntl=Expires=1771771867~_GO=Generated~acl=/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/*~Signature=AScLvDsLfrbM_zVZLlCbEwq1yDdctuPfUA3Pnn3SnIg6jFvr7V029FrIHlHQtNxiFlZH6WgzfNhkTXxauDSZttSaBBAG\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/480p.m3u8?hdntl=Expires=1771771867~_GO=Generated~acl=/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/*~Signature=AScLvDsLfrbM_zVZLlCbEwq1yDdctuPfUA3Pnn3SnIg6jFvr7V029FrIHlHQtNxiFlZH6WgzfNhkTXxauDSZttSaBBAG\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/540p.m3u8?hdntl=Expires=1771771867~_GO=Generated~acl=/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/*~Signature=AScLvDsLfrbM_zVZLlCbEwq1yDdctuPfUA3Pnn3SnIg6jFvr7V029FrIHlHQtNxiFlZH6WgzfNhkTXxauDSZttSaBBAG\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/720p.m3u8?hdntl=Expires=1771771867~_GO=Generated~acl=/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/*~Signature=AScLvDsLfrbM_zVZLlCbEwq1yDdctuPfUA3Pnn3SnIg6jFvr7V029FrIHlHQtNxiFlZH6WgzfNhkTXxauDSZttSaBBAG\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771771867~_GO=Generated~acl=/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/*~Signature=AScLvDsLfrbM_zVZLlCbEwq1yDdctuPfUA3Pnn3SnIg6jFvr7V029FrIHlHQtNxiFlZH6WgzfNhkTXxauDSZttSaBBAG\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1771771867~_GO=Generated~acl=/mumbai/131078_english_hls_3486ed0d3063401_1ta-di_h264/*~Signature=AScLvDsLfrbM_zVZLlCbEwq1yDdctuPfUA3Pnn3SnIg6jFvr7V029FrIHlHQtNxiFlZH6WgzfNhkTXxauDSZttSaBBAG",
+          "cookie_valid": "1771771867",
+          "expire_date": "Sunday, February 22, 2026, 8:21:07 PM",
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Football",
       "title": "Deportivo La Coruna Vs Eibar",
       "tournament": "LALIGA Hypermotion 2025-26",
       "match_id": 140425,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "21 February 2026 08:45 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://images.fancode.com/aig/match/v1770347072522/140425_CASACARDS_APP.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/140425_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://images.fancode.com/aig/match/v1770347072522/140425_CASACARDS_APP.png",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://images.fancode.com/aig/match/v1770347072522/140425_CASACARDS_APP.png",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
         "BG_IMAGE": "https://images.fancode.com/aig/match/v1770347072522/140425_CASACARDS_APP.png",
@@ -530,11 +548,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Eibar",
@@ -549,19 +563,27 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/240p.m3u8?hdntl=Expires=1771686667~_GO=Generated~acl=/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/*~Signature=AScLvDvFJ1y3NjoIcqUgpJtgFHeVnOPMYpE7oAMtcjy_tnTXslxfGdiAGZpKFVT0KSuhCieh1ewLd5GIoqMkYZOhNOYJ\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/360p.m3u8?hdntl=Expires=1771686667~_GO=Generated~acl=/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/*~Signature=AScLvDvFJ1y3NjoIcqUgpJtgFHeVnOPMYpE7oAMtcjy_tnTXslxfGdiAGZpKFVT0KSuhCieh1ewLd5GIoqMkYZOhNOYJ\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/480p.m3u8?hdntl=Expires=1771686667~_GO=Generated~acl=/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/*~Signature=AScLvDvFJ1y3NjoIcqUgpJtgFHeVnOPMYpE7oAMtcjy_tnTXslxfGdiAGZpKFVT0KSuhCieh1ewLd5GIoqMkYZOhNOYJ\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/540p.m3u8?hdntl=Expires=1771686667~_GO=Generated~acl=/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/*~Signature=AScLvDvFJ1y3NjoIcqUgpJtgFHeVnOPMYpE7oAMtcjy_tnTXslxfGdiAGZpKFVT0KSuhCieh1ewLd5GIoqMkYZOhNOYJ\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/720p.m3u8?hdntl=Expires=1771686667~_GO=Generated~acl=/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/*~Signature=AScLvDvFJ1y3NjoIcqUgpJtgFHeVnOPMYpE7oAMtcjy_tnTXslxfGdiAGZpKFVT0KSuhCieh1ewLd5GIoqMkYZOhNOYJ\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771686667~_GO=Generated~acl=/mumbai/140425_english_hls_aee8c684b835426_1ta-di_h264/*~Signature=AScLvDvFJ1y3NjoIcqUgpJtgFHeVnOPMYpE7oAMtcjy_tnTXslxfGdiAGZpKFVT0KSuhCieh1ewLd5GIoqMkYZOhNOYJ",
+          "cookie_valid": "1771686667",
+          "expire_date": "Saturday, February 21, 2026, 8:41:07 PM",
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Cricket",
@@ -1435,140 +1457,6 @@
       "auto_streams": null
     },
     {
-      "category": "Golf",
-      "title": "Featured Groups   Day 3",
-      "tournament": "The Genesis Invitational 2026",
-      "match_id": 140574,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "21 February 2026 09:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140574_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Genesis-Invitational-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)_1770825129243.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140574_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Featured Groups - Day 3",
-          "shortName": "Featured Groups - Day 3",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "The Riviera Country Club",
-          "shortName": "The Riviera Country Club",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Golf",
-      "title": "Main Feed   Day 3",
-      "tournament": "The Genesis Invitational 2026",
-      "match_id": 140572,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "21 February 2026 09:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140572_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Genesis-Invitational-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)_1770825129243.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140572_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Main Feed - Day 3",
-          "shortName": "Main Feed - Day 3",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "The Riviera Country Club",
-          "shortName": "The Riviera Country Club",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Football",
       "title": "Bengaluru Fc Vs Northeast United Fc",
       "tournament": "ISL 2025-26",
@@ -1703,34 +1591,34 @@
       "auto_streams": null
     },
     {
-      "category": "Football",
-      "title": "Central Coast Mariners Vs Western Sydney Wanderers",
-      "tournament": "A League 2025-26",
-      "match_id": 139416,
+      "category": "Golf",
+      "title": "Featured Groups   Day 3",
+      "tournament": "The Genesis Invitational 2026",
+      "match_id": 140574,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "22 February 2026 11:30 AM",
+      "startTime": "21 February 2026 09:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/139416_5802_CCM_SYW_1770723544582.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139416_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/139416_5802_CCM_SYW_1770723544582.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140574_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
         "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/A-League_Men-and-Women_Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139416_5802_CCM_SYW_1770723544582.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139416_5802_CCM_SYW.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139416_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Genesis-Invitational-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)_1770825129243.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140574_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Central Coast Mariners",
-          "shortName": "CCM",
+          "name": "Featured Groups - Day 3",
+          "shortName": "Featured Groups - Day 3",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CENTA@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
           },
           "isWinner": null,
-          "color": "#0f2d52",
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1743,13 +1631,147 @@
           }
         },
         {
-          "name": "Western Sydney Wanderers",
-          "shortName": "SYW",
+          "name": "The Riviera Country Club",
+          "shortName": "The Riviera Country Club",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SYWA@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
           },
           "isWinner": null,
-          "color": "#c60c30",
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Golf",
+      "title": "Main Feed   Day 3",
+      "tournament": "The Genesis Invitational 2026",
+      "match_id": 140572,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "21 February 2026 09:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140572_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Genesis-Invitational-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)_1770825129243.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140572_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Main Feed - Day 3",
+          "shortName": "Main Feed - Day 3",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "The Riviera Country Club",
+          "shortName": "The Riviera Country Club",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Golf",
+      "title": "Marquee Group   Day 3",
+      "tournament": "The Genesis Invitational 2026",
+      "match_id": 140573,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "21 February 2026 09:15 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140573_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Genesis-Invitational-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)_1770825129243.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140573_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Marquee Group - Day 3",
+          "shortName": "Marquee Group - Day 3",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "The Riviera Country Club",
+          "shortName": "The Riviera Country Club",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1817,6 +1839,73 @@
           },
           "isWinner": null,
           "color": "#006eff",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Central Coast Mariners Vs Western Sydney Wanderers",
+      "tournament": "A League 2025-26",
+      "match_id": 139416,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "22 February 2026 11:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/139416_5802_CCM_SYW_1770723544582.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139416_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/139416_5802_CCM_SYW_1770723544582.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/A-League_Men-and-Women_Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139416_5802_CCM_SYW_1770723544582.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139416_5802_CCM_SYW.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139416_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Central Coast Mariners",
+          "shortName": "CCM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CENTA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0f2d52",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Western Sydney Wanderers",
+          "shortName": "SYW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SYWA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#c60c30",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2239,34 +2328,34 @@
       "auto_streams": null
     },
     {
-      "category": "Golf",
-      "title": "Marquee Group   Day 3",
-      "tournament": "The Genesis Invitational 2026",
-      "match_id": 140573,
+      "category": "Football",
+      "title": "Rc Celta Vs Rcd Mallorca",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131079,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "21 February 2026 09:15 PM",
+      "startTime": "22 February 2026 11:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-Web.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140573_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131079_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-Web.png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Genesis-Invitational-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)_1770825129243.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140573_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131079_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Marquee Group - Day 3",
-          "shortName": "Marquee Group - Day 3",
+          "name": "RC Celta",
+          "shortName": "CEV",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
           },
           "isWinner": null,
-          "color": "#141414",
+          "color": "#b1d4f5",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2279,13 +2368,13 @@
           }
         },
         {
-          "name": "The Riviera Country Club",
-          "shortName": "The Riviera Country Club",
+          "name": "RCD Mallorca",
+          "shortName": "MRC",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MRC@2x.png"
           },
           "isWinner": null,
-          "color": "#141414",
+          "color": "#FBCCD1",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2688,73 +2777,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Rc Celta Vs Rcd Mallorca",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131079,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "22 February 2026 11:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131079_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131079_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "RC Celta",
-          "shortName": "CEV",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
-          },
-          "isWinner": null,
-          "color": "#b1d4f5",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "RCD Mallorca",
-          "shortName": "MRC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MRC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FBCCD1",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
