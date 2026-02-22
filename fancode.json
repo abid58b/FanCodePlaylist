@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "10:07:02 PM 22-02-2026",
+  "last_updated": "10:56:03 PM 22-02-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -41,11 +41,11 @@
           "color": "#164fad",
           "cricketScore": [
             {
-              "runs": 197,
-              "overs": "43.5",
-              "balls": "263",
-              "status": "IN_PROGRESS",
-              "wickets": 8
+              "runs": 208,
+              "overs": "47.1",
+              "balls": "283",
+              "status": "COMPLETED",
+              "wickets": 10
             }
           ],
           "kabaddiScore": null,
@@ -54,7 +54,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -66,14 +66,22 @@
           },
           "isWinner": null,
           "color": "#91033c",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -90,304 +98,10 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140139_english_hls_ea776e6d4938001_1ta-di_h264/240p.m3u8?hdntl=Expires=1771852325~_GO=Generated~acl=/mumbai/140139_english_hls_ea776e6d4938001_1ta-di_h264/*~Signature=AScLvDtXfbWz8ZpQ4rVQ3WXTNbsDoFkp9hEQcb7SsO5fue-2bPygFz6Nv-FHnswDGvhD3mrKtjMrWQuDoTRRQJHgZD4C\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140139_english_hls_ea776e6d4938001_1ta-di_h264/360p.m3u8?hdntl=Expires=1771852325~_GO=Generated~acl=/mumbai/140139_english_hls_ea776e6d4938001_1ta-di_h264/*~Signature=AScLvDtXfbWz8ZpQ4rVQ3WXTNbsDoFkp9hEQcb7SsO5fue-2bPygFz6Nv-FHnswDGvhD3mrKtjMrWQuDoTRRQJHgZD4C\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140139_english_hls_ea776e6d4938001_1ta-di_h264/480p.m3u8?hdntl=Expires=1771852325~_GO=Generated~acl=/mumbai/140139_english_hls_ea776e6d4938001_1ta-di_h264/*~Signature=AScLvDtXfbWz8ZpQ4rVQ3WXTNbsDoFkp9hEQcb7SsO5fue-2bPygFz6Nv-FHnswDGvhD3mrKtjMrWQuDoTRRQJHgZD4C\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140139_english_hls_ea776e6d4938001_1ta-di_h264/540p.m3u8?hdntl=Expires=1771852325~_GO=Generated~acl=/mumbai/140139_english_hls_ea776e6d4938001_1ta-di_h264/*~Signature=AScLvDtXfbWz8ZpQ4rVQ3WXTNbsDoFkp9hEQcb7SsO5fue-2bPygFz6Nv-FHnswDGvhD3mrKtjMrWQuDoTRRQJHgZD4C\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140139_english_hls_ea776e6d4938001_1ta-di_h264/720p.m3u8?hdntl=Expires=1771852325~_GO=Generated~acl=/mumbai/140139_english_hls_ea776e6d4938001_1ta-di_h264/*~Signature=AScLvDtXfbWz8ZpQ4rVQ3WXTNbsDoFkp9hEQcb7SsO5fue-2bPygFz6Nv-FHnswDGvhD3mrKtjMrWQuDoTRRQJHgZD4C\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140139_english_hls_ea776e6d4938001_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771852325~_GO=Generated~acl=/mumbai/140139_english_hls_ea776e6d4938001_1ta-di_h264/*~Signature=AScLvDtXfbWz8ZpQ4rVQ3WXTNbsDoFkp9hEQcb7SsO5fue-2bPygFz6Nv-FHnswDGvhD3mrKtjMrWQuDoTRRQJHgZD4C",
-          "cookie_valid": "1771852325",
-          "expire_date": "Monday, February 23, 2026, 6:42:05 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Fc Barcelona Vs Levante",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131077,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "22 February 2026 08:45 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131077_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131077_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "FC Barcelona",
-          "shortName": "BAR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fee64e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 2,
-            "goals": [
-              {
-                "id": "27645",
-                "shortName": "F Jong",
-                "isOwnGoal": false,
-                "goalTime": "32'"
-              },
-              {
-                "id": "188701",
-                "shortName": "M Bernal",
-                "isOwnGoal": false,
-                "goalTime": "4'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Levante",
-          "shortName": "LE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png"
-          },
-          "isWinner": null,
-          "color": "#598bc1",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131077_english_hls_1eca0ec00b71143_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131077_english_hls_1eca0ec00b71143_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131077_english_hls_1eca0ec00b71143_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "auto_streams": [
-        {
           "auto": "Google-Edge-Cache: Invalid signed request\nError: 30",
           "cookie_valid": null,
           "expire_date": null,
           "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Fc Barcelona Vs Levante",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131077,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "22 February 2026 08:45 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131077_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131077_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "FC Barcelona",
-          "shortName": "BAR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fee64e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 2,
-            "goals": [
-              {
-                "id": "27645",
-                "shortName": "F Jong",
-                "isOwnGoal": false,
-                "goalTime": "32'"
-              },
-              {
-                "id": "188701",
-                "shortName": "M Bernal",
-                "isOwnGoal": false,
-                "goalTime": "4'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Levante",
-          "shortName": "LE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png"
-          },
-          "isWinner": null,
-          "color": "#598bc1",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "HINDI",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131077_hindi_hls_5a140ca11d53157_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131077_hindi_hls_5a140ca11d53157_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131077_hindi_hls_5a140ca11d53157_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "HINDI"
-      },
-      "auto_streams": [
-        {
-          "auto": "Google-Edge-Cache: Invalid signed request\nError: 30",
-          "cookie_valid": null,
-          "expire_date": null,
-          "language": "HINDI"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Fc Barcelona Vs Levante",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131077,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "22 February 2026 08:45 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131077_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131077_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "FC Barcelona",
-          "shortName": "BAR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fee64e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 2,
-            "goals": [
-              {
-                "id": "27645",
-                "shortName": "F Jong",
-                "isOwnGoal": false,
-                "goalTime": "32'"
-              },
-              {
-                "id": "188701",
-                "shortName": "M Bernal",
-                "isOwnGoal": false,
-                "goalTime": "4'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Levante",
-          "shortName": "LE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png"
-          },
-          "isWinner": null,
-          "color": "#598bc1",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BENGALI",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131077_bengali_hls_0f1136a22184717_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131077_bengali_hls_0f1136a22184717_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131077_bengali_hls_0f1136a22184717_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "BENGALI"
-      },
-      "auto_streams": [
-        {
-          "auto": "Google-Edge-Cache: Invalid signed request\nError: 30",
-          "cookie_valid": null,
-          "expire_date": null,
-          "language": "BENGALI"
         }
       ]
     },
@@ -396,7 +110,7 @@
       "title": "Maties Cricket Club Vs Paarl East Cricket Club",
       "tournament": "Boland T20 Super League Finals 2026",
       "match_id": 140683,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "22 February 2026 10:00 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -418,7 +132,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MACC@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#5c1933",
           "cricketScore": null,
           "kabaddiScore": null,
@@ -437,7 +151,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PECC@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#b2990f",
           "cricketScore": null,
           "kabaddiScore": null,
@@ -466,6 +180,85 @@
           "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140683_english_hls_61d30e7f9933488_1ta-di_h264/240p.m3u8?hdntl=Expires=1771863553~_GO=Generated~acl=/mumbai/140683_english_hls_61d30e7f9933488_1ta-di_h264/*~Signature=AScLvDuZCJj2Yy1srVXN5ikP1F08UlGYohqrjad-tzfhK2rIiPem4C6maP-EKqyE-aTE9EjvqdxPxWenNRhzNgejGmAL\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140683_english_hls_61d30e7f9933488_1ta-di_h264/360p.m3u8?hdntl=Expires=1771863553~_GO=Generated~acl=/mumbai/140683_english_hls_61d30e7f9933488_1ta-di_h264/*~Signature=AScLvDuZCJj2Yy1srVXN5ikP1F08UlGYohqrjad-tzfhK2rIiPem4C6maP-EKqyE-aTE9EjvqdxPxWenNRhzNgejGmAL\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140683_english_hls_61d30e7f9933488_1ta-di_h264/480p.m3u8?hdntl=Expires=1771863553~_GO=Generated~acl=/mumbai/140683_english_hls_61d30e7f9933488_1ta-di_h264/*~Signature=AScLvDuZCJj2Yy1srVXN5ikP1F08UlGYohqrjad-tzfhK2rIiPem4C6maP-EKqyE-aTE9EjvqdxPxWenNRhzNgejGmAL\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140683_english_hls_61d30e7f9933488_1ta-di_h264/540p.m3u8?hdntl=Expires=1771863553~_GO=Generated~acl=/mumbai/140683_english_hls_61d30e7f9933488_1ta-di_h264/*~Signature=AScLvDuZCJj2Yy1srVXN5ikP1F08UlGYohqrjad-tzfhK2rIiPem4C6maP-EKqyE-aTE9EjvqdxPxWenNRhzNgejGmAL\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140683_english_hls_61d30e7f9933488_1ta-di_h264/720p.m3u8?hdntl=Expires=1771863553~_GO=Generated~acl=/mumbai/140683_english_hls_61d30e7f9933488_1ta-di_h264/*~Signature=AScLvDuZCJj2Yy1srVXN5ikP1F08UlGYohqrjad-tzfhK2rIiPem4C6maP-EKqyE-aTE9EjvqdxPxWenNRhzNgejGmAL\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140683_english_hls_61d30e7f9933488_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771863553~_GO=Generated~acl=/mumbai/140683_english_hls_61d30e7f9933488_1ta-di_h264/*~Signature=AScLvDuZCJj2Yy1srVXN5ikP1F08UlGYohqrjad-tzfhK2rIiPem4C6maP-EKqyE-aTE9EjvqdxPxWenNRhzNgejGmAL",
           "cookie_valid": "1771863553",
           "expire_date": "Monday, February 23, 2026, 9:49:13 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Rc Celta Vs Rcd Mallorca",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131079,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "22 February 2026 11:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131079_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-Web.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-Web.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131079_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "RC Celta",
+          "shortName": "CEV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b1d4f5",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "RCD Mallorca",
+          "shortName": "MRC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MRC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FBCCD1",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/240p.m3u8?hdntl=Expires=1771866309~_GO=Generated~acl=/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/*~Signature=AScLvDsbDqrU3-ESebQ9ivrlMqLudcKHj9_xSJsziWSJiyDrFi0m-_LRNsPEv_btAE2TsxxAu6szJsltkd2MpFrHPPsB\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/360p.m3u8?hdntl=Expires=1771866309~_GO=Generated~acl=/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/*~Signature=AScLvDsbDqrU3-ESebQ9ivrlMqLudcKHj9_xSJsziWSJiyDrFi0m-_LRNsPEv_btAE2TsxxAu6szJsltkd2MpFrHPPsB\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/480p.m3u8?hdntl=Expires=1771866309~_GO=Generated~acl=/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/*~Signature=AScLvDsbDqrU3-ESebQ9ivrlMqLudcKHj9_xSJsziWSJiyDrFi0m-_LRNsPEv_btAE2TsxxAu6szJsltkd2MpFrHPPsB\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/540p.m3u8?hdntl=Expires=1771866309~_GO=Generated~acl=/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/*~Signature=AScLvDsbDqrU3-ESebQ9ivrlMqLudcKHj9_xSJsziWSJiyDrFi0m-_LRNsPEv_btAE2TsxxAu6szJsltkd2MpFrHPPsB\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/720p.m3u8?hdntl=Expires=1771866309~_GO=Generated~acl=/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/*~Signature=AScLvDsbDqrU3-ESebQ9ivrlMqLudcKHj9_xSJsziWSJiyDrFi0m-_LRNsPEv_btAE2TsxxAu6szJsltkd2MpFrHPPsB\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771866309~_GO=Generated~acl=/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/*~Signature=AScLvDsbDqrU3-ESebQ9ivrlMqLudcKHj9_xSJsziWSJiyDrFi0m-_LRNsPEv_btAE2TsxxAu6szJsltkd2MpFrHPPsB\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1771866309~_GO=Generated~acl=/mumbai/131079_english_hls_fba55e4f0513954_1ta-di_h264/*~Signature=AScLvDsbDqrU3-ESebQ9ivrlMqLudcKHj9_xSJsziWSJiyDrFi0m-_LRNsPEv_btAE2TsxxAu6szJsltkd2MpFrHPPsB",
+          "cookie_valid": "1771866309",
+          "expire_date": "Monday, February 23, 2026, 10:35:09 PM",
           "language": "ENGLISH"
         }
       ]
@@ -633,15 +426,15 @@
       "title": "Atp 500   Rio Open Presented By Claro 2026",
       "tournament": "ATP 500 - Rio Open Presented by Claro 2026",
       "match_id": 140904,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
       "startTime": "22 February 2026 07:30 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(6).png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/140904_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(6).png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(6).png",
+        "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(6).png",
@@ -688,24 +481,12 @@
           }
         }
       ],
-      "language": "ENGLISH",
+      "language": "BLOODY_SWEET",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140904_english_hls_8b1b76b79122813_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140904_english_hls_8b1b76b79122813_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140904_english_hls_8b1b76b79122813_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
       },
-      "auto_streams": [
-        {
-          "auto": "Google-Edge-Cache: Invalid signed request\nError: 30",
-          "cookie_valid": null,
-          "expire_date": null,
-          "language": "ENGLISH"
-        }
-      ]
+      "auto_streams": null
     },
     {
       "category": "Golf",
@@ -946,36 +727,58 @@
     },
     {
       "category": "Football",
-      "title": "Rc Celta Vs Rcd Mallorca",
+      "title": "Fc Barcelona Vs Levante",
       "tournament": "LALIGA 2025-26",
-      "match_id": 131079,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "22 February 2026 11:00 PM",
+      "match_id": 131077,
+      "status": "COMPLETED",
+      "streamingStatus": "STARTED",
+      "startTime": "22 February 2026 08:45 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-Web.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131079_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-Web.png",
-        "PLAYBACK": null,
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131077_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131079_5427_CEV_MRC_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131079_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131077_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "RC Celta",
-          "shortName": "CEV",
+          "name": "FC Barcelona",
+          "shortName": "BAR",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
           },
           "isWinner": null,
-          "color": "#b1d4f5",
+          "color": "#fee64e",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 3,
+            "goals": [
+              {
+                "id": "174285",
+                "shortName": "F Marin",
+                "isOwnGoal": false,
+                "goalTime": "81'"
+              },
+              {
+                "id": "27645",
+                "shortName": "F Jong",
+                "isOwnGoal": false,
+                "goalTime": "32'"
+              },
+              {
+                "id": "188701",
+                "shortName": "M Bernal",
+                "isOwnGoal": false,
+                "goalTime": "4'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -985,16 +788,19 @@
           }
         },
         {
-          "name": "RCD Mallorca",
-          "shortName": "MRC",
+          "name": "Levante",
+          "shortName": "LE",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MRC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png"
           },
           "isWinner": null,
-          "color": "#FBCCD1",
+          "color": "#598bc1",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -1004,12 +810,232 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131077_english_hls_1eca0ec00b71143_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131077_english_hls_1eca0ec00b71143_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131077_english_hls_1eca0ec00b71143_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "Google-Edge-Cache: Invalid signed request\nError: 30",
+          "cookie_valid": null,
+          "expire_date": null,
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Fc Barcelona Vs Levante",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131077,
+      "status": "COMPLETED",
+      "streamingStatus": "STARTED",
+      "startTime": "22 February 2026 08:45 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131077_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131077_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "FC Barcelona",
+          "shortName": "BAR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fee64e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 3,
+            "goals": [
+              {
+                "id": "174285",
+                "shortName": "F Marin",
+                "isOwnGoal": false,
+                "goalTime": "81'"
+              },
+              {
+                "id": "27645",
+                "shortName": "F Jong",
+                "isOwnGoal": false,
+                "goalTime": "32'"
+              },
+              {
+                "id": "188701",
+                "shortName": "M Bernal",
+                "isOwnGoal": false,
+                "goalTime": "4'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Levante",
+          "shortName": "LE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png"
+          },
+          "isWinner": null,
+          "color": "#598bc1",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "HINDI",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131077_hindi_hls_5a140ca11d53157_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131077_hindi_hls_5a140ca11d53157_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131077_hindi_hls_5a140ca11d53157_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "HINDI"
+      },
+      "auto_streams": [
+        {
+          "auto": "Google-Edge-Cache: Invalid signed request\nError: 30",
+          "cookie_valid": null,
+          "expire_date": null,
+          "language": "HINDI"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Fc Barcelona Vs Levante",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131077,
+      "status": "COMPLETED",
+      "streamingStatus": "STARTED",
+      "startTime": "22 February 2026 08:45 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131077_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131077_5427_BAR_LE_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131077_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "FC Barcelona",
+          "shortName": "BAR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fee64e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 3,
+            "goals": [
+              {
+                "id": "174285",
+                "shortName": "F Marin",
+                "isOwnGoal": false,
+                "goalTime": "81'"
+              },
+              {
+                "id": "27645",
+                "shortName": "F Jong",
+                "isOwnGoal": false,
+                "goalTime": "32'"
+              },
+              {
+                "id": "188701",
+                "shortName": "M Bernal",
+                "isOwnGoal": false,
+                "goalTime": "4'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Levante",
+          "shortName": "LE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png"
+          },
+          "isWinner": null,
+          "color": "#598bc1",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BENGALI",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131077_bengali_hls_0f1136a22184717_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131077_bengali_hls_0f1136a22184717_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131077_bengali_hls_0f1136a22184717_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "BENGALI"
+      },
+      "auto_streams": [
+        {
+          "auto": "Google-Edge-Cache: Invalid signed request\nError: 30",
+          "cookie_valid": null,
+          "expire_date": null,
+          "language": "BENGALI"
+        }
+      ]
     },
     {
       "category": "Cricket",
@@ -1193,6 +1219,73 @@
           },
           "isWinner": null,
           "color": "#b1373c",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Golf",
+      "title": "World Feed   Day 4",
+      "tournament": "The Genesis Invitational 2026",
+      "match_id": 140071,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "22 February 2026 11:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140071_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Genesis-Invitational-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)_1770825129243.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140071_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "World Feed - Day 4",
+          "shortName": "World Feed - Day 4",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "The Riviera Country Club",
+          "shortName": "The Riviera Country Club",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1528,73 +1621,6 @@
           },
           "isWinner": null,
           "color": "#A0A0D0",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Golf",
-      "title": "World Feed   Day 4",
-      "tournament": "The Genesis Invitational 2026",
-      "match_id": 140071,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "22 February 2026 11:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140071_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Genesis-Invitational-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1770825129935.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)_1770825129243.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140071_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "World Feed - Day 4",
-          "shortName": "World Feed - Day 4",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "The Riviera Country Club",
-          "shortName": "The Riviera Country Club",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
