@@ -1,29 +1,29 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:21:03 PM 02-03-2026",
+  "last_updated": "10:00:02 PM 02-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 0,
-  "upcoming_matches": 38,
+  "live_matches": 1,
+  "upcoming_matches": 37,
   "matches": [
     {
       "category": "Cricket",
       "title": "Maties Cricket Club Vs Van Der Stel Cricket Club",
       "tournament": "Boland T20 Super League Finals 2026",
       "match_id": 140696,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "02 March 2026 10:00 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/140684_5968_MAT_VDCC_FC-Web.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/140696_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/140684_5968_MAT_VDCC_FC-Web.jpg",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140684_5968_MAT_VDCC_FC-Web.jpg",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Boland-T20-Super-League-Finals-2026.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140684_5968_MAT_VDCC_FC-Web.jpg",
@@ -37,7 +37,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MACC@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#5c1933",
           "cricketScore": null,
           "kabaddiScore": null,
@@ -56,9 +56,88 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VDCC@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#B8142D",
           "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/240p.m3u8?hdntl=Expires=1772554746~_GO=Generated~acl=/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/*~Signature=AR5gA-G_anrgQfrXoEP0i4zBV8QSmxjz373pQlSE9uY3CvKFb8Qsba-K6PRL0OCdDfe7n89IErrkpnsFHJv24I5uaA4M\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/360p.m3u8?hdntl=Expires=1772554746~_GO=Generated~acl=/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/*~Signature=AR5gA-G_anrgQfrXoEP0i4zBV8QSmxjz373pQlSE9uY3CvKFb8Qsba-K6PRL0OCdDfe7n89IErrkpnsFHJv24I5uaA4M\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/480p.m3u8?hdntl=Expires=1772554746~_GO=Generated~acl=/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/*~Signature=AR5gA-G_anrgQfrXoEP0i4zBV8QSmxjz373pQlSE9uY3CvKFb8Qsba-K6PRL0OCdDfe7n89IErrkpnsFHJv24I5uaA4M\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/540p.m3u8?hdntl=Expires=1772554746~_GO=Generated~acl=/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/*~Signature=AR5gA-G_anrgQfrXoEP0i4zBV8QSmxjz373pQlSE9uY3CvKFb8Qsba-K6PRL0OCdDfe7n89IErrkpnsFHJv24I5uaA4M\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/720p.m3u8?hdntl=Expires=1772554746~_GO=Generated~acl=/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/*~Signature=AR5gA-G_anrgQfrXoEP0i4zBV8QSmxjz373pQlSE9uY3CvKFb8Qsba-K6PRL0OCdDfe7n89IErrkpnsFHJv24I5uaA4M\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/1080p.m3u8?hdntl=Expires=1772554746~_GO=Generated~acl=/mumbai/140696_english_hls_fbe640b06e97811_1ta-di_h264/*~Signature=AR5gA-G_anrgQfrXoEP0i4zBV8QSmxjz373pQlSE9uY3CvKFb8Qsba-K6PRL0OCdDfe7n89IErrkpnsFHJv24I5uaA4M",
+          "cookie_valid": "1772554746",
+          "expire_date": "Tuesday, March 3, 2026, 9:49:06 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Hong Kong, China Vs Kuwait",
+      "tournament": "Men's One Day Series 2026",
+      "match_id": 140883,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "03 March 2026 06:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Men's-One-Day-Series_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140883_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Men's-One-Day-Series_web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Bauhini-Falcon-Trophy.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Men's-One-Day-Series_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Men's-One-Day-Series_app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140883_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Hong Kong, China",
+          "shortName": "HK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HK@2x.png"
+          },
+          "isWinner": null,
+          "color": "#c5190b",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Kuwait",
+          "shortName": "KUW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KUW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#5a8543",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -212,73 +291,6 @@
       "auto_streams": null
     },
     {
-      "category": "Cricket",
-      "title": "Hong Kong, China Vs Kuwait",
-      "tournament": "Men's One Day Series 2026",
-      "match_id": 140883,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "03 March 2026 06:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Men's-One-Day-Series_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140883_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Men's-One-Day-Series_web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Bauhini-Falcon-Trophy.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Men's-One-Day-Series_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Men's-One-Day-Series_app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140883_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Hong Kong, China",
-          "shortName": "HK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HK@2x.png"
-          },
-          "isWinner": null,
-          "color": "#c5190b",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Kuwait",
-          "shortName": "KUW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KUW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#5a8543",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Football",
       "title": "Melbourne City Vs Buriram United",
       "tournament": "AFC Champions League Elite 2025-26",
@@ -393,6 +405,73 @@
           },
           "isWinner": null,
           "color": "#248eff",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "West Indies Women Vs Sri Lanka Women",
+      "tournament": "Sri Lanka Women tour of West Indies, 2026",
+      "match_id": 140143,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "03 March 2026 10:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140143_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-SL.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-sporty-(1).jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140143_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "West Indies Women",
+          "shortName": "WI-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#91033c",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Sri Lanka Women",
+          "shortName": "SL-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#164fad",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -547,73 +626,6 @@
       "auto_streams": null
     },
     {
-      "category": "Cricket",
-      "title": "West Indies Women Vs Sri Lanka Women",
-      "tournament": "Sri Lanka Women tour of West Indies, 2026",
-      "match_id": 140143,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "03 March 2026 10:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140143_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-SL.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-sporty-(1).jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140143_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "West Indies Women",
-          "shortName": "WI-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#91033c",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Sri Lanka Women",
-          "shortName": "SL-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#164fad",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Football",
       "title": "China Pr Women Vs Bangladesh Women",
       "tournament": "AFC Women's Asian Cup, 2026",
@@ -748,6 +760,73 @@
       "auto_streams": null
     },
     {
+      "category": "Football",
+      "title": "Fc Barcelona Vs Atletico De Madrid",
+      "tournament": "Copa del Rey, 2025-26",
+      "match_id": 140525,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "04 March 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140525_5806_BAR_ATL_FC-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140525_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140525_5806_BAR_ATL_FC-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/12/Copa-Del-Rey-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140525_5806_BAR_ATL_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140525_5806_BAR_ATL_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140525_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "FC Barcelona",
+          "shortName": "BAR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fee64e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Atletico de Madrid",
+          "shortName": "ATL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATLH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ca2917",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Cricket",
       "title": "West Indies Women Vs Sri Lanka Women",
       "tournament": "Sri Lanka Women tour of West Indies, 2026",
@@ -819,73 +898,6 @@
           "status": {
             "cricket": {
               "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Fc Barcelona Vs Atletico De Madrid",
-      "tournament": "Copa del Rey, 2025-26",
-      "match_id": 140525,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "04 March 2026 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140525_5806_BAR_ATL_FC-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140525_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140525_5806_BAR_ATL_FC-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/12/Copa-Del-Rey-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140525_5806_BAR_ATL_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140525_5806_BAR_ATL_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140525_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "FC Barcelona",
-          "shortName": "BAR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fee64e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Atletico de Madrid",
-          "shortName": "ATL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATLH@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ca2917",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
             }
           }
         }
@@ -998,7 +1010,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Tractor",
@@ -1013,7 +1029,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "BLOODY_SWEET",
@@ -1057,7 +1077,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Al-Ahli Saudi FC",
@@ -1072,7 +1096,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "BLOODY_SWEET",
@@ -1116,7 +1144,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Al-Ittihad",
@@ -1131,7 +1163,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "BLOODY_SWEET",
@@ -1175,7 +1211,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Al Hilal SFC",
@@ -1190,7 +1230,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "BLOODY_SWEET",
