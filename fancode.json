@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:07:01 AM 03-03-2026",
+  "last_updated": "05:14:06 AM 03-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 0,
-  "upcoming_matches": 38,
+  "live_matches": 1,
+  "upcoming_matches": 37,
   "matches": [
     {
       "category": "Cricket",
@@ -484,15 +484,15 @@
       "title": "Los Angeles Vs New York",
       "tournament": "TGL Season 2",
       "match_id": 139176,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "03 March 2026 05:30 AM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/139176_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/TLG-Sofi_Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
@@ -539,12 +539,24 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/lEOB290oSXucao4W5ya5Vw/master.m3u8",
+        "fancode_cdn": "Unavailable",
+        "fancode_bd_cdn": "Unavailable",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/lEOB290oSXucao4W5ya5Vw/master.m3u8?deviceId=5c1a2d7b8f02d931&advertiserId=7e42d87b-45cd-4cf6-b0ae-1fae68d9430&ft_type=c1&cust_params=app_version%3D6.15.0%26app_platform%3Dsportsguruand%26state%3D%26city%3D%26userId%3D%26match_id%3D139176%26match_format%3DStroke_Play%26tour_id%3D5816%26tour_name%3DTGL_Season_2%26sport%3Dgolf%26authorizationType%3DPAID",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": false,
+          "cookie_valid": null,
+          "expire_date": null,
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Football",
