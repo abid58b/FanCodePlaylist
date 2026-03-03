@@ -1,29 +1,29 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:35:02 PM 03-03-2026",
+  "last_updated": "10:28:01 PM 03-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 0,
-  "upcoming_matches": 38,
+  "live_matches": 1,
+  "upcoming_matches": 37,
   "matches": [
     {
       "category": "Cricket",
       "title": "West Indies Women Vs Sri Lanka Women",
       "tournament": "Sri Lanka Women tour of West Indies, 2026",
       "match_id": 140143,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "03 March 2026 10:30 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/140143_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WI-vs-SL.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg",
@@ -39,14 +39,22 @@
           },
           "isWinner": null,
           "color": "#91033c",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
@@ -70,12 +78,24 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140143_english_hls_468828740259927_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140143_english_hls_468828740259927_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140143_english_hls_468828740259927_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140143_english_hls_468828740259927_1ta-di_h264/240p.m3u8?hdntl=Expires=1772642647~_GO=Generated~acl=/mumbai/140143_english_hls_468828740259927_1ta-di_h264/*~Signature=AR5gA-HWGSVRoRDNgaavAkg9fS0M5Wj27Qw3PRtwo57IsDb6JL555ophNyLbBpnuWwzxIAyo3GONquA4lll5KDtrwOIL\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140143_english_hls_468828740259927_1ta-di_h264/360p.m3u8?hdntl=Expires=1772642647~_GO=Generated~acl=/mumbai/140143_english_hls_468828740259927_1ta-di_h264/*~Signature=AR5gA-HWGSVRoRDNgaavAkg9fS0M5Wj27Qw3PRtwo57IsDb6JL555ophNyLbBpnuWwzxIAyo3GONquA4lll5KDtrwOIL\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140143_english_hls_468828740259927_1ta-di_h264/480p.m3u8?hdntl=Expires=1772642647~_GO=Generated~acl=/mumbai/140143_english_hls_468828740259927_1ta-di_h264/*~Signature=AR5gA-HWGSVRoRDNgaavAkg9fS0M5Wj27Qw3PRtwo57IsDb6JL555ophNyLbBpnuWwzxIAyo3GONquA4lll5KDtrwOIL\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140143_english_hls_468828740259927_1ta-di_h264/540p.m3u8?hdntl=Expires=1772642647~_GO=Generated~acl=/mumbai/140143_english_hls_468828740259927_1ta-di_h264/*~Signature=AR5gA-HWGSVRoRDNgaavAkg9fS0M5Wj27Qw3PRtwo57IsDb6JL555ophNyLbBpnuWwzxIAyo3GONquA4lll5KDtrwOIL\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140143_english_hls_468828740259927_1ta-di_h264/720p.m3u8?hdntl=Expires=1772642647~_GO=Generated~acl=/mumbai/140143_english_hls_468828740259927_1ta-di_h264/*~Signature=AR5gA-HWGSVRoRDNgaavAkg9fS0M5Wj27Qw3PRtwo57IsDb6JL555ophNyLbBpnuWwzxIAyo3GONquA4lll5KDtrwOIL\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140143_english_hls_468828740259927_1ta-di_h264/1080p.m3u8?hdntl=Expires=1772642647~_GO=Generated~acl=/mumbai/140143_english_hls_468828740259927_1ta-di_h264/*~Signature=AR5gA-HWGSVRoRDNgaavAkg9fS0M5Wj27Qw3PRtwo57IsDb6JL555ophNyLbBpnuWwzxIAyo3GONquA4lll5KDtrwOIL",
+          "cookie_valid": "1772642647",
+          "expire_date": "Wednesday, March 4, 2026, 10:14:07 PM",
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Football",
@@ -1049,11 +1069,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Al-Ahli Saudi FC",
@@ -1068,145 +1084,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Al Wahda Vs Al Ittihad",
-      "tournament": "AFC Champions League Elite 2025-26",
-      "match_id": 140850,
-      "status": "ABANDONED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "03 March 2026 09:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140850_5647_ALW_ITT_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140850_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140850_5647_ALW_ITT_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140850_5647_ALW_ITT_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140850_5647_ALW_ITT_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140850_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Al Wahda",
-          "shortName": "ALW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#850F3C",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Al-Ittihad",
-          "shortName": "ITT",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ITT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00334d",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Al Sadd Vs Al Hilal Sfc",
-      "tournament": "AFC Champions League Elite 2025-26",
-      "match_id": 140851,
-      "status": "ABANDONED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "03 March 2026 11:45 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140851_5647_SDD_AHS_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140851_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140851_5647_SDD_AHS_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140851_5647_SDD_AHS_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140851_5647_SDD_AHS_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140851_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Al Sadd",
-          "shortName": "SDD",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALSAD@2x.png"
-          },
-          "isWinner": null,
-          "color": "#beb127",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Al Hilal SFC",
-          "shortName": "AHS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AH@2x.png"
-          },
-          "isWinner": null,
-          "color": "#031537",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
       "language": "BLOODY_SWEET",
@@ -1419,7 +1297,7 @@
     },
     {
       "category": "Tennis",
-      "title": "Atp Masters Bnp Paribas Open 2026",
+      "title": "F Court Feed",
       "tournament": "ATP Masters BNP Paribas Open 2026",
       "match_id": 141231,
       "status": "NOT_STARTED",
@@ -1439,8 +1317,8 @@
       },
       "team": [
         {
-          "name": "ATP Masters BNP Paribas Open 2026",
-          "shortName": "ATP Masters BNP Paribas Open 2026",
+          "name": "F Court Feed",
+          "shortName": "F Court Feed",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
@@ -1486,7 +1364,7 @@
     },
     {
       "category": "Tennis",
-      "title": "Atp Masters Bnp Paribas Open 2026",
+      "title": "E Court Feed",
       "tournament": "ATP Masters BNP Paribas Open 2026",
       "match_id": 141230,
       "status": "NOT_STARTED",
@@ -1506,8 +1384,8 @@
       },
       "team": [
         {
-          "name": "ATP Masters BNP Paribas Open 2026",
-          "shortName": "ATP Masters BNP Paribas Open 2026",
+          "name": "E Court Feed",
+          "shortName": "E Court Feed",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
@@ -1553,7 +1431,7 @@
     },
     {
       "category": "Tennis",
-      "title": "Atp Masters Bnp Paribas Open 2026",
+      "title": "D Court Feed",
       "tournament": "ATP Masters BNP Paribas Open 2026",
       "match_id": 141229,
       "status": "NOT_STARTED",
@@ -1573,8 +1451,8 @@
       },
       "team": [
         {
-          "name": "ATP Masters BNP Paribas Open 2026",
-          "shortName": "ATP Masters BNP Paribas Open 2026",
+          "name": "D Court Feed",
+          "shortName": "D Court Feed",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
@@ -1620,7 +1498,7 @@
     },
     {
       "category": "Tennis",
-      "title": "Atp Masters Bnp Paribas Open 2026",
+      "title": "C Court Feed",
       "tournament": "ATP Masters BNP Paribas Open 2026",
       "match_id": 141228,
       "status": "NOT_STARTED",
@@ -1640,8 +1518,8 @@
       },
       "team": [
         {
-          "name": "ATP Masters BNP Paribas Open 2026",
-          "shortName": "ATP Masters BNP Paribas Open 2026",
+          "name": "C Court Feed",
+          "shortName": "C Court Feed",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
@@ -1676,6 +1554,124 @@
               "isBatting": false
             }
           }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Al Wahda Vs Al Ittihad",
+      "tournament": "AFC Champions League Elite 2025-26",
+      "match_id": 140850,
+      "status": "ABANDONED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "03 March 2026 09:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140850_5647_ALW_ITT_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140850_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140850_5647_ALW_ITT_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140850_5647_ALW_ITT_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140850_5647_ALW_ITT_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140850_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Al Wahda",
+          "shortName": "ALW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#850F3C",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Al-Ittihad",
+          "shortName": "ITT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ITT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00334d",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Al Sadd Vs Al Hilal Sfc",
+      "tournament": "AFC Champions League Elite 2025-26",
+      "match_id": 140851,
+      "status": "ABANDONED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "03 March 2026 11:45 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140851_5647_SDD_AHS_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140851_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140851_5647_SDD_AHS_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140851_5647_SDD_AHS_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140851_5647_SDD_AHS_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140851_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Al Sadd",
+          "shortName": "SDD",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALSAD@2x.png"
+          },
+          "isWinner": null,
+          "color": "#beb127",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Al Hilal SFC",
+          "shortName": "AHS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#031537",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
         }
       ],
       "language": "BLOODY_SWEET",
