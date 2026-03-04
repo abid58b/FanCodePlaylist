@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:14:03 AM 05-03-2026",
+  "last_updated": "01:07:02 AM 05-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -198,7 +198,7 @@
       "title": "Luton Town Vs Northampton Town Fc",
       "tournament": "Vertu Trophy 2025-26",
       "match_id": 140876,
-      "status": "LIVE",
+      "status": "NOT_STARTED",
       "streamingStatus": "STARTED",
       "startTime": "05 March 2026 01:00 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -227,7 +227,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Northampton Town FC",
@@ -242,7 +246,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
